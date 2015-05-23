@@ -50,6 +50,7 @@
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
+
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
@@ -62,7 +63,7 @@
                         <a class="page-scroll" href="#blog">Blog</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#projects">Projects</a>
+                        <a class="page-scroll" href="#projects">Activities</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
@@ -99,14 +100,14 @@
             </div>
         </div>
     </header>
-
-    <section class="bg-primary" id="about">
+ <!-- Section : About Me --> 
+    <section class="bg-dark" id="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <h2 class="section-heading">Hey there!</h2>
                     <hr class="light">
-                    <p class="text-faded">Here you might get some information about my work, interests and opinions. I have lived in places as esoteric as possible. I grew up in Kolkata in India - the city where you can spend hours on poetry and philosphy with tea. In Delhi, I found juxtaposition - you can walk from Chandni Chowk stuck in the era of the Taj Mahal to the blinding ultra-glamorous Connaught Place. Patna is a land of lawlessness and anarchy. And then, you have London - the city where you will find charm blending in with speed.<br>
+                    <p class="text-faded">Here you might get some information about my work, interests and opinions. I have lived in places as esoteric as possible. I grew up in Kolkata in India - the city where you can spend hours on poetry and philosphy with tea. In Delhi, I found juxtaposition - you can walk from Chandni Chowk stuck in the era of the Taj Mahal to the blinding ultra-glamorous Connaught Place. Patna is a city mired in history. And then, you have London - the city where you will find charm blending in with speed.<br>
                         I like listening to ideas and opinions. The <i>adda</i> spirit is integral to my existence! I am open to anything, from minesweeper to football, dubstep to classical and from python to cuda. I am currently studying Computer Science and Engineering at <a href="http://www.iitp.ac.in" target="_blank"> IIT P</a>, India.
                         <br>
                         <br>
@@ -116,14 +117,16 @@
             </div>
         </div>
     </section>
-
+ <!-- Section : Interests -->    
     <section id="interests">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Interests</h2>
                     <hr>
-                    <h4>I like interdisciplinary results (or as <b><a href="http://anirudh.me" target="_blank">Anirudh Sharma</a></b>, one of my inspirations, would say: anti-disciplinary results!). I love ideas that involve automation, and teaching computers to do things for us. I like to read and work on ideas and topics that are related to entrepreneurship and the society around us. Anything that is quirky, out-of-the-box, deep or just fun - can get me hooked. These are a few things that interest me.</h4>
+                    <h4>I like interdisciplinary results (or as <b><a href="http://anirudh.me" target="_blank">Anirudh Sharma</a></b>, one of my inspirations, would say: anti-disciplinary results!). I love ideas that involve automation, and teaching computers to do things for us. I like to read and work on ideas and topics that are related to entrepreneurship and the society around us. Anything that is quirky, out-of-the-box, deep or just fun - can get me hooked. These are a few things that interest me.<br><br> </h4>
+
+                   
                 </div>
             </div>
         </div>
@@ -154,12 +157,18 @@
                     <div class="service-box">
                         <i class="fa fa-4x fa-cloud wow bounceIn text-primary" data-wow-delay=".3s"></i>
                         <h3>Think</h3>
-                        <p class="text-muted">Over literature, music, photographs, events, code, the world around us and beyond.</p>
+                        <p class="text-muted">Over the arts, code, entrepreneurship, ideas, the world around us and beyond.</p>
                     </div>
                 </div>
             </div>
         </div>
+        <center>
+            <br><br>
+        <h4> Meanwhile, you can read about some of the things I am involved in if you want by clicking on the link below.<br><br><br>
+                    <a href="#projects" class="page-scroll btn btn-default btn-xl wow tada">Activities</a></h4></center>
     </section>
+
+    <!-- Section : Blog -->
 
     <section class="bg-primary" id="blog">
         <div class="container">
@@ -171,39 +180,400 @@
                         <br>
                         <br>
                     </p>
-                    <a href="#interests" class="page-scroll btn btn-default btn-xl">Interests</a>
+                    <a href="#interests" class="page-scroll btn btn-default btn-xl wow tada">Interests</a>
                 </div>
             </div>
         </div>
     </section>
 
+<!-- Section : Projects -->
     <section class="no-padding" id="projects">
         <div class="container-fluid">
             <div class="row no-gutter">
                 
 
-<!-- Previous Design - Backup 
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/4.jpg" class="img-responsive" alt="">
+                    <a data-toggle="modal" data-target="#hash" class="portfolio-box">
+                        <img src="img/portfolio/hash.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    Crypto
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    Hash Function Cryptanalysis
                                 </div>
                             </div>
                         </div>
                     </a>
-                </div> -->
+                </div>
 
-                
+                <div class="col-lg-4 col-sm-6">
+                    <a data-toggle="modal" data-target="#crime" class="portfolio-box">
+                        <img src="img/portfolio/crime.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Machine Learning
+                                </div>
+                                <div class="project-name">
+                                    Crime HotSpots Analysis
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-lg-4 col-sm-6">
+                    <a data-toggle="modal" data-target="#post" class="portfolio-box">
+                        <img src="img/portfolio/post.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Crypto
+                                </div>
+                                <div class="project-name">
+                                    Post-Quantum Cryptography
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+                 <div class="col-lg-4 col-sm-6">
+                    <a data-toggle="modal" data-target="#cube" class="portfolio-box">
+                        <img src="img/portfolio/cube.png" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Crypto
+                                </div>
+                                <div class="project-name">
+                                    Algebraic Cryptanalysis
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div class="col-lg-4 col-sm-6">
+                    <a data-toggle="modal" data-target="#tor" class="portfolio-box">
+                        <img src="img/portfolio/tor.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Network Security
+                                </div>
+                                <div class="project-name">
+                                    tor
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                  <div class="col-lg-4 col-sm-6">
+                    <a data-toggle="modal" data-target="#att" class="portfolio-box">
+                        <img src="img/portfolio/att.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Entrepreneurship
+                                </div>
+                                <div class="project-name">
+                                    The Attendance Project
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                 <div class="col-lg-4 col-sm-6">
+                    <a data-toggle="modal" data-target="#hos" class="portfolio-box">
+                        <img src="img/portfolio/hos.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Software Engineering
+                                </div>
+                                <div class="project-name">
+                                    Hostel Room Allocation
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                 <div class="col-lg-4 col-sm-6">
+                    <a data-toggle="modal" data-target="#bit" class="portfolio-box">
+                        <img src="img/portfolio/bit.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Hardware Engineering
+                                </div>
+                                <div class="project-name">
+                                    4-Bit CPU
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-lg-4 col-sm-6">
+                    <a data-toggle="modal" data-target="#me" class="portfolio-box">
+                        <img src="img/portfolio/me.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Entrepreneurship
+                                </div>
+                                <div class="project-name">
+                                    Start-Up Relations Coordinator
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
 
             </div>
         </div>
     </section>
+
+<!--Modals -->
+    <div id="hash" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                 <div class="modal-body">
+                    <figure><center>
+                        <img src="img/portfolio/hash.jpg" class="img-responsive">
+                        <figcaption>
+                            <p class="text-muted" align="center"> <br>Hash functions are like digital fingerprints.
+                                <br>
+                                <br>
+                                However, unlike human fingerprints, they are not always unique. However, finding two files with the same fingerprint is considered extremely difficult. If, however, you do find one, you can exploit it in anyway you want - from spoofing digital signatures or credit card frauds or even international cyber-espionage (the flame virus!).
+                                <br>
+                                <br>
+                                We are trying to find automated ways of finding these <i>collisions</i> (two files having the same fingerprint!). Using C, C++ and Cuda.
+
+                            </p>
+
+
+                        </figcaption></center>
+                    </figure>           
+        
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+        <div id="crime" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                 <div class="modal-body">
+                    <figure><center>
+                        <img src="img/portfolio/crime.jpg" class="img-responsive">
+                        <figcaption>
+                            <p class="text-muted" align="center"> <br>Sherlock++ 
+                                <br>
+                                <br>
+                                How cool would it be if you could analyze crime records, learn patterns from them, and prevent future ones by deploying forces in specific areas known to be crime hotspots? You could be the new Sherlock - and instead of solving, you would predict crimes.<br><br>
+                                Pattern Recognition - AMOSA, NSGA and NSGA II (Genetic Algorithms) / Using C, C++, Python, Matlab
+
+                            </p>
+
+
+                        </figcaption></center>
+                    </figure>           
+        
+                </div>
+            </div>
+        </div>
+    </div>
+
+      <div id="post" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                 <div class="modal-body">
+                    <figure><center>
+                        <img src="img/portfolio/post.jpg" class="img-responsive">
+                        <figcaption>
+                            <p class="text-muted" align="center"> <br>To Byte or Not to Byte:
+                                <br>
+                                <br>
+                               If you are using a quantum computer, probably both. This means that in a <i> quantum </i> state, a bit can exist in several different possibilities. Ergo, if you are clever enough, you can manipulate it in all of its different universes of existence to your advantage. Although this does not lead to an advantage <i> all the while </i> but it is known to affect some types of crypto. 
+                               <br>
+                               <br>
+                               We are working on some schemes that can provide you security even in these areas, and replace those affected schemes.
+
+                            </p>
+
+
+                        </figcaption></center>
+                    </figure>           
+        
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="cube" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                 <div class="modal-body">
+                    <figure><center>
+                        <img src="img/portfolio/cube.png" class="img-responsive">
+                        <figcaption>
+                            <p class="text-muted" align="center"> <br>Cube Attacks:
+                                <br>
+                                <br>
+                                How do you count your profits and losses? You model them mathematically (using a currency as a unit), and use arithmetic. How would you calculate them in case you wanted to compute, say, a formula where you could just put in the value? You would use algebra in all probability. 
+                                Similarly, you can model any system in terms of its equations - and analyze them using higher algebra to find out vulnerabilities. This is the thuglife for hacking, pure-math style.
+
+
+                            </p>
+
+
+                        </figcaption></center>
+                    </figure>           
+        
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+     <div id="tor" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                 <div class="modal-body">
+                    <figure><center>
+                        <img src="img/portfolio/tor.jpg" class="img-responsive">
+                        <figcaption>
+                            <p class="text-muted" align="center"> <br>The Onion Router:
+                                <br>
+                                <br>
+                                Tor helps you protect your anonymity on the internet. It prevents people from knowing about you or your surfing habits when you have not given them the permission to do so. It allows you to move into the depths of the internet without people snooping on you. It protects you from surveillance and gives you privacy and confidentiality on the internet.<br><br>
+                                Open Source Development and Contributions, mostly in the areas of packet inspection.
+
+                            </p>
+
+
+                        </figcaption></center>
+                    </figure>           
+        
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <div id="att" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                 <div class="modal-body">
+                    <figure><center>
+                        <img src="img/portfolio/att.jpg" class="img-responsive">
+                        <figcaption>
+                            <p class="text-muted" align="center"> <br>The Attendance Project:
+                                <br>
+                                <br>
+                                The next generation of kids all across India are poised to take our country and our society forward in unimaginable strides. We are doing our little part by empowering them and facilitating accountability across the education sector in rural India. This is a project that we are hoping to scale up, and we would love you to contribute in any way you can.<br><br>
+                                Keywords: Authentication, Social Entrepreneurship, Technology
+
+                            </p>
+
+
+                        </figcaption></center>
+                    </figure>           
+        
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="hos" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                 <div class="modal-body">
+                    <figure><center>
+                        <img src="img/portfolio/hos.jpg" class="img-responsive">
+                        <figcaption>
+                            <p class="text-muted" align="center"> <br>Hostel Room Allocation and Management:
+                                <br>
+                                <br>
+                                Hostels are about fun, days of absolute laziness and exam nights of unparalleled energy, and of course, counter strike. We have developed a mechanism to allocate rooms in hostels depending on who you want your neighbours to be - you stay closest to your friends, and a server uses a unique algorithm to allocate these rooms in cases of concurrency.<br><br>
+
+                                Software Engineering Project / Using C, C++, Qt, Django, BootStrap, HTML, JS and jQuery
+
+                            </p>
+
+
+                        </figcaption></center>
+                    </figure>           
+        
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+     <div id="bit" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                 <div class="modal-body">
+                    <figure><center>
+                        <img src="img/portfolio/bit.jpg" class="img-responsive">
+                        <figcaption>
+                            <p class="text-muted" align="center"> <br>4-Bit CPU
+                                <br>
+                                <br>
+                                We built a 4-Bit CPU to gain a better understanding of how a computer works in its absolute core components, including control units, program counters, registers and everything that goes into building a real CPU. Most importantly, we know now first-hand why using <code>goto</code> is a bad idea!<br><br>
+
+                                Hardware Engineering Project / Hardware Implementation as well as HDL Simulation
+
+                            </p>
+
+
+                        </figcaption></center>
+                    </figure>           
+        
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+     <div id="me" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                 <div class="modal-body">
+                    <figure><center>
+                        <img src="img/portfolio/me.jpg" class="img-responsive">
+                        <figcaption>
+                            <p class="text-muted" align="center"> <br>(That's me, circa 2015)
+                                <br>
+                                <br>
+                                I have the pleasure of working in the brilliant Entrepreneurship Club of my university, IIT P, in the position of Start-Up Relations Coordinator. I am currently trying to start a full-fledged incubation centre and a portal for students to interact with and find jobs (both part-time and full-time) at start-ups all across the globe. My aim is to inculcate the spirit of entrepreneurship in the campus and build an interest for the start-up culture among students. If you want to join us in our mission, please do reach out! <br><br>
+
+                                Positions of Responsibility: Start-Up Relations Manager (2014-15) and Start-Up Relations Coordinator (2015-16).
+
+                            </p>
+
+
+                        </figcaption></center>
+                    </figure>           
+        
+                </div>
+            </div>
+        </div>
+    </div>
 <!--
     <aside class="bg-dark">
         <div class="container text-center">
@@ -214,6 +584,8 @@
         </div>
     </aside>
 -->
+
+
     <section class="bg-dark" id="contact">
         <div class="container">
             <div class="row">
@@ -232,7 +604,7 @@
                     <p>Mail: ritobroto at ritobrotom dot com</p>
                 </div>
                  <div class="col-lg-4 text-center"><a href="https://in.linkedin.com/in/jethrofloyd" target="_blank">
-                    <i class="fa fa-linkedin-square fa-3x wow bounceIn" data-wow-delay=".1s"></i></a>
+                    <i class="fa fa-linkedin-square fa-3x wow bounceIn" data-wow-delay=".2s"></i></a>
                     <p>LinkedIn: Ritobroto Maitra</p>
                 </div>
             </div>
@@ -243,7 +615,7 @@
     <section>
         <div class="container" text-center>
         <h3><center>Thanks for visiting my site!</center></h3>
-            <p class="text-muted"> Created and maintained by Ritobroto Maitra on the Bootstrap Framework. This site is open-source <i class="fa fa-linux wow bounceIn" data-wow-delay=".1s"></i>, hosted on <i class="fa fa-github wow bounceIn" data-wow-delay=".1s"></i> and made with <i class="fa fa-heart wow bounceIn" data-wow-delay=".1s"></i> on a <i class="fa fa-apple wow bounceIn" data-wow-delay=".1s"></i>.
+            <p class="text-muted"> Created and maintained by Ritobroto Maitra on the Bootstrap Framework. This site is open-source <i class="fa fa-linux wow bounceIn" data-wow-delay=".2s"></i>, hosted on <i class="fa fa-github wow bounceIn" data-wow-delay=".2s"></i> and made with <i class="fa fa-heart wow bounceIn" data-wow-delay=".2s"></i> on a <i class="fa fa-apple wow bounceIn" data-wow-delay=".2s"></i>.
         </div>
     </section>
 
