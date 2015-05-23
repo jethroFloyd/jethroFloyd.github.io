@@ -6,6 +6,10 @@ Change Log:
 
 24 May, 2015
 
+- updated dns and cname
+
+24 May, 2015
+
 - updated modals
 - yet to add cname and dns
 
