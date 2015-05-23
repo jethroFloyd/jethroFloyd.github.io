@@ -11,6 +11,10 @@ Change Log:
 
 24 May, 2015
 
+- Added Icon
+
+24 May, 2015
+
 - updated dns and cname
 
 24 May, 2015
