@@ -1,0 +1,175 @@
+ <div class="clearfix"></div>
+        <div class="skill">
+          <div class="chart">
+            <canvas id="cplusplus" height="55" width="55"></canvas>
+          </div> <!-- CHART END -->
+
+          <div class="details">
+            <p>C++</p>
+            <p>2011-Present</p>            
+          </div> <!-- DETAILS END -->
+        </div> <!-- col-md-3 end -->
+
+        <div class="skill">
+          <div class="chart">
+            <canvas id="c" height="55" width="55"></canvas>
+          </div> <!-- chart end -->
+
+          <div class="details">
+            <p>C</p>
+            <p>2011-Present</p>            
+          </div> <!-- DETAILS END -->
+        </div> <!-- col-md-3 end -->
+
+        <div class="skill">
+          <div class="chart">
+            <canvas id="php" height="55" width="55"></canvas>
+          </div> <!-- chart end -->
+
+          <div class="details">
+            <p>PHP</p>
+            <p>2011-Present</p>            
+          </div> <!-- DETAILS END -->
+        </div> <!-- col-md-3 end -->
+
+        <div class="skill">
+          <div class="chart">
+            <canvas id="sql" height="55" width="55"></canvas>
+          </div> <!-- chart end -->
+
+          <div class="details">
+            <p>My SQL</p>
+            <p>2013-Present</p>            
+          </div> <!-- DETAILS END -->
+        </div> <!-- col-md-3 end -->
+
+        <div class="skill">
+          <div class="chart">
+            <canvas id="octave" height="55" width="55"></canvas>
+          </div> <!-- chart end -->
+
+          <div class="details">
+            <p>Octave</p>
+            <p>2013-Present</p>            
+          </div> <!-- DETAILS END -->
+        </div> <!-- col-md-3 end -->
+
+        <div class="skill">
+          <div class="chart">
+            <canvas id="html" height="55" width="55"></canvas>
+          </div> <!-- chart end -->
+
+          <div class="details">
+            <p>HTML</p>
+            <p>2011-Present</p>            
+          </div> <!-- DETAILS END -->
+        </div> <!-- col-md-3 end -->
+
+        <div class="skill">
+          <div class="chart">
+            <canvas id="javascript" height="55" width="55"></canvas>
+          </div> <!-- chart end -->
+
+          <div class="details">
+            <p>Javascript</p>
+            <p>2011-2013</p>            
+          </div> <!-- DETAILS END -->
+        </div> <!-- col-md-3 end -->
+
+        <div class="skill">
+          <div class="chart">
+            <canvas id="css" height="55" width="55"></canvas>
+          </div> <!-- chart end -->
+
+          <div class="details">
+            <p>CSS/CSS3</p>
+            <p>2011-2013</p>            
+          </div> <!-- DETAILS END -->
+        </div> <!-- col-md-3 end -->
+
+    <div class="skill">
+          <div class="chart">
+            <canvas id="java" height="55" width="55"></canvas>
+          </div><!-- chart end -->
+
+          <div class="details">
+            <p>Java</p>
+            <p>2011-Present</p>            
+          </div> <!-- DETAILS END -->
+        </div> <!-- col-md-3 end -->
+        
+        <!--<div class="skill">
+          <div class="chart">
+            <canvas id="js" height="55" width="55"></canvas>
+          </div> <!-- chart end -->
+
+          <!--<div class="details">
+            <p>JavaScript</p>
+            <p>2008-2013</p>            
+          </div> <!-- DETAILS END -->
+        <!--</div> <!-- col-md-3 end -->
+        
+        <div class="skill">
+          <div class="chart">
+            <canvas id="uml" height="55" width="55"></canvas>
+          </div> <!-- chart end -->
+
+          <div class="details">
+            <p>UML Diagrammer</p>
+            <p>2013-Present</p>            
+          </div> <!-- DETAILS END -->
+        </div> <!-- col-md-3 end -->
+        
+        <div class="skill">
+          <div class="chart">
+            <canvas id="bouml" height="55" width="55"></canvas>
+          </div> <!-- chart end -->
+
+          <div class="details">
+            <p>BOUML</p>
+            <p>2013-Present</p>            
+          </div> <!-- DETAILS END -->
+        </div> <!-- col-md-3 end -->
+        
+        <div class="skill">
+          <div class="chart">
+            <canvas id="netbeans" height="55" width="55"></canvas>
+          </div> <!-- chart end -->
+
+          <div class="details">
+            <p>NetBeans IDE</p>
+            <p>2008-Present</p>            
+          </div> <!-- DETAILS END -->
+        </div> <!-- col-md-3 end -->
+        
+        <div class="skill">
+          <div class="chart">
+            <canvas id="eclipse" height="55" width="55"></canvas>
+          </div> <!-- chart end -->
+
+          <div class="details">
+            <p>Eclipse</p>
+            <p>2008-Present</p>            
+          </div> <!-- DETAILS END -->
+        </div> <!-- col-md-3 end -->
+
+        <div class="skill">
+          <div class="chart">
+            <canvas id="solidworks" height="55" width="55"></canvas>
+          </div> <!-- chart end -->
+
+          <div class="details">
+            <p>SolidWorks</p>
+            <p>2008-Present</p>            
+          </div> <!-- DETAILS END -->
+        </div> <!-- col-md-3 end -->
+        <!--<div class="skill">
+          <div class="chart">
+            <canvas id="bigcommerce" height="55" width="55"></canvas>
+          </div>--> <!-- chart end -->
+
+          <!--<div class="details">
+            <p>Bigcommerce</p>
+            <p>2008-Present</p>            
+          </div>--> <!-- DETAILS END -->
+        <!--</div>--> <!-- col-md-3 end -->

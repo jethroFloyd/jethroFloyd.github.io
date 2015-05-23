@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<!-- saved from url=(0049)http://imx.evenfly.com/male/color-with-animation/ -->
+<html lang="en" class="uk-notouch" style="overflow: auto;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Ritobroto Maitra</title>
+  
+  <meta charset="utf-8">
+  <meta name="description" content="IMX is a HTML5 and CSS3 template which is a responsive app landing page template and built with most popular Twitter Bootstrap 3.0 framework">
+  <meta name="keywords" content="app Showcase, Bootstrap 3, android, animation, app, css3, html5, ios">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <!-- BOOTSTRAP -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link href="css/preloader.css" rel="stylesheet">
+  <link href="css/animate.css" rel="stylesheet">
+  <link href="css/magnific-effect.css" rel="stylesheet">
+  <link class="uikit" href="css/uikit.css" rel="stylesheet">
+  <link href="css/owl.carousel.css" rel="stylesheet">
+  <link href="css/owl.theme.css" rel="stylesheet">
+  <link href="css/owl.transitions.css" rel="stylesheet">
+  <link href="css/magnific-popup.css" rel="stylesheet">
+  <link id="stylesheet" href="css/style-softgreen.css" rel="stylesheet">
+
+  <link href="css/font.css" rel="stylesheet" >
+
+  <link rel="icon" href="image/favicon.ico" type="image/x-icon" />
+
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+      <![endif]-->
+
+    <!--[if lte IE 8]>
+      <script type="text/javascript" src="assets/js/excanvas.js"></script>
+      <![endif]-->
+
+    <style type="text/css"></style></head>
+
+    <body data-spy="scroll" data-offset="70" data-target=".fixed-nav">
+      
+      
+    
+      <!-- COLOR SWITCHER START -->
+      
+  <!-- COLOR SWITCHER END -->
+
+      <!-- MENU FOR MOBILE AND SMALL DEVICES START -->
+
+          <div id="mobile-nav-trigger">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+
+          <div id="mobilenav" class="mobilenav">
+            <div class="fixed-nav">
+               <div class="nav-container">
+                <nav class="navbar navbar-default navbar-static" role="navigation">
+                  <div class="navbar-header">
+                    
+                    <div class="logo">
+                      <a class="scroll" href="#home">
+                        <div>Hello! Welcome to Rito's home on the web!
+                        </div>
+
+                        <img src="image/logo-m.png" alt="">
+                      </a>
+                    </div> <!-- col-md-6 end -->
+                  </div>
+
+                  <div class="bs-js-navbar-scrollspy pull-right">
+                    <ul class="nav navbar-nav nav-effect" style="height: 573px;">
+                      <li><a class="scroll" href="#about"><span data-hover="In a Nutshell">In a Nutshell</span></a></li>
+                  <li><a class="scroll" href="#tech"><span data-hover="Tech">Tech</span></a></li>
+                 <!-- <li><a class="scroll" href="#education"><span data-hover="Academics">Academics</span></a></li>-->
+                  <li><a class="scroll" href="#experience"><span data-hover="Projects">Projects</span></a></li>
+                  
+                  <li><a class="scroll" href="#question"><span data-hover="Contact">Contact</span></a></li>
+                    </ul>
+                  </div>
+                </nav>
+              </div>
+          </div> <!-- FIXED NAV END-->
+        </div> <!-- MOBILENAV END -->
+
+        <div id="body-wrapper"></div>
+
+      <!-- MENU FOR MOBILE AND SMALL DEVICES END -->
+
+      <section id="home">
+        <div class="homeoverlay" style="height: 643px;">
+          <div class="home-part">
+            <div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#home-slider" data-slide-to="0" class="active"></li>
+                <li data-target="#home-slider" data-slide-to="1"></li>
+                <li data-target="#home-slider" data-slide-to="2"></li>
+                <li data-target="#home-slider" data-slide-to="3"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="item active" style="height: 643px;">
+                  <img src="image/slide-3.jpg" alt="">
+                  <div class="carousel-caption">
+                      <div class="slider-part slider-part-full" style="height: 514.4px;">
+                        <h3 class="animated slideInLeftTrigger slideInLeft delay200" id="slidename" style="">Hello World!</h3>
+                       <!-- <h4 class="animated slideInLeftTrigger slideInLeft delay200"><span>Welcome to my home on the web.</span></h4>-->
+
+					<h5 class="animated slideInLeftTrigger slideInLeft delay1000"><span>There's a dragonfly right above you.</span> </h5> 
+                       <p class="animated slideInLeftTrigger slideInLeft delay3000">Just kidding. I love dragonflies. <br>For that matter, I also love Batman.  <br>
+                         </p>
+			<p class="animated slideInLeftTrigger slideInLeft delay5000">But whatever. You did not come here <br>for dragonflies or Batman, did you..<br> So browse along! <br>
+                         </p>
+                         
+                         
+                      </div> <!-- slider-part-half end -->
+
+                       <!-- slider-part-half end -->
+                  </div>
+                </div> <!-- item end -->
+
+                <div class="item" style="height: 643px;">
+                  <img src="image/slide-4.jpg" alt="">
+                  <div class="carousel-caption">
+                      <div class="slider-part slider-part-full" style="height: 514.4px;">
+                        <h3 class="animated slideInLeftTrigger delay200">I am nocturnal.</h3>
+                       
+                        <p class="animated slideInLeftTrigger delay500">I love working at night - I can concentrate better. <br>
+<br>I like learning how computers work.<br>I also try to understand 
+                            the underlying philosophy and unity in all aspects of science and art. <br> <br>Sample food for thought: The same pattern of networks exist in the cosmos, nerves in the brain, inside molecules and the internet.	
+                                </p>
+                       
+                      
+                      </div> <!-- slider-part-half end -->
+                  </div>
+                </div> <!-- item end -->
+
+                <div class="item" style="height: 643px;">
+                  <img src="image/slide-1.jpg" alt="">
+                  <div class="carousel-caption">
+
+                      <div class="slider-part slider-part-full" style="height: 514.4px;">
+                        <h3 class="animated slideInLeftTrigger delay200">Elsewhere...</h3>
+                       
+                        <p class="animated slideInLeftTrigger delay500">I love places and situations that make me discover new sides to me. It's like piecing together a puzzle, as yet incomplete...  as a result, I like to think, read and observe a lot. Sometimes I feel like writing. I plan to host a blog on this site soon!</p>
+                      </div><!-- slider-part-full end -->
+                  </div>
+                </div> <!-- item end -->
+
+                <div class="item" style="height: 643px;">
+                  <img src="image/slide-1.png" alt="">
+                  <div class="carousel-caption">
+                      <div class="slider-part slider-part-full" style="height: 514.4px;">
+                        <h3 class="animated slideInLeftTrigger delay200"> </h3>
+                        
+                        <p class="animated slideInLeftTrigger delay500">This poster from Adam Parker has an <a href="http://stegano.net/network-steganography.html" target="_blank"><b>embedded secret</b></a>. If you can figure out what it is, <a href="#question">contact</a> me!</p>
+                      </div> <!-- slider-part-full end -->
+                  </div>
+                </div> <!-- item end -->
+              </div>
+            </div>
+          </div> <!-- HOME-PART END -->
+        </div> <!-- HOMEOVERLAY END -->
+      </section> <!-- HOME END -->
+
+      <section id="navigation">
+        <div class="fixed-nav">
+          <div class="container">
+           <div class="nav-container">
+            <nav class="navbar navbar-default navbar-static" role="navigation">
+              <div class="navbar-header">
+                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-js-navbar-scrollspy">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <div class="logo">
+                  <a class="scroll" href="#home">
+                    <div>         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Up!
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                     
+                    </div>
+
+                    <img src="image/up21.png" alt="">
+                  </a>
+                </div> <!-- col-md-6 end -->
+              </div>
+
+              <div class="collapse navbar-collapse bs-js-navbar-scrollspy pull-right">
+                <ul class="nav navbar-nav nav-effect">
+                  <li><a class="scroll" href="#about"><span data-hover="In a Nutshell">In a Nutshell</span></a></li>
+                  <li><a class="scroll" href="#tech"><span data-hover="Tech">Tech</span></a></li>
+                 <!-- <li><a class="scroll" href="#education"><span data-hover="Academics">Academics</span></a></li>-->
+                  <li><a class="scroll" href="#project"><span data-hover="Projects">Projects</span></a></li>
+                  
+                  <li><a class="scroll" href="#question"><span data-hover="Contact">Contact</span></a></li>
+                 
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div> <!-- CONTAINER END -->
+      </div> <!-- FIXED NAV END-->
+    </section> <!-- NAVIGATION END -->
+
+
+    <section id="about" class="home-part home-part two-part-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5 promo uk-scrollspy-init-inview uk-scrollspy-inview uk-animation-slide-bottom" data-uk-scrollspy="{cls:&#39;uk-animation-slide-bottom&#39;, delay: 500, repeat: true}">
+           
+              <div class="promobox">
+                <!--<img class="img-responsive" src="image/DSCN6199.JPG" alt="" >-->
+                <img src="image/IMG_3763.jpg" alt="">
+                <div style="clear:both;"></div>
+                <!--<div class="promooverlay"></div>--><!-- PROMOOVERLAY END -->
+              </div> <!-- PROMOBOX END -->
+            <!--</a>-->
+          </div> <!-- col-md-6 end -->
+
+          <div class="col-md-6 uk-scrollspy-init-inview uk-scrollspy-inview uk-animation-slide-bottom" data-uk-scrollspy="{cls:&#39;uk-animation-slide-bottom&#39;, delay: 1300, repeat: true}">
+            <h3 id="aboutname"> </h3>
+            <h4>I grew up in <a href="http://wikitravel.org/en/Kolkata" target="_blank">Kolkata</a>, a lovely city on the eastern coast of India. I was lucky to have studied at one of the most famous schools in India, 
+                <a href="http://southpoint.edu.in/" target="_blank">South Point</a>. <br><br> Currently, I am an undergraduate student at the 
+                <a href="http://www.iitp.ac.in/" target="_blank">Indian Institute of Technology, Patna, </a> studying Computer Science and Engineering. <br><br>
+                My most favourite city after my hometown is <a href="http://wikitravel.org/en/Delhi" target="_blank">Delhi</a>, since I spent my first summer alone here.<br><br>
+                My interests vary from classical music to neorealist cinema, football to minesweeper and from photography to poetry. 
+                When not coding, you will almost certainly find me with a book and tea (or, if available, Yirgacheffe coffee) (or sleeping).
+                
+                
+						</h4>
+            
+       
+          </div> <!-- col-md-6 end -->
+        </div> <!-- ROW END -->
+      </div> <!-- CONTAINER END -->
+    </section> <!-- ABOUT END -->
+
+    <section id="tech" class="home-part">  
+      <div class="container">
+<img src="image/questionbg.jpg">
+        <div class="section-heading-wrapper"><h3>Technology and Computers</h3></div>
+        <h4> I am very interested in Cryptology and Security. I have a secondary research interest in Artificial Intelligence, especially in the fields of Machine Learning and Pattern Recognition. I have always been interested in interdisciplinary pursuits. I have been told that I have some aggressively progressive ideas. For example, there are some mathematical proofs that are absolutely beautiful, simple and elegant. But there are others which can be automated. Whenever I see a logical analysis, or a proof, I try and ask: Could this be generalized? Can this be automated? Would it be too hard to teach a computer how to do it? Because, hey, if you can, then you just saved a lot of brain-time (and paper: go green). You can just enter a few parameters here and there and let a computer do it for you, while you can go catch that movie that everyone else has already seen. Because whether you like it or not, computers <b> are </b> better than human beings at computation - <i> if </i> you teach them how to do it in the first place. </h4>
+       
+      </div>
+    </section> <!-- SKILLS END -->
+    
+    
+
+    <section id="project" class="home-part">
+      <div class="container">
+        <div class="section-heading-wrapper"><h3 id="experience-position">Projects</h3></div>
+        <div class="clearfix"></div>
+
+        <div class="row">
+
+          <div class="animation-wrapper" data-uk-scrollspy="{cls:&#39;uk-animation-slide-bottom&#39;, delay: 500, repeat: true}">
+          <div class="col-md-4">
+            <div class="company">
+              <img src="image/password9.png" alt="">
+            </div> <!-- COMPANY END -->
+
+            <div class="recruit">
+              <h4>Hash Function Cryptanalysis</h4>
+              <h5></h5>
+            </div><!-- RECRUIT END -->
+          </div> <!-- col-md-4 end -->
+
+          <div class="col-md-8">
+            <h4>Hashes are like digital fingerprints.</h4>
+
+            <p> <ul>It is supposed to be unique, but it isn't; although finding a duplicate should be extremely tough. If there's a mix-up, it can lead to very drastic consequences - including theft, credit card frauds or even <a href="http://en.wikipedia.org/wiki/Flame_(malware)">international cyber-espionage.</a> My work involves analyzing the security of these algorithms.
+                </ul>
+            </p>
+
+            
+          </div> <!-- col-md-8 end -->
+
+          <div class="x-devider"></div> <!-- experience item deivder -->
+          </div> <!-- ANIMATION WRAPPER END-->
+          
+          <div class="animation-wrapper" data-uk-scrollspy="{cls:&#39;uk-animation-slide-bottom&#39;, delay: 800, repeat: true}">
+          <div class="col-md-4">
+            <div class="company">
+              <img src="image/magnifying2.png" alt="">
+            </div> <!-- company end -->
+
+            <div class="recruit">
+              <h4>Crime HotSpots</h4>
+              <h5></h5>
+            </div><!-- RECRUIT END -->
+          </div> <!-- col-md-4 end -->
+
+          <div class="col-md-8">
+            <h4>Sherlock++</h4>
+
+            <p><ul>Wouldn't it be great if we could use the available crime statistics to find and detect patterns of crimes, a la Sherlock Holmes, and try to prevent future crimes? Wouldn't it be even better if we could teach computers to do that automatically?
+              </ul> </p>
+
+           
+          </div> <!-- col-md-8 end -->
+<div class="x-devider"></div> <!-- experience item deivder -->
+          </div> <!-- ANIMATION WRAPPER END-->
+<div class="animation-wrapper" data-uk-scrollspy="{cls:&#39;uk-animation-slide-bottom&#39;, delay: 800, repeat: true}">
+          <div class="col-md-4">
+            <div class="company">
+              <img src="image/small28.png" alt="">
+            </div> <!-- company end -->
+
+            <div class="recruit">
+              <h4>Post-Quantum Cryptosystems</h4>
+              <h5></h5>
+            </div><!-- RECRUIT END -->
+          </div> <!-- col-md-4 end -->
+
+          <div class="col-md-8">
+            <h4>To Byte or Not To Byte: The Schrodinger Cat's Question</h4>
+
+            <p><ul>The systems that protect us from the bad guys on the internet today are reliant on the classical hardness of some mathematical problems - like integer factorization. (If you think integer factorization is easy, try factoring 1278413094240119485184501495145O8927359). (If you are trying that on online servers, don't. I slipped an O in between in place of a 0.) But quantum computers (these babies are born rockstars) can defeat some of them. To stay ahead, we need to find out more about systems that are quantum attack-proof.
+              </ul> </p> 
+
+           
+          </div> <!-- col-md-8 end -->
+<div class="x-devider"></div> <!-- experience item deivder -->
+          </div> <!-- ANIMATION WRAPPER END-->
+
+<div class="animation-wrapper" data-uk-scrollspy="{cls:&#39;uk-animation-slide-bottom&#39;, delay: 800, repeat: true}">
+          <div class="col-md-4">
+            <div class="company">
+              <img src="image/protection6.png" alt="">
+            </div> <!-- company end -->
+
+            <div class="recruit">
+              <h4>Coding Theory</h4>
+              <h5></h5>
+            </div><!-- RECRUIT END -->
+          </div> <!-- col-md-4 end -->
+
+          <div class="col-md-8">
+            <h4>Coding Theory is NOT Cryptography</h4>
+
+            <p><ul>But crypto uses coding theory in some places. In fact, some cryptosystems rely heavily on coding theory. A prominent example would be the McEliece system. However, this one is a double-edged sword - and we are trying to find out how to wield it cleanly.
+              </ul> </p>
+
+           
+          </div> <!-- col-md-8 end -->
+<div class="x-devider"></div> <!-- experience item deivder -->
+          </div> <!-- ANIMATION WRAPPER END-->
+
+<div class="animation-wrapper" data-uk-scrollspy="{cls:&#39;uk-animation-slide-bottom&#39;, delay: 800, repeat: true}">
+          <div class="col-md-4">
+            <div class="company">
+              <img src="image/small30.png" alt="">
+            </div> <!-- company end -->
+
+            <div class="recruit">
+              <h4>Attendance Project</h4>
+              <h5></h5>
+            </div><!-- RECRUIT END -->
+          </div> <!-- col-md-4 end -->
+
+          <div class="col-md-8">
+            <h4>A Better Place</h4>
+
+            <p><ul>We are trying to develop a prototype which will integrate a complete management system for rural schools. For legal reasons, I am not at liberty to disclose full details in public, but we are open to ideas and investment! Please drop me a mail and I will put you in touch the Project Head. 
+              </ul> </p>
+
+           
+          </div> <!-- col-md-8 end -->
+<div class="x-devider"></div> <!-- experience item deivder -->
+          </div> <!-- ANIMATION WRAPPER END-->
+        </div> <!-- ROW END -->
+      </div> <!-- CONTAINER END -->
+    </section> <!-- EXPERIENCE END -->
+
+
+   
+
+
+
+    
+
+    
+
+    
+    
+
+
+    <!-- TESTIMONIAL END -->
+
+    
+
+<!--
+    <section id="subscribe">
+      <div class="container animation-wrapper">
+
+        <h3 data-uk-scrollspy="{cls:&#39;uk-animation-slide-right&#39;, delay: 500, repeat: true}">Stay Updated</h3>
+
+        <form action="http://evenfly.us8.list-manage.com/subscribe/post?u=62bca83399cf0083546588b62&id=f85a072005" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          
+          <div data-uk-scrollspy="{cls:&#39;uk-animation-slide-right&#39;, delay: 1000, repeat: true}">
+            <input type="text" value="" name="FNAME" class="" id="mce-FNAME" placeholder="FIRST NAME" required>
+          </div>
+          
+          <div data-uk-scrollspy="{cls:&#39;uk-animation-slide-right&#39;, delay: 1500, repeat: true}">
+            <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="EMAIL ADDRESS" required>
+          </div>
+          
+          <div data-uk-scrollspy="{cls:&#39;uk-animation-slide-right&#39;, delay: 2000, repeat: true}">
+            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+          </div>
+        </form>
+
+      </div> </section> END -->
+   
+
+
+    <section id="question">
+      <div class="questionOverlay">
+        <div class="question-inner-wrapper">
+          <div class="home-part">
+            <h2>Have something to say?</h2>
+            
+
+            <div class="contact-form-wrapper" data-uk-scrollspy="{cls:&#39;uk-animation-fade&#39;, delay: 1000, repeat: true}">
+
+		<h3> <br> You can drop me a <a href="mailto:ritobroto NO SPAM at ritobrotom dot com" >mail </a>  at:<br>
+				ritobroto at ritobrotom dot com<br><br> I hate spammers. A spammer once tried to test me. <br>
+			I ate his liver with some fava beans and chianti.<br><br>
+		You can check my LinkedIn profile here:<li class="home-list"><a class="icon-linkedin" href="http://in.linkedin.com/pub/ritobroto-maitra/" target="_blank"></a></li>
+		<br><br>
+			You can find my current resume <a href="files/Resume_Ritobroto.pdf" target="_blank"> here </a>.
+          
+          
+       					 </h3>
+              <!-- <form id="contact">
+                  <input name="name" type="text" placeholder="Name" required>
+                
+                  <input name="email" type="email" placeholder="Your E-Mail" required>
+                
+                  <input name="subject" class="message" type="text" placeholder="Subject" required>
+                
+                  <textarea name="message" placeholder="Write Here!" required></textarea>
+
+                  <input type="submit" value="SUBMIT">
+              </form> -->
+            </div>
+          </div>        
+        </div>
+      </div>
+    </section> <!-- QUESTIONS END -->
+
+
+    <footer id="footer">
+      <div class="container">
+        <ul id="footer-nav" class="pull-left">
+          <li id="footertext">This website is maintained by <span><b>Ritobroto</b></span>. Some of the design elements are forked from GitHub! The work is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a></li>
+          
+        </ul>
+
+        
+      </div>
+    </footer> <!-- FOOTER END -->
+
+    <!-- JQUERY/JAVASCRIPT PLUGINS START -->
+    <script async src="js/analytics.js"></script><script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-scrollspy.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/Chart.min.js"></script>
+    <script src="js/jquery.mixitup.min.js"></script>
+    <script src="js/jquery.lazyload.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script class="uikit" src="js/uikit.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/init.js"></script>
+    <script src="js/preloader.js"></script>
+    <!-- JQUERY/JAVASCRIPT PLUGINS END -->
+
+    <div id="analytics">
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-50450945-3', 'evenfly.com');
+        ga('send', 'pageview');
+      </script>
+    </div> <!-- ANALYTICS -->
+
+  
+  </body></html>
