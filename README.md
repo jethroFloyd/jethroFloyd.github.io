@@ -5,9 +5,13 @@ http://jethroFloyd.github.io
 http://www.ritobrotom.com
 
 Maintained by Ritobroto Maitra.
-Last Updated: 24th May, 2015
+Last Updated: 26th May, 2015
 
 Change Log:
+
+26 May, 2015
+
+- Content Update - About Section
 
 24 May, 2015
 
