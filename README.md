@@ -2,8 +2,11 @@ Site Source for:
 
 http://jethroFloyd.github.io
 
+Custom Domain: 
+
 http://www.ritobrotom.com
 
+Contact: ritobrotomaitra [at] gmail [dot] com
 Maintained by Ritobroto Maitra.
 Last Updated: 28th May, 2015
 
