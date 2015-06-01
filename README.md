@@ -8,9 +8,13 @@ http://www.ritobrotom.com
 
 Contact: ritobrotomaitra [at] gmail [dot] com
 Maintained by Ritobroto Maitra.
-Last Updated: 30th  May, 2015
+Last Updated: 1st June,, 2015
 
 Change Log:
+
+June 1, 2015
+
+- crossed out
 
 30 May, 2015
 
