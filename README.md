@@ -12,7 +12,7 @@ Last Updated: 1st June,, 2015
 
 Change Log:
 
-June 1, 2015
+1 June1, 2015
 
 - crossed out
 
