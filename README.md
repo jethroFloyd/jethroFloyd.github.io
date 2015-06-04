@@ -10,11 +10,15 @@ Contact: ritobrotomaitra [at] gmail [dot] com
 Contact: ritobroto [at] ritobrotom [dot] com
 
 Maintained by Ritobroto Maitra.
-Last Updated: 1st June,, 2015
+Last Updated: 4th June,, 2015
 
 Change Log:
 
-1 June1, 2015
+4 June, 2015
+
+- Change log to modify contact section
+
+1 June, 2015
 
 - crossed out
 
