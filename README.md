@@ -10,7 +10,8 @@ Contact: ritobrotomaitra [at] gmail [dot] com
 Contact: ritobroto [at] ritobrotom [dot] com
 
 Maintained by Ritobroto Maitra.
-Last Updated: 4th June,, 2015
+
+Last Updated: 4th June, 2015
 
 Change Log:
 
