@@ -11,9 +11,13 @@ Contact: ritobroto [at] ritobrotom [dot] com
 
 Maintained by Ritobroto Maitra.
 
-Last Updated: 4th June, 2015
+Last Updated: 14th June, 2015
 
 Change Log:
+
+14 June, 2015
+
+- Updated index page
 
 4 June, 2015
 
