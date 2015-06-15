@@ -1,8 +1,6 @@
 Site Source for:
 
-http://jethroFloyd.github.io
-
-Custom Domain: 
+http://jethroFloyd.github.io 
 
 http://www.ritobrotom.com
 
