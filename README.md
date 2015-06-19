@@ -5,7 +5,7 @@ http://jethroFloyd.github.io
 http://www.ritobrotom.com
 
 Contact: ritobrotomaitra [at] gmail [dot] com
-Contact: ritobroto [at] ritobrotom [dot] com
+# Contact: ritobroto [at] ritobrotom [dot] com
 
 Maintained by Ritobroto Maitra.
 
