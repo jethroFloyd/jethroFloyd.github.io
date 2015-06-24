@@ -13,6 +13,10 @@ Last Updated: 23th June, 2015
 
 Change Log:
 
+24 June, 2015
+
+- Mail server deployed
+
 23 June, 2015
 
 - started on mailserver
