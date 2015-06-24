@@ -9,9 +9,13 @@ Contact: ritobrotomaitra [at] gmail [dot] com
 
 Maintained by Ritobroto Maitra.
 
-Last Updated: 23th June, 2015
+Last Updated: 24th June, 2015
 
 Change Log:
+
+24 June, 2015
+
+- Changed Mail Hyperlink
 
 24 June, 2015
 
