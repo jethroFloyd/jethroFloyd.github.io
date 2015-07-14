@@ -1,0 +1,71 @@
+mixin frame(bg)
+		.space-frame&attributes(attributes)
+			if bg
+				+bg(bg)
+			section.space-inner-frame
+				block
+
+mixin demoLinks
+	nav.codrops-demos.center
+		a(href="/space.js")
+			b Home
+		span.mr |
+		a(href="demo1.html")
+			b Demo 1 –  
+			| The Gallery
+		a(href="demo2.html")
+			b Demo 2: 
+			| Out of Space
+		//- a(href="demo3.html") Demo 3
+
+mixin nav
+	//- codrops header
+	header.codrops-header.absolute(style="z-index:100;")
+		h1 Space.js
+
+		+demoLinks
+
+
+mixin bg(src)
+	.background&attributes(attributes)(style="background-image:url(#{src});")
+
+mixin painting(src)
+	.painting(class!=attributes.class)
+		img(src=src)
+
+mixin head(title)
+	head
+		meta(charset="utf-8")
+		title Space.js – #{title}
+		script(src="jquery-2.0.2.min.js")
+		link(rel="stylesheet", type="text/css", href="css/main.css")
+		link(rel="stylesheet", type="text/css", href="css/demo.css")
+
+		script.
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-38987463-4', 'auto');
+			ga('send', 'pageview');
+
+mixin lastNav
+	+frame
+		section(style="width:100vw; height:100vh;")
+			section.absolute.narrow.mt-large(style="height:100px; bottom: 70px; left: 100px; z-index:100;")
+				.third(style="text-align:right;")
+					.portrait-frame.inline(style="background-image:url(img/astro_small.jpg);")
+				.two-third
+					.mt(style="font-size:8px;") Author.
+					.nm.small(style="margin-bottom:5px;") Patrik Goethe
+					div: a(href="https://twitter.com/gopatrik", class="twitter-follow-button" data-show-count="true")
+					.nm(style="font-size:8px;") PS. Not real astronaut.
+
+			section.codrops-header.center-center(style="max-width:600px;")
+				h1 Space.js
+				+demoLinks
+				p.center
+					<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.slashie.org/space.js" data-text="Space.js – HTML-driven narrative parallax." data-via="gopatrik" data-size="large">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+					<a class="github-button" href="https://github.com/gopatrik/space.js" data-style="mega" data-count-href="/gopatrik/space.js/stargazers" data-count-api="/repos/gopatrik/space.js#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star gopatrik/space.js on GitHub">Star</a>
+					<script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
