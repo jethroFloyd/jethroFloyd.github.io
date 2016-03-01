@@ -22,8 +22,11 @@ article, aside, details, figcaption, figure, footer,
 header, hgroup, menu, nav, section {
     display: block;
 }
-h1, h2, h3, h4, h5, h6 {
-    font-size: 100%;
+h1, h2, h3, h5, h6 {
+    font-size: 120%;
+}
+h4 {
+    font-size: 120%;
 }
 table {
     border-collapse: collapse;
@@ -154,7 +157,7 @@ ul, ol, dl,
     margin-bottom: 20px;
 }
 p {
-    font-weight: bold;
+    font-weight: ;
 }
 ul, ol, dl {
     list-style-type: none;
