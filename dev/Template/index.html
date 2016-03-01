@@ -8,7 +8,17 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="icon" href="img/favicon.ico" type="image/x-icon" />
 		<link rel="stylesheet" href="css/style.css">
+		<script language="JavaScript" type="text/javascript">
+			if (document.getElementById) {
+				document.writeln('<style type="text/css"><!--')
+				document.writeln('.texter {display:none} @media print {.texter {display:block;}}')
+				document.writeln('//--></style>') }
 
+			function openClose(theID) {
+				if (document.getElementById(theID).style.display == "block") { document.getElementById(theID).style.display = "none" }
+				else { document.getElementById(theID).style.display = "block" } }
+			// -->
+		</script>
 		<!--[if lt IE 9]>
 			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
@@ -19,7 +29,7 @@
 			<img src="img/me2.jpg" alt="Avatar">
 		</div>
 
-		<div class="content">
+		<div class="content1">
 			<h1 class="title">jethroFloyd<br></h1><h4>alternatively:<br> {rito, ritobroto} x {&#949;, maitra}
 <br><br></h4>
 			<p>
@@ -27,22 +37,33 @@
 				I have listed some stuff that I like or do or just have an opinion about. Feel free to browse around.<br><br>
 				<a href="#"><img src="img/github.png" alt="Avatar"></a>
 				<a href="#"><img src="img/mail.png" alt="Avatar"></a>
-				<a href="#"><img src="img/twitter.png" alt="Avatar"></a><br><br>        
-				&nbsp; <img src="img/marker.png" alt="Avatar"><br>Paris [FR] <br>previous locations (non-repeated chronological order): <br>Kolkata [IN], New Delhi [IN], Patna [IN], London [UK], Toulouse [FR], Edinburgh [UK], Leicester [UK], Cambridge [UK], Saint-Étienne [FR] 
-<br>
+				<a href="#"><img src="img/twitter.png" alt="Avatar"></a>
+
+				<div onClick="openClose('a5')" style="cursor:hand; cursor:pointer"><img src="img/marker.png" alt="Avatar"><br></div>
+					<div id="a5" class="texter">
+						Currently: Paris [FR] <br>previous locations (non-repeated chronological order): <br>Kolkata [IN], New Delhi [IN], Patna [IN], London [UK], Toulouse [FR], Edinburgh [UK], Leicester [UK], Cambridge [UK], Saint-Étienne [FR]
+					</div>        
 			</p>
-			<p>	Click to know more:<br>
-				some technical stuff <br>
-				some business stuff <br>
-				some fun stuff <br>
-
+			<p>	
+				<div onClick="openClose('a4')" style="cursor:hand; cursor:pointer">click to know more!<br><br></div>
+					<div id="a4" class="texter">
+						<div onClick="openClose('a1')" style="cursor:hand; cursor:pointer">tech stuff</div>
+						<div id="a1" class="texter">
+							Tech<br>
+						</div>
+						<div onClick="openClose('a2')" style="cursor:hand; cursor:pointer">business stuff</div>
+						<div id="a2" class="texter">
+							Business<br>
+						</div>
+						<div onClick="openClose('a3')" style="cursor:hand; cursor:pointer">fun stuff</div>
+						<div id="a3" class="texter">
+							Fun<br>
+						</div>
+				</div>
+				
 			</p>
-
-			<p><a href="mailto: ritobroto[at]ritobrotom[dot]com">get in touch.</a></p>
-
-			A couple of links:<br><br>
+			A couple of (possibly irrelevant) links:<br><br>
 			<p>
-				[favourites] <br><br>
 				[old] I have recently turned towards minimalism and precision. My old (and embarrassingly garish) page can be found <a href="#">here</a>.<br><br>
 				[blog] Some of my ideas and opinions <a href="#">here</a>. These have been labelled dangerous, stupid, wrong (and all possible combinations thereof). UPDATE: Link Not Working Yet.<br><br>
 			</p>

@@ -28,6 +28,7 @@ h1, h2, h3, h5, h6 {
 h4 {
     font-size: 120%;
 }
+
 table {
     border-collapse: collapse;
     border-spacing: 0;
@@ -95,7 +96,7 @@ body {
         border-radius: 125px;
     }
 
-.content {
+.content1 {
     float: left;
     width: 300px;
 }
@@ -309,7 +310,7 @@ Copyright (c) 2012 Dan Eden
 \*------------------------------------*/
 @media handheld, only screen and (max-width: 720px) {
     .avatar,
-    .content {
+    .content1 {
         float: none;
         
     }
@@ -319,7 +320,7 @@ Copyright (c) 2012 Dan Eden
         max-height: 125px;
     }
 
-    .content {
+    .content1 {
         width: 100%;
     }
 }
