@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Title</title>
+    <title>Tram Tales</title>
     <!--<meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -13,7 +13,8 @@
     <!-- Your Styles
     ================================================== -->
     <link href="css/style.css" rel="stylesheet" media="screen">
-    <link rel="stylesheet" href="js/twitter/jtwt.css" />
+    <link rel="stylesheet" href="js/twitter/jtwt.css">
+
 
     <!-- Favicons
     ================================================== -->
@@ -43,6 +44,7 @@
 
 <body>
 <div id="main_container" class="clearfix">
+
 <!--Begin content main-->
     <section id="content" class="home home_one">
         <div class="container-fluid">
@@ -52,10 +54,20 @@
                         
                         <div class="left_content">
                             <ul class="info row-fluid field1">
+                                 <a href="#"
+      class="rs-link"
+      data-link-desktop="Switch to desktop version"
+      data-link-responsive="Switch to responsive / mobile version"
+      data-always-visible="false"></a>
                                 
                                 <li class="box span1 offset0 photo">
-                                    <a data-toggle="modal" data-target="#myModal" class="link_profile">
-                                        <img src="img/home/12.jpg" onmouseover="this.src='img/home/1.jpg'" onmouseout="this.src='img/home/2.jpg'" alt="//" class="img-responsive">
+                                    <a data-toggle="modal" data-target="#ticket" class="link_profile">
+                                        <!--<img src="img/home/tickets.jpg" class="img-responsive"> -->
+                                         <a href="#"
+      class="rs-link"
+      data-link-desktop="Switch to desktop version"
+      data-link-responsive="Switch to responsive / mobile version"
+      data-always-visible="false"></a>
                                     </a>
                                 </li>
 
@@ -219,21 +231,19 @@
 
 
 <!-- Modal -->
-<div id="myModal" class="modal fade" role="dialog">
+
+<!-- Modal -->
+<div id="ticket" class="modal fade" role="dialog">
   <div class="modal-dialog">
 
     <!-- Modal content-->
     <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Modal Header</h4>
-      </div>
+ 
       <div class="modal-body">
         <p>Some text in the modal.</p>
+        <img src="img/home/tickets2.jpg">
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
+    
     </div>
 
   </div>
@@ -244,12 +254,13 @@
     <!--<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.1/jquery-ui.min.js"></script>-->
     <!-- Bootstrap.js-->
     <script src="js/bootstrap.js"></script>
+    <script src="js/responsive-switch.min.js"></script>
     <!--fUNCTIONS-->
     <script src="js/js.js" type="text/javascript"></script>
     <script type="text/javascript" src="js/twitter/jquery.jtwt.js"></script>
     <script src="js/filter/quiksand.js" type="text/javascript"></script>
     <script type="text/javascript" src="js/jquery-func.js"></script>
-     <script>
+  <!--   <script>
      $(window).resize(function() {
      $("#dimensions").html($(window).width());}).resize();
 
@@ -262,7 +273,7 @@
                     'width=device-width, initial-scale=1.0' :
                     'width=1200';
     $("meta[name=viewport]").attr('content', viewport);}).resize();  
-    </script> 
+    </script> -->
 <!-- ======================= End JQuery libs =========================== -->
 
 </body>
