@@ -109,7 +109,7 @@ img{	width: 100%;}
 	color: #fff;
 }
 .content_menu .resume_button:hover, .content_menu .contact_button:hover, li.box .resume_button:hover, li.box .contact_button:hover, li.box img:hover   {
-	opacity:0.5;
+	opacity:0.9;
 }
 .content_menu .box h1{
     margin-bottom: 2px;
