@@ -1,0 +1,1199 @@
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+/* ---------------------------------------------------------------------- */
+/*	Version 2048px
+/* ---------------------------------------------------------------------- */
+
+@media handheld, only screen and (max-width: 2048px) {
+    body{
+
+    }
+    #main_container{
+        width: 100%;
+    }
+    .home .info{
+        width: 100%;
+    }
+    .home h1, header h1{
+        font-size: 25.3px;
+    }
+    .blog .content_center{
+        width: 69.36%;
+
+    }
+    .blog .content_left_bar{
+        width: 30.63%;
+
+    }
+    .contact .form_content_contact{
+        width: 58%;
+    }
+    .education .main_bottom .education_slider{
+        width: 31%;
+
+    }
+    .education .main_bottom .education_accordion{
+        width: 69%;
+
+    }
+
+    .experience .content_main .big_blue{
+        font-size: 51px;
+    }
+
+    .row-fluid .photo {
+        padding: 0 ;
+    }
+    .right_content{
+
+        width: 40%;
+    }
+    .content_right{
+        width: 60%;
+    }
+    .vertical_slider{
+        height: 50% ;
+    }
+    .content_menu .navbar{
+        height: 234px;
+    }
+    .content_menu .box {
+        text-align: left;
+    }
+    .row-fluid .navbar ul{
+
+        height: 234px;
+
+    }
+    .row-fluid .navbar ul li{
+        top: 40%;
+    }
+
+    .navbar .nav .menu_item a{
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+    .content_right{
+
+        position: absolute;
+        right: 0;
+    }
+    .btn-sample {
+        margin-right: 14px;
+        font-size: 14px;
+    }
+    .education .main_bottom .alignright{
+        padding-left: 49px;
+
+    }
+    .education .main_bottom .carousel-control.left{
+        left: 78%;
+
+    }
+    .experience .main_bottom li{
+
+        width: 12%;
+
+    }
+    .single_item .content_main .item  .details_item{
+        width: 30.63%;
+
+    }
+    .single_item .content_main .item .carousel{
+        width: 69.37%;
+    }
+    .single_item .content_main .main_control.menu_center{
+        left: 94%;
+    }
+    .single_item .content_main .main_control.left {
+        left: 91%;
+    }
+    .single_item .content_main .main_control.right {
+        left: 97%;
+    }
+    ul.social-circled {
+
+        float: right;
+    }
+    ul.social-circled li {
+        width: 36px;
+    }
+    ul.social-circled li a {
+
+        font-size: 30px;
+
+    }
+}
+/* ---------------------------------------------------------------------- */
+/*	Version 1134px
+/* ---------------------------------------------------------------------- */
+
+@media handheld, only screen and (max-width: 1134px) {
+    body{
+
+    }
+    #main_container{
+        width: 100%;
+    }
+    .home h1, header h1{
+        font-size: 24.3px;
+    }
+    .blog .content_center{
+        width: 69.36%;
+
+    }
+    .blog .content_left_bar{
+        width: 30.63%;
+
+    }
+    .contact .form_content_contact{
+        width: 58%;
+    }
+    .education .main_bottom .education_slider{
+        width: 31%;
+
+    }
+    .education .main_bottom .education_accordion{
+        width: 69%;
+
+    }
+    .experience .content_main .big_blue{
+        font-size: 51px;
+    }
+    .content_menu .navbar{
+        width: 60%;
+        height: 100%;
+    }
+    .content_menu .box {
+        text-align: left;
+    }
+    .row-fluid .navbar ul li{
+        top: 40%;
+    }
+    .row-fluid .box{
+        width: 40%;
+    }
+    .row-fluid p{
+        line-height: 18px;
+    }
+
+    .row-fluid .photo {
+        padding: 0 36%;
+    }
+    .home .info{
+        width: 100%;
+    }
+
+    .right_content{
+
+        width: 100%;
+    }
+    .content_right{
+        width: 100%;
+    }
+    .vertical_slider{
+        height: 50% ;
+    }
+    .row-fluid .navbar ul{
+
+        height: 234px;
+    }
+    .navbar .nav .menu_item a{
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    .content_right{
+        position: relative;
+        display: table;
+    }
+    .btn-sample {
+        margin-right: 14px;
+        font-size: 14px;
+    }
+    .education .main_bottom .alignright{
+        padding-left: 100px;
+
+    }
+    .education .main_bottom .carousel-control.left{
+        left: 66%;
+
+    }
+    .experience .main_bottom li{
+        width: 12%;
+    }
+    .single_item .content_main .item  .details_item{
+        width: 30.63%;
+
+    }
+    .single_item .content_main .item .carousel{
+        width: 69.37%;
+    }
+    .single_item .content_main .main_control.menu_center{
+        left: 94%;
+    }
+    .single_item .content_main .main_control.left {
+        left: 91%;
+    }
+    .single_item .content_main .main_control.right {
+        left: 97%;
+    }
+    ul.social-circled {
+
+        float: right;
+    }
+    ul.social-circled li {
+        width: 36px;
+    }
+    ul.social-circled li a {
+
+        font-size: 30px;
+
+    }
+
+}
+/* ---------------------------------------------------------------------- */
+/*	Version 1024px
+/* ---------------------------------------------------------------------- */
+
+@media handheld, only screen and (max-width: 1024px) {
+    body{
+
+    }
+    #main_container{
+        width: 100%;
+    }
+    .home h1, header h1{
+        font-size: 24.3px;
+    }
+    .blog .content_center{
+        width: 69.36%;
+
+    }
+    .blog .content_left_bar{
+        width: 30.63%;
+
+    }
+    .contact .form_content_contact{
+        width: 58%;
+    }
+    .education .main_bottom .education_slider{
+        width: 31%;
+
+    }
+
+    .education .main_bottom .education_accordion{
+        width: 69%;
+
+    }
+    .experience .content_main .big_blue{
+        font-size: 51px;
+    }
+    .content_menu .navbar{
+        width: 60%;
+        height: 100%;
+    }
+    .content_menu .box {
+        text-align: left;
+    }
+    .row-fluid .navbar ul li{
+        top: 40%;
+    }
+    .row-fluid .box{
+        width: 40%;
+    }
+    .row-fluid p{
+        line-height: 18px;
+    }
+
+    .row-fluid .photo {
+        padding: 0 36%;
+    }
+    .home .info{
+       width: 100%;
+    }
+
+    .right_content{
+
+        width: 100%;
+    }
+    .content_right{
+        width: 100%;
+    }
+    .vertical_slider{
+        height: 50% ;
+    }
+    .row-fluid .navbar ul{
+
+        height: 234px;
+    }
+    .navbar .nav .menu_item a{
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    .content_right{
+        position: relative;
+        display: table;
+    }
+    .btn-sample {
+        margin-right: 14px;
+        font-size: 14px;
+    }
+    .education .main_bottom .alignright{
+        padding-left: 100px;
+
+    }
+    .education .main_bottom .carousel-control.left{
+        left: 61%;
+
+    }
+    .experience .main_bottom li{
+        width: 12%;
+    }
+    .single_item .content_main .item  .details_item{
+        width: 30.63%;
+
+    }
+    .single_item .content_main .item .carousel{
+        width: 69.37%;
+    }
+    .single_item .content_main .main_control.menu_center{
+        left: 94%;
+    }
+    .single_item .content_main .main_control.left {
+        left: 91%;
+    }
+    .single_item .content_main .main_control.right {
+        left: 97%;
+    }
+    ul.social-circled {
+
+        float: right;
+    }
+    ul.social-circled li {
+        width: 36px;
+    }
+    ul.social-circled li a {
+
+        font-size: 30px;
+
+    }
+
+}
+/* ---------------------------------------------------------------------- */
+/*	Mobile Version 980px
+/* ---------------------------------------------------------------------- */
+@media handheld, only screen and (max-width: 980px) {
+    body{
+
+    }
+    #main_container{
+        width: 100%;
+    }
+    .home h1, header h1{
+        font-size: 24.3px;
+    }
+    .blog .content_center{
+        width: 69.36%;
+
+    }
+    .blog .content_left_bar{
+        width: 30.63%;
+
+    }
+    .contact .form_content_contact{
+        width: 58%;
+    }
+    .education .main_bottom .education_accordion{
+        width: 69%;
+
+    }
+    .education .main_bottom .education_slider{
+        width: 31%;
+
+    }
+    .experience .content_main .big_blue{
+        font-size: 51px;
+    }
+    .content_menu .navbar{
+        width: 100%;
+        height: 100%;
+    }
+    .content_menu .box {
+        text-align: center;
+    }
+    .row-fluid .navbar ul li{
+        top: 0;
+    }
+    .row-fluid .box{
+        width: 100%;
+    }
+    .row-fluid p{
+        line-height: 18px;
+    }
+
+    .row-fluid .photo {
+        padding: 0 33%;
+    }
+    .home .info{
+        width: 100%;
+    }
+
+    header .content_menu p{
+        line-height: 18px;
+    }
+    .right_content{
+
+        width: 100%;
+    }
+    .content_right{
+        width: 100%;
+    }
+    .vertical_slider{
+        height: 50% ;
+    }
+    .row-fluid .navbar ul{
+
+        height: 100%;
+
+    }
+    .navbar .nav .menu_item a{
+        font-size: 15px;
+        padding-bottom: 3px;
+        padding-top: 3px;
+    }
+	.navbar .nav .menu_item a:hover{
+        background-color:#2D2D2D;
+    }
+    .content_right{
+        position: relative;
+        display: table;
+    }
+    .btn-sample {
+        margin-right: 0;
+        font-size: 14px;
+    }
+    .education .main_bottom .alignright{
+        padding-left: 0;
+
+    }
+    .education .main_bottom .carousel-control.left{
+        left: 73%;
+
+    }
+    .experience .main_bottom li{
+
+        width: 12%;
+
+    }
+    .single_item .content_main .item  .details_item{
+        width: 100%;
+
+    }
+    .single_item .content_main .item .carousel{
+        width: 100%;
+    }
+    .single_item .content_main .main_control.menu_center{
+        left: 86%;
+    }
+    .single_item .content_main .main_control.left {
+        left: 91%;
+    }
+    .single_item .content_main .main_control.right {
+        left: 96%;
+    }
+    ul.social-circled {
+
+        float: right;
+    }
+    ul.social-circled li {
+        width: 36px;
+    }
+    ul.social-circled li a {
+
+        font-size: 30px;
+
+    }
+}
+/* ---------------------------------------------------------------------- */
+/*	Mobile Version 767px
+/* ---------------------------------------------------------------------- */
+
+@media handheld, only screen and (max-width: 768px) {
+    body{
+
+    }
+    #main_container{
+        width: 100%;
+    }
+    .home h1, header h1{
+        font-size: 24.3px;
+    }
+    .blog .content_center{
+        width: 69.36%;
+
+    }
+    .blog .content_left_bar{
+        width: 30.63%;
+
+    }
+    .contact .form_content_contact{
+        width: 58%;
+    }
+    .education .main_bottom .education_slider{
+        width: 100%;
+
+    }
+    .education .main_bottom .education_accordion{
+        width: 100%;
+
+    }
+    .experience .content_main .big_blue{
+        font-size: 51px;
+    }
+    .content_menu .navbar{
+        width: 100%;
+        height: 100%;
+    }
+    .content_menu .box {
+        text-align: center;
+    }
+    .row-fluid .navbar ul li{
+        top: 0;
+    }
+    .row-fluid .box{
+        width: 100%;
+    }
+    .row-fluid p{
+        line-height: 18px;
+    }
+
+    .row-fluid .photo {
+        padding: 0 33%;
+    }
+    .home .info{
+       width: 100%;
+    }
+
+    header .content_menu p{
+        line-height: 18px;
+    }
+    .right_content{
+
+        width: 100%;
+    }
+    .content_right{
+        width: 100%;
+    }
+    .vertical_slider{
+        height: 50% ;
+    }
+    .row-fluid .navbar ul{
+
+        height: 100%;
+
+    }
+    .navbar .nav .menu_item a{
+        font-size: 15px;
+        padding-bottom: 3px;
+        padding-top: 3px;
+    }
+	.navbar .nav .menu_item a:hover{
+        background-color:#2D2D2D;
+    }
+    .content_right{
+        position: relative;
+        display: table;
+    }
+    .btn-sample {
+        margin-right: 0;
+        font-size: 14px;
+    }
+    .education .main_bottom .alignright{
+        padding-left: 0;
+
+    }
+    .education .main_bottom .carousel-control.left{
+        left: 89%;
+
+    }
+    .experience .main_bottom li{
+
+        width: 12%;
+
+    }
+    .single_item .content_main .item  .details_item{
+        width: 100%;
+
+    }
+    .single_item .content_main .item .carousel{
+        width: 100%;
+    }
+    .single_item .content_main .main_control.menu_center{
+        left: 86%;
+    }
+    .single_item .content_main .main_control.left {
+        left: 91%;
+    }
+    .single_item .content_main .main_control.right {
+        left: 96%;
+    }
+    ul.social-circled {
+
+        float: right;
+    }
+    ul.social-circled li {
+        width: 36px;
+    }
+    ul.social-circled li a {
+
+        font-size: 30px;
+
+    }
+
+}
+
+
+/* ---------------------------------------------------------------------- */
+/*	Mobile Version 600px
+/* ---------------------------------------------------------------------- */
+
+@media handheld, only screen and (max-width: 600px) {
+    #main_container{
+        width: 100%;
+    }
+    .home h1, header h1{
+        font-size: 24.3px;
+    }
+    .blog .content_center{
+        width: 100%;
+
+    }
+    .blog .content_left_bar{
+        width: 100%;
+
+    }
+    .contact .form_content_contact{
+        width: 100%;
+    }
+    .education .main_bottom .education_accordion{
+        width: 100%;
+
+    }
+    .education .main_bottom .education_slider{
+        width: 100%;
+
+    }
+    .experience .content_main .big_blue{
+        font-size: 51px;
+    }
+    header .content_menu p{
+        line-height: 18px;
+    }
+    .content_menu .navbar{
+        width: 100%;
+        height: 100%;
+    }
+    .content_menu .box {
+        text-align: center;
+    }
+    .row-fluid .navbar ul li{
+        top: 0;
+    }
+    .row-fluid .box{
+        width: 100%;
+    }
+
+    .row-fluid .photo {
+        padding: 0 28%;
+    }
+    .row-fluid p{
+        line-height: 18px;
+    }
+    .right_content{
+
+        width: 100%;
+    }
+    .content_right{
+        width: 100%;
+    }
+    .vertical_slider{
+        height: 50% ;
+    }
+    .row-fluid .navbar ul{
+
+        height: 100%;
+
+    }
+    .navbar .nav .menu_item a{
+        font-size: 15px;
+        padding-bottom: 3px;
+        padding-top: 3px;
+    }
+	.navbar .nav .menu_item a:hover{
+        background-color:#2D2D2D;
+    }
+    .content_right{
+        position: relative;
+        display: table;
+    }
+    .btn-sample {
+        margin-right: 0px;
+        font-size: 11px;
+    }
+    .education .main_bottom .alignright{
+        padding-left: 0px;
+
+    }
+    .education .main_bottom .carousel-control.left{
+        left: 85%;
+
+    }
+    .experience .main_bottom li{
+
+        width: 25%;
+
+    }
+    .single_item .content_main .item  .details_item{
+        width: 100%;
+
+    }
+    .single_item .content_main .item .carousel{
+        width: 100%;
+    }
+    .single_item .content_main .main_control.menu_center{
+        left: 80%;
+    }
+    .single_item .content_main .main_control.left {
+        left: 87%;
+    }
+    .single_item .content_main .main_control.right {
+        left: 94%;
+    }
+    ul.social-circled {
+
+        float: right;
+    }
+    ul.social-circled li {
+        width: 36px;
+    }
+    ul.social-circled li a {
+
+        font-size: 30px;
+
+    }
+}
+
+
+/* ---------------------------------------------------------------------- */
+/*	Mobile Version 568px
+/* ---------------------------------------------------------------------- */
+
+@media handheld, only screen and (max-width: 568px) {
+    #main_container{
+        width: 100%;
+    }
+    .home h1, header h1{
+        font-size: 24.3px;
+    }
+    .blog .content_center{
+        width: 100%;
+
+    }
+    .blog .content_left_bar{
+        width: 100%;
+
+    }
+    .contact .form_content_contact{
+        width: 100%;
+    }
+    .education .main_bottom .education_accordion{
+        width: 100%;
+
+    }
+    .education .main_bottom .education_slider{
+        width: 100%;
+
+    }
+    .experience .content_main .big_blue{
+        font-size: 51px;
+    }
+    header .content_menu p{
+        line-height: 18px;
+    }
+    .content_menu .navbar{
+        width: 100%;
+        height: 100%;
+    }
+    .content_menu .box {
+        text-align: center;
+    }
+    .row-fluid .navbar ul li{
+        top: 0;
+    }
+    .row-fluid .box{
+        width: 100%;
+    }
+    .row-fluid p{
+        line-height: 18px;
+    }
+
+    .row-fluid .photo {
+        padding: 0;
+    }
+    .right_content{
+
+        width: 100%;
+    }
+    .content_right{
+        width: 100%;
+    }
+    .vertical_slider{
+        height: 14% ;
+    }
+    .row-fluid .navbar ul{
+
+        height: 100%;
+
+    }
+    .navbar .nav .menu_item a{
+        font-size: 15px;
+        padding-bottom: 3px;
+        padding-top: 3px;
+    }
+	.navbar .nav .menu_item a:hover{
+        background-color:#2D2D2D;
+    }
+    .content_right{
+        position: relative;
+        display: table;
+    }
+    .btn-sample {
+        margin-right: 0px;
+        font-size: 11px;
+    }
+    .education .main_bottom .alignright{
+        padding-left: 0px;
+
+    }
+    .education .main_bottom .carousel-control.left{
+        left: 85%;
+
+    }
+    .experience .main_bottom li{
+
+        width: 34%;
+
+    }
+    .single_item .content_main .item  .details_item{
+        width: 100%;
+
+    }
+    .single_item .content_main .item .carousel{
+        width: 100%;
+    }
+    .single_item .content_main .main_control.menu_center{
+        left: 79%;
+    }
+    .single_item .content_main .main_control.left {
+        left: 64%;
+    }
+    .single_item .content_main .main_control.right {
+        left: 94%;
+    }
+    ul.social-circled {
+
+        float: right;
+    }
+    ul.social-circled li {
+        width: 36px;
+    }
+    ul.social-circled li a {
+
+        font-size: 30px;
+
+    }
+}
+
+
+/* ---------------------------------------------------------------------- */
+/*	Mobile Version 480px
+/* ---------------------------------------------------------------------- */
+
+@media handheld, only screen and (max-width: 480px) {
+    #main_container{
+        width: 100%;
+    }
+    .home h1, header h1{
+        font-size: 24.3px;
+    }
+    .blog .content_center{
+        width: 100%;
+
+    }
+    .blog .content_left_bar{
+        width: 100%;
+
+    }
+    .contact .form_content_contact{
+        width: 100%;
+    }
+    .education .main_bottom .education_accordion{
+        width: 100%;
+
+    }
+    .education .main_bottom .education_slider{
+        width: 100%;
+
+    }
+    .experience .content_main .big_blue{
+        font-size: 51px;
+    }
+    header .content_menu p{
+        line-height: 18px;
+    }
+    .content_menu .navbar{
+        width: 100%;
+        height: 100%;
+    }
+    .content_menu .box {
+        text-align: center;
+    }
+    .row-fluid .navbar ul li{
+        top: 0;
+    }
+    .row-fluid .box{
+        width: 100%;
+    }
+    .row-fluid p{
+        line-height: 18px;
+    }
+
+    .row-fluid .photo {
+        padding: 0;
+    }
+    .right_content{
+
+        width: 100%;
+    }
+    .content_right{
+        width: 100%;
+    }
+    .vertical_slider{
+        height: 14% ;
+    }
+    .row-fluid .navbar ul{
+
+        height: 100%;
+
+    }
+    .navbar .nav .menu_item a{
+        font-size: 15px;
+        padding-bottom: 3px;
+        padding-top: 3px;
+    }
+	.navbar .nav .menu_item a:hover{
+        background-color:#2D2D2D;
+    }
+    .content_right{
+        position: relative;
+        display: table;
+    }
+    .btn-sample {
+        margin-right: 0px;
+        font-size: 11px;
+    }
+    .education .main_bottom .alignright{
+        padding-left: 0px;
+
+    }
+    .education .main_bottom .carousel-control.left{
+        left: 80%;
+
+    }
+    .experience .main_bottom li{
+
+        width: 34%;
+
+    }
+    .single_item .content_main .item  .details_item{
+        width: 100%;
+
+    }
+    .single_item .content_main .item .carousel{
+        width: 100%;
+    }
+    .single_item .content_main .main_control.menu_center{
+        left: 79%;
+    }
+    .single_item .content_main .main_control.left {
+        left: 64%;
+    }
+    .single_item .content_main .main_control.right {
+        left: 94%;
+    }
+    ul.social-circled {
+
+        float: left;
+        margin-left: 0;
+    }
+    ul.social-circled li {
+        width: 36px;
+    }
+    ul.social-circled li a {
+
+        font-size: 30px;
+
+    }
+}
+
+
+/* ---------------------------------------------------------------------- */
+/*	Mobile Version 320px
+/* ---------------------------------------------------------------------- */
+
+@media handheld, only screen and (max-width: 320px) {
+    #main_container{
+        width: 100%;
+    }
+    .home h1, header h1{
+        font-size: 18px;
+    }
+	.profile .banner_text {
+		font-size: 20px !important;
+		line-height: 22px !important;
+	}
+	.content_main p {
+		font-size: 12px;
+		line-height: 18px;
+	}
+    .blog .content_center{
+        width: 100%;
+    }
+    .blog .content_left_bar{
+        width: 100%;
+    }
+    .contact .form_content_contact{
+        width: 100%;
+    }
+    .education .main_bottom .education_accordion{
+        width: 100%;
+
+    }
+    .education .main_bottom .education_slider{
+        width: 100%;
+
+    }
+    .experience .content_main .big_blue{
+        font-size: 36px;
+    }
+    header .content_menu p{
+        line-height: 12px;
+		font-size:12px;
+    }
+    .content_menu .navbar{
+        width: 100%;
+        height: 100%;
+    }
+    .content_menu .box {
+        text-align: center;
+    }
+    .row-fluid .navbar ul li{
+        top: 0;
+    }
+    .row-fluid .box{
+        width: 100%;
+    }
+    .row-fluid p{
+        line-height: 18px;
+    }
+    .right_content {
+        float: left;
+        width: 100%;
+    }
+    .content_right{
+        width: 100%;
+    }
+    .vertical_slider{
+        height: 14% ;
+    }
+    .row-fluid .navbar ul{
+        height: 100%;
+    }
+    .navbar .nav .menu_item a{
+        font-size: 15px;
+        padding-bottom: 3px;
+        padding-top: 3px;
+    }
+	.navbar .nav .menu_item a:hover{
+        background-color:#2D2D2D !important;
+    }
+    .content_right{
+        position: relative;
+        display: table;
+    }
+    .btn-sample {
+        margin-right: 0px;
+		padding:7px;
+    }
+	.content_menu .box button i {
+		margin:0 !important;
+		font-size:15px !important;
+		top: -4px !important;
+		left: -7px !important;
+	}
+	h2.sub_title{
+		font-size:19px!important;
+		line-height: 22px !important;
+	}
+	h2.sub_title span.little_title {
+    	font-size: 14px!important;
+	}
+	
+    .education .main_bottom .alignright{
+        padding-left: 0px;
+
+    }
+    .education .main_bottom .carousel-control.left{
+        left: 70%;
+
+    }
+    .experience .main_bottom li{
+        width: 34%;
+    }
+	.experience .content_main p {
+		font-size: 12px;
+		line-height: 18px;
+	}
+    .single_item .content_main .item  .details_item{
+        width: 100%;
+
+    }
+    .single_item .content_main .item .carousel{
+        width: 100%;
+    }
+    .single_item .content_main .main_control.menu_center{
+        left: 79%;
+    }
+    .single_item .content_main .main_control.left {
+        left: 64%;
+    }
+    .single_item .content_main .main_control.right {
+        left: 94%;
+    }
+    ul.social-circled {
+
+        float: left;
+        margin-left: 0;
+    }
+    ul.social-circled li {
+        width: 28px;
+    }
+    ul.social-circled li a {
+        font-size: 28px;
+    }
+	
+}
+
