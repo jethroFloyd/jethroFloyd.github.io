@@ -228,7 +228,7 @@ h2.sub_title span.little_title {
     width: 21.7%;
     border: 1px solid #e5e5e5;
     margin-right: 29px;
-    min-width: 240px;
+    min-width: 1px;
     margin-top: 10px;
     overflow: hidden;
 
@@ -244,7 +244,7 @@ h2.sub_title span.little_title {
     display: block;
     margin: 4px;
     padding: 4px;
-    min-height: 252px;
+    min-height: 1px;
     text-align: center;
 }
 .profile_box h6{
@@ -476,7 +476,7 @@ ul.social-circled li:hover a {
      width: 21.7%;
      border: 1px solid #e5e5e5;
      margin-right: 27px;
-     min-width: 240px;
+     min-width: 1px;
      margin-top: 15px;
   }
 .portfolio .first_service #case_content{
@@ -491,7 +491,7 @@ ul.social-circled li:hover a {
 .portfolio_box {
     background: none repeat scroll 0 0 #F9F9F9;
     display: block;
-    min-height: 252px;
+    min-height: 1px;
     text-align: center;
 }
 .portfolio_box img{
