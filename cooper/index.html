@@ -249,6 +249,16 @@
     <script type="text/javascript" src="js/twitter/jquery.jtwt.js"></script>
     <script src="js/filter/quiksand.js" type="text/javascript"></script>
     <script type="text/javascript" src="js/jquery-func.js"></script>
+    <a id="js-switch">switch to desktop</a>
+
+    <script>
+       $("#js-switch").on('click', function(event) {
+            event.preventDefault();
+            /* Act on the event */
+            $("#container-id").removeClass('container-fluid');
+            $("#container-id").addClass('container');
+       });
+    </script>
 <!-- ======================= End JQuery libs =========================== -->
 
 </body>
