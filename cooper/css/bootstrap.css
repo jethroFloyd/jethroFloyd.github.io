@@ -4610,6 +4610,7 @@ a.thumbnail:focus {
 .modal-body {
   position: relative;
   overflow-y: auto;
+  min-height: 200px;
   max-height: 400px;
   padding: 15px;
 }
