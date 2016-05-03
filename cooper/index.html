@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Title</title>
     <!--<meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-    <meta name="viewport" content="width=1024">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- comment -->
     <meta name="description" content="content description">
@@ -249,16 +249,20 @@
     <script type="text/javascript" src="js/twitter/jquery.jtwt.js"></script>
     <script src="js/filter/quiksand.js" type="text/javascript"></script>
     <script type="text/javascript" src="js/jquery-func.js"></script>
-    <a id="js-switch">switch to desktop</a>
+     <script type="text/javascript">
+     $(window).resize(function() {
+     $("#dimensions").html($(window).width());}).resize();
 
-    <script>
-       $("#js-switch").on('click', function(event) {
-            event.preventDefault();
-            /* Act on the event */
-            $("#container-id").removeClass('container-fluid');
-            $("#container-id").addClass('container');
-       });
-    </script>
+
+     $(window).resize(function() {
+    var mobileWidth =  (window.innerWidth > 0) ? 
+                        window.innerWidth : 
+                        screen.width;
+    var viewport = (mobileWidth > 360) ?
+                    'width=device-width, initial-scale=1.0' :
+                    'width=1200';
+    $("meta[name=viewport]").attr('content', viewport);}).resize();  
+    </script> 
 <!-- ======================= End JQuery libs =========================== -->
 
 </body>
