@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+  <code>399d47e1-a72d-429a-85a0-332ef814a05c</code>
+  <name>New Quote</name>
+  <description>This scenario describes the navigation through the different steps of the wizard. 
+
+Each step contributes with a piece of information to the final quote.</description>
+  <date>08/04/2015 14:58:09</date>
+  <legend-item></legend-item>
+  <bounds>29,41,1075,304</bounds>
+  <scenarioItem type="Page" id="0" name="Home">
+    <uuid>e144d61f-b155-47cc-bf0b-842a70dae4af</uuid>
+    <edges>1</edges>
+    <style name="LnFScenarioItem">
+      <DimensionStyle width="137" height="180" />
+      <PositioningStyle left="39" top="51" />
+      <BackgroundStyle type="transparent" />
+      <TextStyle color="229r229g229b" hAlign="left" vAlign="center" decoration="none" line-height="0" />
+      <FontStyle size="9.0" height="0">
+        <family>Arial</family>
+        <style name="Regular" weight="400" italic="normal" />
+      </FontStyle>
+    </style>
+  </scenarioItem>
+  <scenarioItem type="Page" id="1" name="Step 1 - Personal Details">
+    <uuid>6754f284-5b0c-479f-96c4-e97958f93a7a</uuid>
+    <edges>2</edges>
+    <style name="LnFScenarioItem">
+      <DimensionStyle width="137" height="150" />
+      <PositioningStyle left="235" top="64" />
+      <BackgroundStyle type="transparent" />
+      <TextStyle color="229r229g229b" hAlign="left" vAlign="center" decoration="none" line-height="0" />
+      <FontStyle size="9.0" height="0">
+        <family>Arial</family>
+        <style name="Regular" weight="400" italic="normal" />
+      </FontStyle>
+    </style>
+  </scenarioItem>
+  <scenarioItem type="Page" id="2" name="Step 2 - Choose plans">
+    <uuid>4a62240e-9bcb-465a-afa2-e7cfb50e75e6</uuid>
+    <edges>1,3</edges>
+    <style name="LnFScenarioItem">
+      <DimensionStyle width="140" height="139" />
+      <PositioningStyle left="460" top="71" />
+      <BackgroundStyle type="transparent" />
+      <TextStyle color="229r229g229b" hAlign="left" vAlign="center" decoration="none" line-height="0" />
+      <FontStyle size="9.0" height="0">
+        <family>Arial</family>
+        <style name="Regular" weight="400" italic="normal" />
+      </FontStyle>
+    </style>
+  </scenarioItem>
+  <scenarioItem type="Page" id="3" name="Step 3 - Medical History">
+    <uuid>deb9bdf6-f097-42d1-9924-ea3790c7b7f9</uuid>
+    <edges>4,2</edges>
+    <style name="LnFScenarioItem">
+      <DimensionStyle width="146" height="177" />
+      <PositioningStyle left="709" top="56" />
+      <BackgroundStyle type="transparent" />
+      <TextStyle color="229r229g229b" hAlign="left" vAlign="center" decoration="none" line-height="0" />
+      <FontStyle size="9.0" height="0">
+        <family>Arial</family>
+        <style name="Regular" weight="400" italic="normal" />
+      </FontStyle>
+    </style>
+  </scenarioItem>
+  <scenarioItem type="Page" id="4" name="Step 4 - Payment">
+    <uuid>272db33c-1f0b-4641-8582-538d89e9549a</uuid>
+    <edges>3,5</edges>
+    <style name="LnFScenarioItem">
+      <DimensionStyle width="147" height="141" />
+      <PositioningStyle left="947" top="81" />
+      <BackgroundStyle type="transparent" />
+      <TextStyle color="229r229g229b" hAlign="left" vAlign="center" decoration="none" line-height="0" />
+      <FontStyle size="9.0" height="0">
+        <family>Arial</family>
+        <style name="Regular" weight="400" italic="normal" />
+      </FontStyle>
+    </style>
+  </scenarioItem>
+  <scenarioItem type="Action" id="5" name="Send email to admin">
+    <edges></edges>
+    <style name="LnFScenarioItem">
+      <DimensionStyle width="42" height="45" />
+      <PositioningStyle left="965" top="280" />
+      <BackgroundStyle type="transparent" />
+      <TextStyle color="229r229g229b" hAlign="left" vAlign="center" decoration="none" line-height="0" />
+      <FontStyle size="9.0" height="0">
+        <family>Arial</family>
+        <style name="Regular" weight="400" italic="normal" />
+      </FontStyle>
+    </style>
+  </scenarioItem>
+</scenario>
+

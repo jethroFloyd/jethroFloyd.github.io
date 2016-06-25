@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.justinmind.evc.model.activityscenarios:ActivityScenario xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.justinmind.evc.model.activityscenarios="com.justinmind.evc.model.activityscenarios" name="Quote assignation">
+  <scenarioNodes xsi:type="com.justinmind.evc.model.activityscenarios:ScenarioPage" name="Home" outgoingTransitions="//@scenarioTransitions.0" actionId="Home" uuid="e144d61f-b155-47cc-bf0b-842a70dae4af"/>
+  <scenarioNodes xsi:type="com.justinmind.evc.model.activityscenarios:ScenarioPage" name="Backend Administrator" incomingTransitions="//@scenarioTransitions.0" actionId="Backend Administrator" uuid="b4d769f2-c0fa-4d7a-92d4-f6e1f36ca555"/>
+  <scenarioTransitions sourceNode="//@scenarioNodes.0" targetNode="//@scenarioNodes.1"/>
+</com.justinmind.evc.model.activityscenarios:ActivityScenario>

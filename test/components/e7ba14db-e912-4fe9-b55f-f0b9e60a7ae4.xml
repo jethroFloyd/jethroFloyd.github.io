@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<customComponent>
+  <name>login</name>
+  <code>e7ba14db-e912-4fe9-b55f-f0b9e60a7ae4</code>
+  <description></description>
+  <date>14/05/2015 16:29:39</date>
+  <legend-item></legend-item>
+  <item-group id="afa54b18-7c45-4355-a7ad-d65b64fe4802" visible="true">
+    <tabbedBox id="cce66ac1-1df1-446d-a10b-64694a4b9f60" default="0" selected="0" content-editable="true" hidden="false" lockType="none" onTop="false" visible="true">
+      <tab id="47975118-ba8b-4183-9f08-1cdc0eb9d3d6" identifier="67c911b0-8955-463f-b8f5-899cabf71433" hScroll="0" vScroll="0" visible="true">
+        <name>Panel_1</name>
+        <userID>Panel_1</userID>
+        <item-group id="a71a79b0-ed23-4158-aa7c-fa2dac1e872c" visible="true">
+          <attribute-form id="bd0bae98-6995-4e74-b48e-11cede75217c" writable="true" hidden="false" lockType="none" onTop="false" visible="true">
+            <attStyle>InputText</attStyle>
+            <type>text</type>
+            <style name="LnFAttributeForm">
+              <DimensionStyle width="157" height="31" />
+              <PositioningStyle left="0" top="0" />
+              <BackgroundStyle type="color" value="255r255g255b" />
+              <BorderStyle radius="0" leftColor="200r200g200b" topColor="200r200g200b" rightColor="200r200g200b" bottomColor="200r200g200b" leftStyle="solid" topStyle="solid" rightStyle="solid" bottomStyle="solid" leftWidth="1" topWidth="1" rightWidth="1" bottomWidth="1" />
+              <TextStyle color="102r102g102b" hAlign="left" vAlign="center" decoration="none" line-height="0" />
+              <FontStyle size="10.0" height="18">
+                <family>Roboto</family>
+                <style name="Light" weight="200" italic="normal" />
+                <evc-file>Roboto-Light</evc-file>
+              </FontStyle>
+              <TransparencyStyle value="0" />
+              <PaddingStyle top="0" left="9" bottom="0" right="0" />
+              <ShadowStyle>
+                <Box enable="false" />
+                <Text enable="false" />
+              </ShadowStyle>
+            </style>
+            <defaultValue>Email</defaultValue>
+            <userID>Input_1</userID>
+          </attribute-form>
+          <attribute-form id="659c51af-2e35-49c1-95ad-fc0bd812bf2f" writable="true" hidden="false" lockType="none" onTop="false" visible="true">
+            <attStyle>InputText</attStyle>
+            <type>text</type>
+            <style name="LnFAttributeForm">
+              <DimensionStyle width="157" height="31" />
+              <PositioningStyle left="164" top="0" />
+              <BackgroundStyle type="color" value="255r255g255b" />
+              <BorderStyle radius="0" leftColor="200r200g200b" topColor="200r200g200b" rightColor="200r200g200b" bottomColor="200r200g200b" leftStyle="solid" topStyle="solid" rightStyle="solid" bottomStyle="solid" leftWidth="1" topWidth="1" rightWidth="1" bottomWidth="1" />
+              <TextStyle color="102r102g102b" hAlign="left" vAlign="center" decoration="none" line-height="0" />
+              <FontStyle size="10.0" height="18">
+                <family>Roboto</family>
+                <style name="Light" weight="200" italic="normal" />
+                <evc-file>Roboto-Light</evc-file>
+              </FontStyle>
+              <TransparencyStyle value="0" />
+              <PaddingStyle top="0" left="9" bottom="0" right="0" />
+              <ShadowStyle>
+                <Box enable="false" />
+                <Text enable="false" />
+              </ShadowStyle>
+            </style>
+            <defaultValue>Password</defaultValue>
+            <userID>Input_2</userID>
+          </attribute-form>
+          <label id="b64f008a-a209-46bf-98d2-14e7728d0959" singleLine="true" hidden="true" lockType="none" onTop="false" visible="true">
+            <text>Invalid login/password. Try again!</text>
+            <style name="LnFTextBox">
+              <DimensionStyle width="171" height="20" />
+              <PositioningStyle left="0" top="40" />
+              <BackgroundStyle type="transparent" />
+              <BorderStyle radius="0" leftColor="0r0g0b" topColor="0r0g0b" rightColor="0r0g0b" bottomColor="0r0g0b" leftStyle="none" topStyle="none" rightStyle="none" bottomStyle="none" leftWidth="1" topWidth="1" rightWidth="1" bottomWidth="1" />
+              <TextStyle color="192r35g42b" hAlign="left" vAlign="center" decoration="none" line-height="0" />
+              <FontStyle size="8.0" height="14">
+                <family>Arial</family>
+                <style name="Regular" weight="400" italic="normal" />
+              </FontStyle>
+              <TransparencyStyle value="0" />
+              <PaddingStyle top="0" left="0" bottom="0" right="0" />
+              <RotationStyle angle="0" />
+              <ShadowStyle>
+                <Box enable="false" />
+                <Text enable="false" />
+              </ShadowStyle>
+            </style>
+            <rich-text-range-list>
+              <text-range text-range-start="0" text-range-end="34">
+                <style name="LnFTextRange">
+                  <FontStyle size="8.0" height="14">
+                    <family>Arial</family>
+                    <style name="Regular" weight="400" italic="normal" />
+                  </FontStyle>
+                  <TextStyle color="192r35g42b" hAlign="left" vAlign="center" decoration="none" line-height="0" />
+                </style>
+              </text-range>
+            </rich-text-range-list>
+            <userID>Label_3</userID>
+          </label>
+          <button id="c4b36c7c-1c0c-4fbb-8f7a-8f85042d43ea" singleLine="true" hidden="false" lockType="none" onTop="false" visible="true">
+            <text>SIGN IN</text>
+            <style name="LnFButton">
+              <DimensionStyle width="71" height="31" />
+              <PositioningStyle left="329" top="0" />
+              <BackgroundStyle type="color" value="67r182g199b" />
+              <BorderStyle radius="0" leftColor="33r192g192b" topColor="33r192g192b" rightColor="33r192g192b" bottomColor="33r192g192b" leftStyle="solid" topStyle="solid" rightStyle="solid" bottomStyle="solid" leftWidth="0" topWidth="0" rightWidth="0" bottomWidth="0" />
+              <TextStyle color="255r255g255b" hAlign="center" vAlign="center" decoration="none" line-height="0" />
+              <FontStyle size="10.0" height="18">
+                <family>Roboto</family>
+                <style name="Regular" weight="400" italic="normal" />
+                <evc-file>Roboto-Regular</evc-file>
+              </FontStyle>
+              <TransparencyStyle value="0" />
+              <PaddingStyle top="0" left="0" bottom="0" right="0" />
+              <RotationStyle angle="0" />
+              <ShadowStyle>
+                <Box enable="false" />
+                <Text enable="false" />
+              </ShadowStyle>
+            </style>
+            <rich-text-range-list>
+              <text-range text-range-start="0" text-range-end="7">
+                <style name="LnFTextRange">
+                  <FontStyle size="10.0" height="18">
+                    <family>Roboto</family>
+                    <style name="Regular" weight="400" italic="normal" />
+                    <evc-file>Roboto-Regular</evc-file>
+                  </FontStyle>
+                  <TextStyle color="255r255g255b" hAlign="center" vAlign="center" decoration="none" line-height="0" />
+                </style>
+              </text-range>
+            </rich-text-range-list>
+            <info>Flat Button</info>
+            <userID>Flat-button</userID>
+          </button>
+          <attribute-form id="1b6f4f49-cd4d-40ad-a1b4-3250d42c1c92" writable="true" hidden="true" lockType="none" onTop="false" visible="true">
+            <attStyle>Password</attStyle>
+            <type>text</type>
+            <style name="LnFAttributeForm">
+              <DimensionStyle width="157" height="31" />
+              <PositioningStyle left="164" top="0" />
+              <BackgroundStyle type="color" value="255r255g255b" />
+              <BorderStyle radius="0" leftColor="200r200g200b" topColor="200r200g200b" rightColor="200r200g200b" bottomColor="200r200g200b" leftStyle="solid" topStyle="solid" rightStyle="solid" bottomStyle="solid" leftWidth="1" topWidth="1" rightWidth="1" bottomWidth="1" />
+              <TextStyle color="102r102g102b" hAlign="left" vAlign="center" decoration="none" line-height="0" />
+              <FontStyle size="10.0" height="18">
+                <family>Roboto</family>
+                <style name="Light" weight="200" italic="normal" />
+                <evc-file>Roboto-Light</evc-file>
+              </FontStyle>
+              <TransparencyStyle value="0" />
+              <PaddingStyle top="0" left="9" bottom="0" right="0" />
+              <ShadowStyle>
+                <Box enable="false" />
+                <Text enable="false" />
+              </ShadowStyle>
+            </style>
+            <defaultValue></defaultValue>
+            <userID>Input_3</userID>
+          </attribute-form>
+          <style name="LnFCell">
+            <DimensionStyle width="422" height="62" />
+            <PositioningStyle left="199" top="88" />
+            <BackgroundStyle type="transparent" />
+            <BorderStyle radius="0" leftColor="0r0g0b" topColor="0r0g0b" rightColor="0r0g0b" bottomColor="0r0g0b" leftStyle="none" topStyle="none" rightStyle="none" bottomStyle="none" leftWidth="1" topWidth="1" rightWidth="1" bottomWidth="1" />
+            <TransparencyStyle value="0" />
+            <LayoutStyle type="layoutFree" hAlign="1" vAlign="1" />
+            <ShadowStyle>
+              <Box enable="false" />
+            </ShadowStyle>
+          </style>
+        </item-group>
+      </tab>
+      <tab id="6fb3a5bc-59fc-42f3-85d9-b7dcb9937295" identifier="25b1c5a6-e4a9-4147-be84-09aed65f6718" hScroll="0" vScroll="0" visible="true">
+        <name>Panel_2</name>
+        <userID>Panel_2</userID>
+        <item-group id="7685ca90-425d-41f6-a41c-e2cb6100bed1" visible="true">
+          <label id="2505bd1a-e03a-43d3-b01c-69aceac55c88" singleLine="true" hidden="false" lockType="vertical" onTop="false" visible="true">
+            <text>LOGOUT</text>
+            <style name="LnFTextBox">
+              <DimensionStyle width="51" height="18" autofit="true" />
+              <PositioningStyle left="351" top="14" />
+              <BackgroundStyle type="transparent" />
+              <BorderStyle radius="0" leftColor="0r0g0b" topColor="0r0g0b" rightColor="0r0g0b" bottomColor="0r0g0b" leftStyle="none" topStyle="none" rightStyle="none" bottomStyle="none" leftWidth="1" topWidth="1" rightWidth="1" bottomWidth="1" />
+              <TextStyle color="153r153g153b" hAlign="left" vAlign="center" decoration="none" line-height="0" />
+              <FontStyle size="10.0" height="18">
+                <family>Roboto</family>
+                <style name="Light" weight="200" italic="normal" />
+                <evc-file>Roboto-Light</evc-file>
+              </FontStyle>
+              <TransparencyStyle value="0" />
+              <PaddingStyle top="0" left="0" bottom="0" right="0" />
+              <RotationStyle angle="0" />
+              <ShadowStyle>
+                <Box enable="false" />
+                <Text enable="false" />
+              </ShadowStyle>
+            </style>
+            <rich-text-range-list>
+              <text-range text-range-start="0" text-range-end="6">
+                <style name="LnFTextRange">
+                  <FontStyle size="10.0" height="18">
+                    <family>Roboto</family>
+                    <style name="Light" weight="200" italic="normal" />
+                    <evc-file>Roboto-Light</evc-file>
+                  </FontStyle>
+                  <TextStyle color="153r153g153b" hAlign="left" vAlign="center" decoration="none" line-height="0" />
+                </style>
+              </text-range>
+            </rich-text-range-list>
+            <userID>Label_4</userID>
+          </label>
+          <style name="LnFCell">
+            <DimensionStyle width="404" height="36" />
+            <PositioningStyle left="199" top="88" />
+            <BackgroundStyle type="transparent" />
+            <BorderStyle radius="0" leftColor="0r0g0b" topColor="0r0g0b" rightColor="0r0g0b" bottomColor="0r0g0b" leftStyle="none" topStyle="none" rightStyle="none" bottomStyle="none" leftWidth="1" topWidth="1" rightWidth="1" bottomWidth="1" />
+            <TransparencyStyle value="0" />
+            <LayoutStyle type="layoutFree" hAlign="1" vAlign="1" />
+            <ShadowStyle>
+              <Box enable="false" />
+            </ShadowStyle>
+          </style>
+        </item-group>
+      </tab>
+      <style name="LnFTabbedBox">
+        <DimensionStyle width="0" height="0" />
+        <PositioningStyle left="199" top="88" />
+        <RotationStyle angle="0" />
+      </style>
+      <userID>Dynamic_Panel_1</userID>
+    </tabbedBox>
+    <label id="c2fec49b-66a1-427f-9758-5bc084fe9289" singleLine="true" hidden="true" lockType="none" onTop="false" visible="true">
+      <text>Label</text>
+      <style name="LnFTextBox">
+        <DimensionStyle width="52" height="20" />
+        <PositioningStyle left="622" top="88" />
+        <BackgroundStyle type="transparent" />
+        <BorderStyle radius="0" leftColor="0r0g0b" topColor="0r0g0b" rightColor="0r0g0b" bottomColor="0r0g0b" leftStyle="none" topStyle="none" rightStyle="none" bottomStyle="none" leftWidth="1" topWidth="1" rightWidth="1" bottomWidth="1" />
+        <TextStyle color="51r51g51b" hAlign="left" vAlign="center" decoration="none" line-height="0" />
+        <FontStyle size="12.0" height="21">
+          <family>Roboto</family>
+          <style name="Regular" weight="400" italic="normal" />
+          <evc-file>Roboto-Regular</evc-file>
+        </FontStyle>
+        <TransparencyStyle value="0" />
+        <PaddingStyle top="0" left="0" bottom="0" right="0" />
+        <RotationStyle angle="0" />
+        <ShadowStyle>
+          <Box enable="false" />
+          <Text enable="false" />
+        </ShadowStyle>
+      </style>
+      <rich-text-range-list>
+        <text-range text-range-start="0" text-range-end="5">
+          <style name="LnFTextRange">
+            <FontStyle size="12.0" height="21">
+              <family>Roboto</family>
+              <style name="Regular" weight="400" italic="normal" />
+              <evc-file>Roboto-Regular</evc-file>
+            </FontStyle>
+            <TextStyle color="51r51g51b" hAlign="left" vAlign="center" decoration="none" line-height="0" />
+          </style>
+        </text-range>
+      </rich-text-range-list>
+      <userID>Label_1</userID>
+    </label>
+    <group-container id="c95ea2da-0d6d-4dfe-bacc-1a29fcdf4122" hidden="true" lockType="none" onTop="false" visible="true">
+      <rectangle id="30351043-96f9-4433-bbf4-828f8a39aaae" auto-fit="false" hidden="false" lockType="none" onTop="false" visible="true">
+        <text>Sign in button&#xD;
+&#xD;
+This is the administrator user, he can assign quotes &#xD;
+to other users&#xD;
+Email: admin     Pass:medicalcare&#xD;
+&#xD;
+These are normal users, they&amp;apos;ll see the quotes &#xD;
+assigned by the administrator&#xD;
+Email: john            Pass: john&#xD;
+Email: steve          Pass: steve&#xD;
+Email: richard       Pass: richard</text>
+        <style name="LnFRectangle">
+          <DimensionStyle width="400" height="329" />
+          <PositioningStyle left="0" top="0" />
+          <BackgroundStyle type="color" value="250r250g250b" />
+          <BorderStyle radius="0" leftColor="64r64g64b" topColor="64r64g64b" rightColor="64r64g64b" bottomColor="64r64g64b" leftStyle="none" topStyle="none" rightStyle="none" bottomStyle="none" leftWidth="2" topWidth="2" rightWidth="2" bottomWidth="2" />
+          <TextStyle color="67r67g67b" hAlign="left" vAlign="left" decoration="none" line-height="20" />
+          <FontStyle size="16.0" height="28">
+            <family>Roboto</family>
+            <style name="Bold" weight="700" italic="normal" />
+            <evc-file>Roboto-Bold</evc-file>
+          </FontStyle>
+          <TransparencyStyle value="0" />
+          <PaddingStyle top="20" left="16" bottom="0" right="16" />
+          <RotationStyle angle="0" />
+          <ShadowStyle>
+            <Box enable="true" global="false" blur="25" distance="8" angle="89.0" color="153r153g153b" dist="2" />
+            <Text enable="false" />
+          </ShadowStyle>
+        </style>
+        <rich-text-range-list>
+          <text-range text-range-start="0" text-range-end="16">
+            <style name="LnFTextRange">
+              <FontStyle size="16.0" height="28">
+                <family>Roboto</family>
+                <style name="Bold" weight="700" italic="normal" />
+                <evc-file>Roboto-Bold</evc-file>
+              </FontStyle>
+              <TextStyle color="67r67g67b" hAlign="left" vAlign="left" decoration="none" line-height="20" />
+            </style>
+          </text-range>
+          <text-range text-range-start="16" text-range-end="89">
+            <style name="LnFTextRange">
+              <FontStyle size="10.0" height="0">
+                <family>Roboto</family>
+                <style name="Regular" weight="400" italic="normal" />
+                <evc-file>Roboto-Regular</evc-file>
+              </FontStyle>
+              <TextStyle color="102r102g102b" hAlign="left" vAlign="center" decoration="none" line-height="20" />
+            </style>
+          </text-range>
+          <text-range text-range-start="89" text-range-end="122">
+            <style name="LnFTextRange">
+              <FontStyle size="10.0" height="0">
+                <family>Roboto</family>
+                <style name="Bold" weight="700" italic="normal" />
+                <evc-file>Roboto-Bold</evc-file>
+              </FontStyle>
+              <TextStyle color="102r102g102b" hAlign="left" vAlign="center" decoration="none" line-height="20" />
+            </style>
+          </text-range>
+          <text-range text-range-start="122" text-range-end="206">
+            <style name="LnFTextRange">
+              <FontStyle size="10.0" height="0">
+                <family>Roboto</family>
+                <style name="Regular" weight="400" italic="normal" />
+                <evc-file>Roboto-Regular</evc-file>
+              </FontStyle>
+              <TextStyle color="102r102g102b" hAlign="left" vAlign="center" decoration="none" line-height="20" />
+            </style>
+          </text-range>
+          <text-range text-range-start="206" text-range-end="310">
+            <style name="LnFTextRange">
+              <FontStyle size="10.0" height="0">
+                <family>Roboto</family>
+                <style name="Bold" weight="700" italic="normal" />
+                <evc-file>Roboto-Bold</evc-file>
+              </FontStyle>
+              <TextStyle color="102r102g102b" hAlign="left" vAlign="center" decoration="none" line-height="20" />
+            </style>
+          </text-range>
+        </rich-text-range-list>
+        <userID>Rectangle_2</userID>
+      </rectangle>
+      <button id="a41d6a79-be33-499e-a59f-80992efd8f0e" singleLine="true" hidden="false" lockType="vertical" onTop="false" visible="true">
+        <text>OK</text>
+        <style name="LnFButton">
+          <DimensionStyle width="97" height="29" />
+          <PositioningStyle left="289" top="286" />
+          <BackgroundStyle type="color" value="76r185g206b" />
+          <BorderStyle radius="13" leftColor="18r153g246b" topColor="18r153g246b" rightColor="18r153g246b" bottomColor="18r153g246b" leftStyle="none" topStyle="none" rightStyle="none" bottomStyle="none" leftWidth="0" topWidth="0" rightWidth="0" bottomWidth="0" />
+          <TextStyle color="255r255g255b" hAlign="center" vAlign="center" decoration="none" line-height="0" />
+          <FontStyle size="11.0" height="20">
+            <family>Roboto</family>
+            <style name="Medium" weight="500" italic="normal" />
+            <evc-file>Roboto-Medium</evc-file>
+          </FontStyle>
+          <TransparencyStyle value="0" />
+          <PaddingStyle top="0" left="0" bottom="0" right="0" />
+          <RotationStyle angle="0" />
+          <ShadowStyle>
+            <Box enable="false" />
+            <Text enable="false" />
+          </ShadowStyle>
+        </style>
+        <rich-text-range-list>
+          <text-range text-range-start="0" text-range-end="2">
+            <style name="LnFTextRange">
+              <FontStyle size="11.0" height="20">
+                <family>Roboto</family>
+                <style name="Medium" weight="500" italic="normal" />
+                <evc-file>Roboto-Medium</evc-file>
+              </FontStyle>
+              <TextStyle color="255r255g255b" hAlign="center" vAlign="center" decoration="none" line-height="0" />
+            </style>
+          </text-range>
+        </rich-text-range-list>
+        <userID>Button_9</userID>
+      </button>
+      <style name="LnFGroup">
+        <DimensionStyle width="400" height="329" />
+        <PositioningStyle left="200" top="149" />
+        <RotationStyle angle="0" />
+      </style>
+      <userID>Group_1</userID>
+    </group-container>
+    <style name="LnFCanvas">
+      <DimensionStyle width="674" height="478" />
+      <PositioningStyle left="0" top="0" />
+      <BackgroundStyle type="transparent" />
+      <TransparencyStyle value="0" />
+    </style>
+  </item-group>
+  <Events>
+    <event id="bd0bae98-6995-4e74-b48e-11cede75217c" trigger="onKeyUp">
+      <case execType="serial" delayAction="0">
+        <description>Interaction</description>
+        <key ctrl="false" shift="false" alt="false">9</key>
+        <block>
+          <showElement item="1b6f4f49-cd4d-40ad-a1b4-3250d42c1c92" execType="serial" delayAction="0" />
+          <focusElement item="1b6f4f49-cd4d-40ad-a1b4-3250d42c1c92" execType="serial" delayAction="0" />
+        </block>
+      </case>
+    </event>
+    <event id="bd0bae98-6995-4e74-b48e-11cede75217c" trigger="onFocusOut">
+      <case execType="serial" delayAction="0">
+        <description>Interaction name</description>
+        <block>
+          <eventCondition>
+            <Function name="Equals">
+              <Value type="mutable" mutableType="VALUE">
+                <holderId>bd0bae98-6995-4e74-b48e-11cede75217c</holderId>
+              </Value>
+              <Value type="textConstant">
+                <value></value>
+              </Value>
+            </Function>
+          </eventCondition>
+          <valueElement type="simple" item="bd0bae98-6995-4e74-b48e-11cede75217c" execType="serial" delayAction="0">
+            <Value type="textConstant">
+              <value>Email</value>
+            </Value>
+          </valueElement>
+        </block>
+      </case>
+    </event>
+    <event id="bd0bae98-6995-4e74-b48e-11cede75217c" trigger="onFocusIn">
+      <case execType="serial" delayAction="0">
+        <description>Interaction name</description>
+        <block>
+          <eventCondition>
+            <Function name="Difference">
+              <Value type="mutable" mutableType="VALUE">
+                <holderId>bd0bae98-6995-4e74-b48e-11cede75217c</holderId>
+              </Value>
+              <Value type="textConstant">
+                <value></value>
+              </Value>
+            </Function>
+          </eventCondition>
+          <valueElement type="simple" item="bd0bae98-6995-4e74-b48e-11cede75217c" execType="serial" delayAction="0">
+            <Value type="textConstant">
+              <value></value>
+            </Value>
+          </valueElement>
+        </block>
+        <block>
+          <valueElement type="simple" item="bd0bae98-6995-4e74-b48e-11cede75217c" execType="serial" delayAction="0">
+            <Value type="textConstant">
+              <value>Email</value>
+            </Value>
+          </valueElement>
+        </block>
+      </case>
+    </event>
+    <event id="659c51af-2e35-49c1-95ad-fc0bd812bf2f" trigger="onClick">
+      <case execType="serial" delayAction="0">
+        <description>Interaction name</description>
+        <block>
+          <showElement item="1b6f4f49-cd4d-40ad-a1b4-3250d42c1c92" execType="serial" delayAction="0" />
+          <focusElement item="1b6f4f49-cd4d-40ad-a1b4-3250d42c1c92" execType="serial" delayAction="0" />
+        </block>
+      </case>
+    </event>
+    <event id="c4b36c7c-1c0c-4fbb-8f7a-8f85042d43ea" trigger="onClick">
+      <case execType="serial" delayAction="0">
+        <description>Interaction</description>
+        <block>
+          <eventCondition>
+            <Function name="And">
+              <Function name="Equals">
+                <Value type="mutable" mutableType="VALUE">
+                  <holderId>bd0bae98-6995-4e74-b48e-11cede75217c</holderId>
+                </Value>
+                <Value type="textConstant">
+                  <value>admin</value>
+                </Value>
+              </Function>
+              <Function name="Equals">
+                <Value type="mutable" mutableType="VALUE">
+                  <holderId>1b6f4f49-cd4d-40ad-a1b4-3250d42c1c92</holderId>
+                </Value>
+                <Value type="textConstant">
+                  <value>medicalcare</value>
+                </Value>
+              </Function>
+            </Function>
+          </eventCondition>
+          <valueElement type="simple" item="2d2283ca-40bf-4571-a992-80119de301d1" execType="serial" delayAction="0">
+            <Value type="textConstant">
+              <value>Admin</value>
+            </Value>
+          </valueElement>
+          <navigateLink execType="serial" delayAction="0">
+            <screen id="b4d769f2-c0fa-4d7a-92d4-f6e1f36ca555">Backend Administrator</screen>
+            <type>window</type>
+          </navigateLink>
+        </block>
+        <block>
+          <eventCondition>
+            <Function name="Greater">
+              <Function name="CountData">
+                <Function name="Filter">
+                  <Value type="mutable" mutableType="VALUE">
+                    <holderId>44c91ed5-31c9-4993-a47d-9ffbaeaadcaf</holderId>
+                  </Value>
+                  <Function name="And">
+                    <Function name="Equals">
+                      <Value type="attribute">
+                        <holderId>6018456f-7f98-4fe5-83f1-c7c0dba6fe74</holderId>
+                        <attributeName>name</attributeName>
+                        <businessObject>employees</businessObject>
+                      </Value>
+                      <Value type="mutable" mutableType="VALUE">
+                        <holderId>bd0bae98-6995-4e74-b48e-11cede75217c</holderId>
+                      </Value>
+                    </Function>
+                    <Function name="Equals">
+                      <Value type="attribute">
+                        <holderId>1a3de489-ea20-44c4-bca1-ef01ab4b64f8</holderId>
+                        <attributeName>password</attributeName>
+                        <businessObject>employees</businessObject>
+                      </Value>
+                      <Value type="mutable" mutableType="VALUE">
+                        <holderId>1b6f4f49-cd4d-40ad-a1b4-3250d42c1c92</holderId>
+                      </Value>
+                    </Function>
+                  </Function>
+                </Function>
+              </Function>
+              <Value type="textConstant">
+                <value>0</value>
+              </Value>
+            </Function>
+          </eventCondition>
+          <valueElement type="calculated" item="2d2283ca-40bf-4571-a992-80119de301d1" execType="serial" delayAction="0">
+            <Value type="mutable" mutableType="VALUE">
+              <holderId>bd0bae98-6995-4e74-b48e-11cede75217c</holderId>
+            </Value>
+          </valueElement>
+          <navigateLink execType="serial" delayAction="0">
+            <screen id="86cb39e7-7833-40be-9b35-772fd88e3779">Backend Employee</screen>
+            <type>window</type>
+          </navigateLink>
+        </block>
+        <block>
+          <showElement item="b64f008a-a209-46bf-98d2-14e7728d0959" execType="serial" delayAction="0" />
+        </block>
+      </case>
+    </event>
+    <event id="c4b36c7c-1c0c-4fbb-8f7a-8f85042d43ea" trigger="onMouseEnter">
+      <case execType="serial" delayAction="0">
+        <description>Interaction name</description>
+        <block>
+          <styleElement item="c4b36c7c-1c0c-4fbb-8f7a-8f85042d43ea" execType="serial" delayAction="0">
+            <style>
+              <BackgroundStyle type="color" value="102r102g102b" />
+            </style>
+          </styleElement>
+          <valueElement type="simple" item="9dbc83be-d119-47ea-9b45-9b0d9f50d381" execType="serial" delayAction="0">
+            <Value type="textConstant">
+              <value>true</value>
+            </Value>
+          </valueElement>
+          <delayTime delay="1000" execType="serial" delayAction="0" />
+        </block>
+      </case>
+      <case execType="serial" delayAction="0">
+        <description>Interaction name</description>
+        <block>
+          <eventCondition>
+            <Function name="Equals">
+              <Value type="variable">
+                <holderId>9dbc83be-d119-47ea-9b45-9b0d9f50d381</holderId>
+                <variableName>tooltip signin</variableName>
+              </Value>
+              <Value type="textConstant">
+                <value>true</value>
+              </Value>
+            </Function>
+          </eventCondition>
+          <showElement item="c95ea2da-0d6d-4dfe-bacc-1a29fcdf4122" execType="serial" delayAction="0">
+            <effect type="fade" length="500" />
+          </showElement>
+        </block>
+      </case>
+    </event>
+    <event id="c4b36c7c-1c0c-4fbb-8f7a-8f85042d43ea" trigger="onMouseLeave">
+      <case execType="serial" delayAction="0">
+        <description>Interaction name</description>
+        <block>
+          <valueElement type="simple" item="9dbc83be-d119-47ea-9b45-9b0d9f50d381" execType="serial" delayAction="0">
+            <Value type="textConstant">
+              <value></value>
+            </Value>
+          </valueElement>
+        </block>
+      </case>
+      <case execType="serial" delayAction="0">
+        <description>Interaction name</description>
+        <block>
+          <styleElement item="c4b36c7c-1c0c-4fbb-8f7a-8f85042d43ea" execType="serial" delayAction="0">
+            <style>
+              <BackgroundStyle type="color" value="67r182g199b" />
+            </style>
+          </styleElement>
+        </block>
+      </case>
+    </event>
+    <event id="1b6f4f49-cd4d-40ad-a1b4-3250d42c1c92" trigger="onFocusOut">
+      <case execType="serial" delayAction="0">
+        <description>Interaction name</description>
+        <block>
+          <eventCondition>
+            <Function name="Equals">
+              <Value type="mutable" mutableType="VALUE">
+                <holderId>1b6f4f49-cd4d-40ad-a1b4-3250d42c1c92</holderId>
+              </Value>
+              <Value type="textConstant">
+                <value></value>
+              </Value>
+            </Function>
+          </eventCondition>
+          <hideElement item="1b6f4f49-cd4d-40ad-a1b4-3250d42c1c92" execType="serial" delayAction="0" />
+          <valueElement type="simple" item="1b6f4f49-cd4d-40ad-a1b4-3250d42c1c92" execType="serial" delayAction="0">
+            <Value type="textConstant">
+              <value></value>
+            </Value>
+          </valueElement>
+        </block>
+      </case>
+    </event>
+    <event id="2505bd1a-e03a-43d3-b01c-69aceac55c88" trigger="onClick">
+      <case execType="serial" delayAction="0">
+        <description>Interaction name</description>
+        <block>
+          <valueElement type="simple" item="2d2283ca-40bf-4571-a992-80119de301d1" execType="serial" delayAction="0">
+            <Value type="textConstant">
+              <value></value>
+            </Value>
+          </valueElement>
+          <navigateLink execType="serial" delayAction="0">
+            <screen id="e144d61f-b155-47cc-bf0b-842a70dae4af">Home</screen>
+            <type>window</type>
+          </navigateLink>
+        </block>
+      </case>
+    </event>
+    <event id="c2fec49b-66a1-427f-9758-5bc084fe9289" trigger="onPageLoad">
+      <case execType="serial" delayAction="0">
+        <description>Interaction name</description>
+        <block>
+          <eventCondition>
+            <Function name="Difference">
+              <Value type="variable">
+                <holderId>2d2283ca-40bf-4571-a992-80119de301d1</holderId>
+                <variableName>logged employee</variableName>
+              </Value>
+              <Value type="textConstant">
+                <value></value>
+              </Value>
+            </Function>
+          </eventCondition>
+          <setActivePanel item="6fb3a5bc-59fc-42f3-85d9-b7dcb9937295" execType="serial" delayAction="0" />
+        </block>
+        <block>
+          <setActivePanel item="47975118-ba8b-4183-9f08-1cdc0eb9d3d6" execType="serial" delayAction="0" />
+        </block>
+      </case>
+    </event>
+    <event id="a41d6a79-be33-499e-a59f-80992efd8f0e" trigger="onClick">
+      <case execType="serial" delayAction="0">
+        <description>Interaction name</description>
+        <block>
+          <hideElement item="c95ea2da-0d6d-4dfe-bacc-1a29fcdf4122" execType="serial" delayAction="0">
+            <effect type="fade" length="500" />
+          </hideElement>
+        </block>
+      </case>
+    </event>
+    <event id="a41d6a79-be33-499e-a59f-80992efd8f0e" trigger="onMouseOver">
+      <case execType="serial" delayAction="0">
+        <description>Interaction name</description>
+        <block>
+          <styleElement item="a41d6a79-be33-499e-a59f-80992efd8f0e" execType="serial" delayAction="0">
+            <style>
+              <BackgroundStyle type="color" value="102r102g102b" />
+            </style>
+          </styleElement>
+        </block>
+      </case>
+    </event>
+  </Events>
+</customComponent>
+

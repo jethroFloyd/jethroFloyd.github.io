@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+  <code>8cd087ea-a3de-46aa-b850-26cc7631b085</code>
+  <name>Quote assignation</name>
+  <description>Inside the Backend Adminitrator page, the administrator will find all the quotes and he/she will be able to assign the quotes to the employees.</description>
+  <date>08/04/2015 14:49:15</date>
+  <legend-item></legend-item>
+  <bounds>91,64,376,205</bounds>
+  <scenarioItem type="Page" id="0" name="Home">
+    <uuid>e144d61f-b155-47cc-bf0b-842a70dae4af</uuid>
+    <edges>1</edges>
+    <style name="LnFScenarioItem">
+      <DimensionStyle width="118" height="185" />
+      <PositioningStyle left="101" top="74" />
+      <BackgroundStyle type="transparent" />
+      <TextStyle color="229r229g229b" hAlign="left" vAlign="center" decoration="none" line-height="0" />
+      <FontStyle size="9.0" height="0">
+        <family>Arial</family>
+        <style name="Regular" weight="400" italic="normal" />
+      </FontStyle>
+    </style>
+  </scenarioItem>
+  <scenarioItem type="Page" id="1" name="Backend Administrator">
+    <uuid>b4d769f2-c0fa-4d7a-92d4-f6e1f36ca555</uuid>
+    <edges></edges>
+    <style name="LnFScenarioItem">
+      <DimensionStyle width="131" height="110" />
+      <PositioningStyle left="326" top="112" />
+      <BackgroundStyle type="transparent" />
+      <TextStyle color="229r229g229b" hAlign="left" vAlign="center" decoration="none" line-height="0" />
+      <FontStyle size="9.0" height="0">
+        <family>Arial</family>
+        <style name="Regular" weight="400" italic="normal" />
+      </FontStyle>
+    </style>
+  </scenarioItem>
+</scenario>
+

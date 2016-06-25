@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <button id="5c9b72c5-6934-4299-98f5-5007681d3f57" auto-fit="false" hidden="false" locked="false" lockType="none" onTop="false" visible="true">
+    <text>CONTINUE</text>
+    <style name="LnFButton">
+      <DimensionStyle width="145" height="45" />
+      <PositioningStyle left="10" top="10" />
+      <BackgroundStyle type="color" value="62r187g202b" />
+      <BorderStyle radius="36" leftColor="18r153g246b" topColor="18r153g246b" rightColor="18r153g246b" bottomColor="18r153g246b" leftStyle="none" topStyle="none" rightStyle="none" bottomStyle="none" leftWidth="0" topWidth="0" rightWidth="0" bottomWidth="0" />
+      <TextStyle color="255r255g255b" hAlign="center" vAlign="center" decoration="none" line-height="0" />
+      <FontStyle size="14.0" height="25">
+        <family>Roboto</family>
+        <style name="Regular" weight="400" italic="normal" />
+        <evc-file>Roboto-Regular</evc-file>
+      </FontStyle>
+      <TransparencyStyle value="0" />
+      <PaddingStyle top="0" left="0" bottom="0" right="0" />
+      <RotationStyle angle="0" />
+      <ShadowStyle>
+        <Box enable="false" />
+        <Text enable="false" />
+      </ShadowStyle>
+    </style>
+    <info>Flat Button</info>
+    <userID>Button_1</userID>
+  </button>
+  <Events />
+</root>
+
