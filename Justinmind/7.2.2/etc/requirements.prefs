@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+  <field name="Author" visible="true" />
+  <field name="Name" visible="true" />
+  <field name="Type" visible="true" />
+  <field name="Source" visible="true" />
+  <field name="Comments" visible="true" />
+  <field name="Description" visible="true" />
+  <field name="Justification" visible="true" />
+  <field name="Fit criteria" visible="true" />
+  <field name="Test" visible="true" />
+</preferences>
+

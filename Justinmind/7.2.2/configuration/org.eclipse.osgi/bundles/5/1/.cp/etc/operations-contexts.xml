@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contexts>
+	<context name='_layouttools' path='etc/operations-layouttools.xml' />
+	<context name='_editPart' path='etc/operations-editParts.xml' />
+	<context name='_roles' path='etc/operations-roles.xml' />
+	<context name='_generation' path='etc/operations-generation.xml' />
+</contexts>

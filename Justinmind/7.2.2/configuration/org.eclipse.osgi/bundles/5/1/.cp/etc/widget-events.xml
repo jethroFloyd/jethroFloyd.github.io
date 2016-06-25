@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<events>
+<deviceEvents>
+    <event name="onClick" mobile="true"/>
+    <event name="onMouseDown" mobile="false"/>
+    <event name="onMouseUp" mobile="false"/>
+    <event name="onDoubleClick" mobile="false"/>
+    <event name="onRightClick" mobile="false"/>
+    <event name="onToggle" mobile="true"/>
+    <event name="onKeyDown" mobile="false"/>
+    <event name="onKeyUp" mobile="true"/>
+    <event name="onMouseOver" mobile="false"/>
+    <event name="onMouseEnter" mobile="false"/>
+    <event name="onMouseLeave" mobile="false"/>
+    <event name="onChange" mobile="true"/>
+    <event name="onDataChange" mobile="true"/>
+    <event name="onPanelActive" mobile="true"/> 
+    <event name="onFocusIn" mobile="true"/>
+    <event name="onFocusOut" mobile="true"/>
+    <event name="onPageLoad" mobile="true"/>
+    <event name="onPageUnload" mobile="true"/>
+    <event name="onDragStart" mobile="true"/>
+    <event name="onDrag" mobile="true"/>
+    <event name="onDragEnd" mobile="true"/>
+    <event name="onTapHold" mobile="true"/>
+    <event name="onSwipeUp" mobile="true"/>
+    <event name="onSwipeDown" mobile="true"/>
+    <event name="onSwipeLeftUp" mobile="true"/>
+    <event name="onSwipeLeft" mobile="true"/>
+    <event name="onSwipeLeftDown" mobile="true"/>
+    <event name="onSwipeRightUp" mobile="true"/>
+    <event name="onSwipeRight" mobile="true"/>
+    <event name="onSwipeRightDown" mobile="true"/>
+    <event name="onPinchOpen" mobile="true"/>
+    <event name="onPinchClose" mobile="true"/>
+    <event name="onRotateLeft" mobile="true"/>
+    <event name="onRotateRight" mobile="true"/>
+    <event name="onOrientationPortrait" mobile="true"/>
+    <event name="onOrientationLandscape" mobile="true"/>
+    <event name="onWindowResize" mobile="true"/>   
+    <event name="onWindowScroll" mobile="true"/>
+    <event name="onVariableChange" mobile="true"/>
+</deviceEvents>
+
+<widgetEvents>
+      <widget name="default">
+          <event name="onClick" />
+          <event name="onMouseDown" />
+          <event name="onMouseUp" />
+          <event name="onDoubleClick" />
+          <event name="onRightClick" />
+          <event name="onToggle" />
+          <event name="onKeyDown" />
+          <event name="onKeyUp" />
+          <event name="onMouseOver" />
+          <event name="onMouseEnter" />
+          <event name="onMouseLeave" />
+          <event name="onPageLoad" />
+          <event name="onPageUnload" />
+          <event name="onDragStart" />
+          <event name="onDrag" />
+          <event name="onDragEnd" />
+          <event name="onTapHold" />
+          <event name="onSwipeUp" />
+          <event name="onSwipeDown" />
+          <event name="onSwipeLeftUp" />
+          <event name="onSwipeLeft" />
+          <event name="onSwipeLeftDown" />
+          <event name="onSwipeRightUp" />
+          <event name="onSwipeRight" />
+          <event name="onSwipeRightDown" />
+          <event name="onPinchOpen" />
+          <event name="onPinchClose" />
+          <event name="onRotateLeft" />
+          <event name="onRotateRight" />
+          <event name="onOrientationPortrait" />
+          <event name="onOrientationLandscape" />
+          <event name="onWindowResize" />  
+          <event name="onWindowScroll" />
+          <event name="onVariableChange" />
+      </widget>
+      
+      <widget name="screen, template">
+          <event name="onClick" />
+          <event name="onMouseDown" />
+          <event name="onMouseUp" />
+          <event name="onRightClick" />
+          <event name="onToggle" />
+          <event name="onKeyDown" />
+          <event name="onKeyUp" />
+          <event name="onPageLoad" />
+          <event name="onPageUnload" />
+          <event name="onTapHold" />
+          <event name="onSwipeUp" />
+          <event name="onSwipeDown" />
+          <event name="onSwipeLeftUp" />
+          <event name="onSwipeLeft" />
+          <event name="onSwipeLeftDown" />
+          <event name="onSwipeRightUp" />
+          <event name="onSwipeRight" />
+          <event name="onSwipeRightDown" />
+          <event name="onPinchOpen" />
+          <event name="onPinchClose" />
+          <event name="onRotateLeft" />
+          <event name="onRotateRight" />
+          <event name="onOrientationPortrait" />
+          <event name="onOrientationLandscape" />
+          <event name="onWindowResize" />    
+          <event name="onWindowScroll" />
+          <event name="onVariableChange" />
+      </widget>
+      
+      <widget name="master">
+          <event name="onKeyDown" />
+          <event name="onKeyUp" />
+          <event name="onPageLoad" />
+          <event name="onPageUnload" />
+          <event name="onWindowResize" />    
+          <event name="onWindowScroll" />
+          <event name="onVariableChange" />
+      </widget>
+
+      <!--inputs-->
+      <widget name="inputtext, password, textarea, checkbox, radiobutton, inputdate, inputtime, inputdatetime, inputfile, dropdown, nativedropdown, selectionlist, radiobuttonlist, multiselectionlist, checkboxlist">
+          <event name="onClick" />
+          <event name="onMouseDown" />
+          <event name="onMouseUp" />
+          <event name="onDoubleClick" />
+          <event name="onRightClick" />
+          <event name="onToggle" />
+          <event name="onKeyDown" />
+          <event name="onKeyUp" />
+          <event name="onMouseOver" />
+          <event name="onMouseEnter" />
+          <event name="onMouseLeave" />
+          <event name="onChange" />
+          <event name="onFocusIn" />
+          <event name="onFocusOut" />
+          <event name="onPageLoad" />
+          <event name="onPageUnload" />
+          <event name="onDragStart" />
+          <event name="onDrag" />
+          <event name="onDragEnd" />
+          <event name="onTapHold" />
+          <event name="onSwipeUp" />
+          <event name="onSwipeDown" />
+          <event name="onSwipeLeftUp" />
+          <event name="onSwipeLeft" />
+          <event name="onSwipeLeftDown" />
+          <event name="onSwipeRightUp" />
+          <event name="onSwipeRight" />
+          <event name="onSwipeRightDown" />
+          <event name="onPinchOpen" />
+          <event name="onPinchClose" />
+          <event name="onRotateLeft" />
+          <event name="onRotateRight" />
+          <event name="onOrientationPortrait" />
+          <event name="onOrientationLandscape" />
+          <event name="onWindowResize" />   
+          <event name="onWindowScroll" />
+          <event name="onVariableChange" /> 
+      </widget>
+      
+      <!--datagrid-->
+      <widget name="row, gridcell">
+          <event name="onClick" />
+          <event name="onMouseDown" />
+          <event name="onMouseUp" />
+          <event name="onDoubleClick" />
+          <event name="onRightClick" />
+          <event name="onToggle" />
+          <event name="onKeyDown" />
+          <event name="onKeyUp" />
+          <event name="onMouseOver" />
+          <event name="onMouseEnter" />
+          <event name="onMouseLeave" />
+          <event name="onDataChange" />
+          <event name="onPageLoad" />
+          <event name="onPageUnload" />
+          <event name="onDragStart" />
+          <event name="onDrag" />
+          <event name="onDragEnd" />
+          <event name="onTapHold" />
+          <event name="onSwipeUp" />
+          <event name="onSwipeDown" />
+          <event name="onSwipeLeftUp" />
+          <event name="onSwipeLeft" />
+          <event name="onSwipeLeftDown" />
+          <event name="onSwipeRightUp" />
+          <event name="onSwipeRight" />
+          <event name="onSwipeRightDown" />
+          <event name="onPinchOpen" />
+          <event name="onPinchClose" />
+          <event name="onRotateLeft" />
+          <event name="onRotateRight" />
+          <event name="onOrientationPortrait" />
+          <event name="onOrientationLandscape" />
+          <event name="onWindowResize" />  
+          <event name="onWindowScroll" />
+          <event name="onVariableChange" />  
+      </widget>
+
+      <!--panel-->
+      <widget name="tab">
+          <event name="onClick" />
+          <event name="onMouseDown" />
+          <event name="onMouseUp" />
+          <event name="onDoubleClick" />
+          <event name="onRightClick" />
+          <event name="onToggle" />
+          <event name="onKeyDown" />
+          <event name="onKeyUp" />
+          <event name="onMouseOver" />
+          <event name="onMouseEnter" />
+          <event name="onMouseLeave" />
+          <event name="onPanelActive" />
+          <event name="onPageLoad" />
+          <event name="onPageUnload" />
+          <event name="onDragStart" />
+          <event name="onDrag" />
+          <event name="onDragEnd" />
+          <event name="onTapHold" />
+          <event name="onSwipeUp" />
+          <event name="onSwipeDown" />
+          <event name="onSwipeLeftUp" />
+          <event name="onSwipeLeft" />
+          <event name="onSwipeLeftDown" />
+          <event name="onSwipeRightUp" />
+          <event name="onSwipeRight" />
+          <event name="onSwipeRightDown" />
+          <event name="onPinchOpen" />
+          <event name="onPinchClose" />
+          <event name="onRotateLeft" />
+          <event name="onRotateRight" />
+          <event name="onOrientationPortrait" />
+          <event name="onOrientationLandscape" />
+          <event name="onWindowResize" />  
+          <event name="onWindowScroll" />
+          <event name="onVariableChange" />
+      </widget>
+</widgetEvents>
+</events>
+

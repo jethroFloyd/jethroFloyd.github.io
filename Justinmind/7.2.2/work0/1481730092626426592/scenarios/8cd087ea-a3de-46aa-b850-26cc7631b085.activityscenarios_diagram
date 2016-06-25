@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0" type="ActivityScenarios" name="Quote assignation" measurementUnit="Pixel">
+  
+  
+  <children type="1001">
+    
+    
+    <children type="4001" />
+    
+    
+    <styles xsi:type="notation:ShapeStyle" fontColor="15066597" fontName="Arial" fillColor="15066597" transparency="100" lineColor="15066597" />
+    
+    
+    <element href="8cd087ea-a3de-46aa-b850-26cc7631b085.activityscenarios#//@scenarioNodes.0" />
+    
+    
+    <layoutConstraint xsi:type="notation:Bounds" x="101" y="74" width="118" height="185" />
+    
+  
+  </children>
+  
+  
+  <children type="1001">
+    
+    
+    <children type="4001" />
+    
+    
+    <styles xsi:type="notation:ShapeStyle" fontColor="15066597" fontName="Arial" fillColor="15066597" transparency="100" lineColor="15066597" />
+    
+    
+    <element href="8cd087ea-a3de-46aa-b850-26cc7631b085.activityscenarios#//@scenarioNodes.1" />
+    
+    
+    <layoutConstraint xsi:type="notation:Bounds" x="326" y="112" width="131" height="110" />
+    
+  
+  </children>
+  
+  
+  <styles xsi:type="notation:DiagramStyle" />
+  
+  
+  <element href="8cd087ea-a3de-46aa-b850-26cc7631b085.activityscenarios#/" />
+  
+  
+  <edges type="3001" source="//@children.0" target="//@children.1">
+    
+    
+    <children type="4004">
+      
+      
+      <layoutConstraint xsi:type="notation:Location" y="40" />
+      
+    
+    </children>
+    
+    
+    <styles xsi:type="notation:RoutingStyle" />
+    
+    
+    <styles xsi:type="notation:FontStyle" fontColor="15066597" fontName="Arial" />
+    
+    
+    <styles xsi:type="notation:LineStyle" lineColor="15066597" />
+    
+    
+    <element href="8cd087ea-a3de-46aa-b850-26cc7631b085.activityscenarios#//@scenarioTransitions.0" />
+    
+    
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[0, 7, -149, -9]$[84, 7, -65, -9]" />
+    
+    
+    <sourceAnchor xsi:type="notation:IdentityAnchor" id="(1.0,0.4648648648648649)" />
+    
+  
+  </edges>
+  
+
+</notation:Diagram>
+

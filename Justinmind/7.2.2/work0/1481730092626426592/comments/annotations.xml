@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations version="7.2.2.20160531">
+  <comment>
+    <elementid>m-Flat-button</elementid>
+    <canvasid>m-e7ba14db-e912-4fe9-b55f-f0b9e60a7ae4</canvasid>
+    <id>e0895b70-7089-4c67-b959-621a0f27305f</id>
+    <author>Victor Conesa</author>
+    <authorid>1674</authorid>
+    <code>1</code>
+    <content>Valid sign ins:
+- Email: admin Pass:medicalcare
+  This is the administrator user, he can assign quotes to other users
+
+These are normal users, they&apos;ll see the quotes assigned by the administrator
+
+- Email: john Pass: john
+- Email: steve Pass: steve
+- Email: rich Pass: rich</content>
+    <date>08/04/2015 20:18:47</date>
+    <timestamp>1428517127504</timestamp>
+    <isread>true</isread>
+  </comment>
+</annotations>
+

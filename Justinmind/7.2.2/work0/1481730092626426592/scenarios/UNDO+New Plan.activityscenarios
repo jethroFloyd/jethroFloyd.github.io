@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.justinmind.evc.model.activityscenarios:ActivityScenario xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.justinmind.evc.model.activityscenarios="com.justinmind.evc.model.activityscenarios">
+  <scenarioNodes xsi:type="com.justinmind.evc.model.activityscenarios:ScenarioPage" name="Health plans" outgoingTransitions="//@scenarioTransitions.1" incomingTransitions="//@scenarioTransitions.0" actionId="Health plans"/>
+  <scenarioNodes xsi:type="com.justinmind.evc.model.activityscenarios:ScenarioPage" name="Home" outgoingTransitions="//@scenarioTransitions.0" actionId="Home"/>
+  <scenarioNodes xsi:type="com.justinmind.evc.model.activityscenarios:ScenarioPage" name="Health plans - choose plan" outgoingTransitions="//@scenarioTransitions.4 //@scenarioTransitions.5" incomingTransitions="//@scenarioTransitions.1" actionId="Health plans - choose plan"/>
+  <scenarioNodes xsi:type="com.justinmind.evc.model.activityscenarios:ScenarioPage" name="Health plans - medical history" outgoingTransitions="//@scenarioTransitions.2" incomingTransitions="//@scenarioTransitions.5" actionId="Health plans - medical history"/>
+  <scenarioNodes xsi:type="com.justinmind.evc.model.activityscenarios:ScenarioPage" name="Health plans - payment" outgoingTransitions="//@scenarioTransitions.3" incomingTransitions="//@scenarioTransitions.2" actionId="Health plans - payment"/>
+  <scenarioNodes xsi:type="com.justinmind.evc.model.activityscenarios:ScenarioPage" name="Plan detail" incomingTransitions="//@scenarioTransitions.4" actionId="Plan detail"/>
+  <scenarioNodes xsi:type="com.justinmind.evc.model.activityscenarios:ScenarioPage" name="employee_loggedin" incomingTransitions="//@scenarioTransitions.3" actionId="employee_loggedin"/>
+  <scenarioTransitions sourceNode="//@scenarioNodes.1" targetNode="//@scenarioNodes.0"/>
+  <scenarioTransitions sourceNode="//@scenarioNodes.0" targetNode="//@scenarioNodes.2"/>
+  <scenarioTransitions sourceNode="//@scenarioNodes.3" targetNode="//@scenarioNodes.4"/>
+  <scenarioTransitions sourceNode="//@scenarioNodes.4" targetNode="//@scenarioNodes.6"/>
+  <scenarioTransitions sourceNode="//@scenarioNodes.2" targetNode="//@scenarioNodes.5"/>
+  <scenarioTransitions sourceNode="//@scenarioNodes.2" targetNode="//@scenarioNodes.3"/>
+</com.justinmind.evc.model.activityscenarios:ActivityScenario>

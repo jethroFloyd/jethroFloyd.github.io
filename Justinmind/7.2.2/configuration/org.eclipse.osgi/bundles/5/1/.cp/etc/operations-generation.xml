@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<facades>
+	<facade class='UserModel'>
+		<operation
+			name='com.justinmind.evc.model.generation.operations.ModifyUserModelOperation'>
+		</operation>
+		<operation
+			name='com.justinmind.evc.model.generation.operations.DeleteUserModelOperation'>
+		</operation>
+		<operation
+			name='com.justinmind.evc.model.generation.operations.DenyAccessToUserModelOperation'>
+		</operation>
+		<element />
+	</facade>
+	<facade class='GenerationModel'>
+		<operation
+			name='com.justinmind.evc.model.generation.operations.DeleteGenerationModelOperation'>
+		</operation>
+		<operation
+			name='com.justinmind.evc.model.generation.operations.GrantAccessToUserModelOperation'>
+		</operation>
+		<operation
+			name='com.justinmind.evc.model.generation.operations.DownloadGenerationVersionOperation'>
+		</operation>
+	</facade>
+	<facade class='EVCProjectModel'>
+		<operation
+			name='com.justinmind.evc.model.projects.operations.DeleteEVCProjectModelOperation'>
+		</operation>
+
+
+	</facade>
+</facades>

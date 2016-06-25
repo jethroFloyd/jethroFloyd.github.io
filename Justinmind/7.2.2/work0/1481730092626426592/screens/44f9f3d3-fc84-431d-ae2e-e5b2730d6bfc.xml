@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen>
+  <name>blank</name>
+  <code>44f9f3d3-fc84-431d-ae2e-e5b2730d6bfc</code>
+  <templateID>a8aec9a1-253f-439c-9ba8-f308737cccb9</templateID>
+  <date>08/04/2015 14:57:59</date>
+  <note></note>
+  <legend-item></legend-item>
+  <pageAlignment>LEFT</pageAlignment>
+  <orientation>PORTRAIT</orientation>
+  <backgroundGrowth>BOTH</backgroundGrowth>
+  <width>800</width>
+  <height>900</height>
+  <item-group id="7296ccbf-eee0-418e-8141-9189ee2bdea5" visible="true">
+    <style name="LnFCanvas">
+      <DimensionStyle width="0" height="0" />
+      <PositioningStyle left="0" top="0" />
+      <BackgroundStyle type="transparent" />
+      <TransparencyStyle value="0" />
+    </style>
+  </item-group>
+  <Events />
+</screen>
+

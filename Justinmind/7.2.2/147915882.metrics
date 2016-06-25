@@ -1,0 +1,10 @@
+{"timestamp":1466894258046,"type":"PC_INFO","hostname":"ritos-macbook-air.local","user":"rito","install_id":"1516894715","license":"A2361AC476CF4F147E7E60E79EE4329D","os":"Mac OS X","os_version":"10.11.5","arch":"x86_64","country":"US","language":"en","product":"Prototyper Pro","version":"7.2.2","java_version":"1.8.0_25-b17","cpu":"","dpi":"126","displays":"2","resolution":"1920x1200 1440x900"}
+{"timestamp":1466894258057,"type":"STARTED"}
+{"timestamp":1466894312223,"type":"JP_PREF","hidden_palettes":[],"floating_palettes":[],"editor":"docked","hidden_toolbars":[],"rules":"true","grid":"false","snap":"true","canvasSize":"true","browser":"chromium"}
+{"timestamp":1466894324341,"type":"TUTORIAL_START"}
+{"timestamp":1466894342956,"type":"TUTORIAL_COMPLETE"}
+{"timestamp":1466894344749,"type":"JP_OP","op":"NEW_PROJECT","from":"example","device":"WEB"}
+{"timestamp":1466894349370,"type":"JP_OP","op":"SIMULATE","comments":"true","browser":"safari","scale":100,"device":"WEB"}
+{"timestamp":1466894380239,"type":"JP_OP","op":"ConnectLibrariesOperation"}
+{"timestamp":1466894563361,"type":"JP_OP","op":"VIEW_ON_DEVICE","account_type":"FREE","account":20690884,"username":"ritobrotomaitra@gmail.com"}
+{"timestamp":1466894573959,"type":"JP_OP","op":"PREVIEW"}

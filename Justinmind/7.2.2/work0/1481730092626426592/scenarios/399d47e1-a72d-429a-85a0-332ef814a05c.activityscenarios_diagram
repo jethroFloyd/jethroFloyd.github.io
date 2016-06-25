@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0" type="ActivityScenarios" name="New Quote" measurementUnit="Pixel">
+  
+  
+  <children type="1001">
+    
+    
+    <children type="4001" />
+    
+    
+    <styles xsi:type="notation:ShapeStyle" fontColor="15066597" fontName="Arial" fillColor="15066597" transparency="100" lineColor="15066597" />
+    
+    
+    <element href="399d47e1-a72d-429a-85a0-332ef814a05c.activityscenarios#//@scenarioNodes.0" />
+    
+    
+    <layoutConstraint xsi:type="notation:Bounds" x="39" y="51" width="137" height="180" />
+    
+  
+  </children>
+  
+  
+  <children type="1001">
+    
+    
+    <children type="4001" />
+    
+    
+    <styles xsi:type="notation:ShapeStyle" fontColor="15066597" fontName="Arial" fillColor="15066597" transparency="100" lineColor="15066597" />
+    
+    
+    <element href="399d47e1-a72d-429a-85a0-332ef814a05c.activityscenarios#//@scenarioNodes.1" />
+    
+    
+    <layoutConstraint xsi:type="notation:Bounds" x="235" y="64" width="137" height="150" />
+    
+  
+  </children>
+  
+  
+  <children type="1001">
+    
+    
+    <children type="4001" />
+    
+    
+    <styles xsi:type="notation:ShapeStyle" fontColor="15066597" fontName="Arial" fillColor="15066597" transparency="100" lineColor="15066597" />
+    
+    
+    <element href="399d47e1-a72d-429a-85a0-332ef814a05c.activityscenarios#//@scenarioNodes.2" />
+    
+    
+    <layoutConstraint xsi:type="notation:Bounds" x="460" y="71" width="140" height="139" />
+    
+  
+  </children>
+  
+  
+  <children type="1001">
+    
+    
+    <children type="4001" />
+    
+    
+    <styles xsi:type="notation:ShapeStyle" fontColor="15066597" fontName="Arial" fillColor="15066597" transparency="100" lineColor="15066597" />
+    
+    
+    <element href="399d47e1-a72d-429a-85a0-332ef814a05c.activityscenarios#//@scenarioNodes.3" />
+    
+    
+    <layoutConstraint xsi:type="notation:Bounds" x="709" y="56" width="146" height="177" />
+    
+  
+  </children>
+  
+  
+  <children type="1001">
+    
+    
+    <children type="4001" />
+    
+    
+    <styles xsi:type="notation:ShapeStyle" fontColor="15066597" fontName="Arial" fillColor="15066597" transparency="100" lineColor="15066597" />
+    
+    
+    <element href="399d47e1-a72d-429a-85a0-332ef814a05c.activityscenarios#//@scenarioNodes.4" />
+    
+    
+    <layoutConstraint xsi:type="notation:Bounds" x="947" y="81" width="147" height="141" />
+    
+  
+  </children>
+  
+  
+  <children type="1002">
+    
+    
+    <children type="4002" />
+    
+    
+    <styles xsi:type="notation:ShapeStyle" fontColor="15066597" fontName="Arial" fillColor="15066597" transparency="100" lineColor="15066597" />
+    
+    
+    <element href="399d47e1-a72d-429a-85a0-332ef814a05c.activityscenarios#//@scenarioNodes.5" />
+    
+    
+    <layoutConstraint xsi:type="notation:Bounds" x="965" y="280" />
+    
+  
+  </children>
+  
+  
+  <styles xsi:type="notation:DiagramStyle" />
+  
+  
+  <element href="399d47e1-a72d-429a-85a0-332ef814a05c.activityscenarios#/" />
+  
+  
+  <edges type="3001" source="//@children.0" target="//@children.1">
+    
+    
+    <children type="4004">
+      
+      
+      <layoutConstraint xsi:type="notation:Location" y="40" />
+      
+    
+    </children>
+    
+    
+    <styles xsi:type="notation:RoutingStyle" />
+    
+    
+    <styles xsi:type="notation:FontStyle" fontColor="15066597" fontName="Arial" />
+    
+    
+    <styles xsi:type="notation:LineStyle" lineColor="15066597" />
+    
+    
+    <element href="399d47e1-a72d-429a-85a0-332ef814a05c.activityscenarios#//@scenarioTransitions.0" />
+    
+    
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[0, 1, -74, 0]$[59, 2, -15, 1]" />
+    
+    
+    <sourceAnchor xsi:type="notation:IdentityAnchor" id="(1.0,0.5111111111111111)" />
+    
+    
+    <targetAnchor xsi:type="notation:IdentityAnchor" id="(0.10948905109489052,0.5333333333333333)" />
+    
+  
+  </edges>
+  
+  
+  <edges type="3001" source="//@children.1" target="//@children.2">
+    
+    
+    <children type="4004">
+      
+      
+      <layoutConstraint xsi:type="notation:Location" y="40" />
+      
+    
+    </children>
+    
+    
+    <styles xsi:type="notation:RoutingStyle" />
+    
+    
+    <styles xsi:type="notation:FontStyle" fontColor="15066597" fontName="Arial" />
+    
+    
+    <styles xsi:type="notation:LineStyle" lineColor="15066597" />
+    
+    
+    <element href="399d47e1-a72d-429a-85a0-332ef814a05c.activityscenarios#//@scenarioTransitions.1" />
+    
+    
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[0, 2, -141, -18]$[186, -49, 45, -69]" />
+    
+    
+    <sourceAnchor xsi:type="notation:IdentityAnchor" id="(0.9635036496350365,0.4866666666666667)" />
+    
+  
+  </edges>
+  
+  
+  <edges type="3001" source="//@children.2" target="//@children.1">
+    
+    
+    <children type="4004">
+      
+      
+      <layoutConstraint xsi:type="notation:Location" y="40" />
+      
+    
+    </children>
+    
+    
+    <styles xsi:type="notation:RoutingStyle" />
+    
+    
+    <styles xsi:type="notation:FontStyle" fontColor="15066597" fontName="Arial" />
+    
+    
+    <styles xsi:type="notation:LineStyle" lineColor="15066597" />
+    
+    
+    <element href="399d47e1-a72d-429a-85a0-332ef814a05c.activityscenarios#//@scenarioTransitions.2" />
+    
+    
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[0, -5, 83, 0]$[-71, -11, 12, -6]" />
+    
+    
+    <sourceAnchor xsi:type="notation:IdentityAnchor" id="(0.0,0.3237410071942446)" />
+    
+    
+    <targetAnchor xsi:type="notation:IdentityAnchor" id="(0.9124087591240876,0.34)" />
+    
+  
+  </edges>
+  
+  
+  <edges type="3001" source="//@children.2" target="//@children.3">
+    
+    
+    <children type="4004">
+      
+      
+      <layoutConstraint xsi:type="notation:Location" y="40" />
+      
+    
+    </children>
+    
+    
+    <styles xsi:type="notation:RoutingStyle" />
+    
+    
+    <styles xsi:type="notation:FontStyle" fontColor="15066597" fontName="Arial" />
+    
+    
+    <styles xsi:type="notation:LineStyle" lineColor="15066597" />
+    
+    
+    <element href="399d47e1-a72d-429a-85a0-332ef814a05c.activityscenarios#//@scenarioTransitions.3" />
+    
+    
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[0, 0, -132, 0]$[126, 0, -6, 0]" />
+    
+    
+    <sourceAnchor xsi:type="notation:IdentityAnchor" id="(1.0,0.5179856115107914)" />
+    
+    
+    <targetAnchor xsi:type="notation:IdentityAnchor" id="(0.0410958904109589,0.5141242937853108)" />
+    
+  
+  </edges>
+  
+  
+  <edges type="3001" source="//@children.3" target="//@children.4">
+    
+    
+    <children type="4004">
+      
+      
+      <layoutConstraint xsi:type="notation:Location" y="40" />
+      
+    
+    </children>
+    
+    
+    <styles xsi:type="notation:RoutingStyle" />
+    
+    
+    <styles xsi:type="notation:FontStyle" fontColor="15066597" fontName="Arial" />
+    
+    
+    <styles xsi:type="notation:LineStyle" lineColor="15066597" />
+    
+    
+    <element href="399d47e1-a72d-429a-85a0-332ef814a05c.activityscenarios#//@scenarioTransitions.4" />
+    
+    
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[0, 4, -115, 0]$[92, -3, -23, -7]" />
+    
+    
+    <sourceAnchor xsi:type="notation:IdentityAnchor" id="(1.0,0.4915254237288136)" />
+    
+    
+    <targetAnchor xsi:type="notation:IdentityAnchor" id="(0.1564625850340136,0.40425531914893614)" />
+    
+  
+  </edges>
+  
+  
+  <edges type="3001" source="//@children.3" target="//@children.2">
+    
+    
+    <children type="4004">
+      
+      
+      <layoutConstraint xsi:type="notation:Location" y="40" />
+      
+    
+    </children>
+    
+    
+    <styles xsi:type="notation:RoutingStyle" />
+    
+    
+    <styles xsi:type="notation:FontStyle" fontColor="15066597" fontName="Arial" />
+    
+    
+    <styles xsi:type="notation:LineStyle" lineColor="15066597" />
+    
+    
+    <element href="399d47e1-a72d-429a-85a0-332ef814a05c.activityscenarios#//@scenarioTransitions.5" />
+    
+    
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[0, -3, 158, 0]$[-126, -22, 32, -19]" />
+    
+    
+    <sourceAnchor xsi:type="notation:IdentityAnchor" id="(0.0,0.3954802259887006)" />
+    
+    
+    <targetAnchor xsi:type="notation:IdentityAnchor" id="(0.7714285714285715,0.34532374100719426)" />
+    
+  
+  </edges>
+  
+  
+  <edges type="3001" source="//@children.4" target="//@children.3">
+    
+    
+    <children type="4004">
+      
+      
+      <layoutConstraint xsi:type="notation:Location" y="40" />
+      
+    
+    </children>
+    
+    
+    <styles xsi:type="notation:RoutingStyle" />
+    
+    
+    <styles xsi:type="notation:FontStyle" fontColor="15066597" fontName="Arial" />
+    
+    
+    <styles xsi:type="notation:LineStyle" lineColor="15066597" />
+    
+    
+    <element href="399d47e1-a72d-429a-85a0-332ef814a05c.activityscenarios#//@scenarioTransitions.6" />
+    
+    
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[-47, 10, 109, -25]$[-139, 29, 17, -6]" />
+    
+    
+    <sourceAnchor xsi:type="notation:IdentityAnchor" id="(0.04081632653061224,0.28368794326241137)" />
+    
+    
+    <targetAnchor xsi:type="notation:IdentityAnchor" id="(0.8835616438356164,0.3898305084745763)" />
+    
+  
+  </edges>
+  
+  
+  <edges type="3001" source="//@children.4" target="//@children.5">
+    
+    
+    <children type="4004">
+      
+      
+      <layoutConstraint xsi:type="notation:Location" y="40" />
+      
+    
+    </children>
+    
+    
+    <styles xsi:type="notation:RoutingStyle" />
+    
+    
+    <styles xsi:type="notation:FontStyle" fontColor="15066597" fontName="Arial" />
+    
+    
+    <styles xsi:type="notation:LineStyle" lineColor="15066597" />
+    
+    
+    <element href="399d47e1-a72d-429a-85a0-332ef814a05c.activityscenarios#//@scenarioTransitions.7" />
+    
+    
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[0, 0, -19, -93]$[19, 87, 0, -6]" />
+    
+    
+    <sourceAnchor xsi:type="notation:IdentityAnchor" id="(0.4897959183673469,1.0)" />
+    
+    
+    <targetAnchor xsi:type="notation:IdentityAnchor" id="(0.5,0.10909090909090909)" />
+    
+  
+  </edges>
+  
+
+</notation:Diagram>
+

@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="utf-8"?>
+<facades>
+
+	<facade class='UserWidgetTool'>
+    </facade>
+	
+	<facade class='Screen'>
+		<operation name='com.justinmind.evc.operations.ModifyActionOperation' />
+		<operation name='com.justinmind.evc.operations.actions.DeletePageActionOperation' />
+		<operation name='com.justinmind.evc.operations.actions.DoInitialPageOperation' />
+		<operation name='com.justinmind.evc.operations.actions.ApplyStyleToScreenOperation' />
+		<operation name='com.justinmind.evc.operations.actions.DuplicatePageActionOperation' />
+		<operation name='com.justinmind.evc.operations.comments.NewCommentOperation' />
+	</facade>
+		
+	<facade class='DataList'>
+	    <operation name='com.justinmind.evc.operations.SetContentEditableOperation' />
+	    <operation name='com.justinmind.evc.operations.actions.LockIItemOperation'/>
+		<operation name='com.justinmind.evc.operations.actions.general.RemoveAbstractItemOperation' />
+		<operation name='com.justinmind.evc.operations.actions.OrderBringToFrontOperation' enabled='ORDER' />
+		<operation name='com.justinmind.evc.operations.actions.OrderSendToBackOperation' enabled='ORDER' />
+		<operation name='com.justinmind.evc.operations.actions.OrderBringForwardOperation' enabled='ORDER' />
+		<operation name='com.justinmind.evc.operations.actions.OrderSendBackwardOperation' enabled='ORDER' />
+        <operation name='com.justinmind.evc.operations.actions.DistributeVerticallyOperation' enabled='DISTRIBUTE' />
+        <operation name='com.justinmind.evc.operations.actions.DistributeHorizontallyOperation' enabled='DISTRIBUTE' />
+		<operation name='com.justinmind.evc.operations.actions.NewDataListColumnOperation' />
+		<operation name='com.justinmind.evc.operations.actions.GroupOperation' />
+		<operation name='com.justinmind.evc.operations.actions.UngroupOperation' enabled='ISINGROUP' />
+		<operation name='com.justinmind.evc.operations.actions.GroupItemsIntoBox' />
+        <operation name='com.justinmind.evc.operations.comments.NewCommentOperation' />
+	</facade>
+	
+	 <facade class='DataGrid'>
+        <operation name='com.justinmind.evc.operations.SetContentEditableOperation' />
+        <operation name='com.justinmind.evc.operations.actions.LockIItemOperation'/>
+        <operation name='com.justinmind.evc.operations.actions.general.RemoveAbstractItemOperation' />
+        <operation name='com.justinmind.evc.operations.actions.OrderBringToFrontOperation' enabled='ORDER' />
+        <operation name='com.justinmind.evc.operations.actions.OrderSendToBackOperation' enabled='ORDER' />
+        <operation name='com.justinmind.evc.operations.actions.OrderBringForwardOperation' enabled='ORDER' />
+        <operation name='com.justinmind.evc.operations.actions.OrderSendBackwardOperation' enabled='ORDER' />
+        <operation name='com.justinmind.evc.operations.actions.DistributeVerticallyOperation' enabled='DISTRIBUTE' />
+        <operation name='com.justinmind.evc.operations.actions.DistributeHorizontallyOperation' enabled='DISTRIBUTE' />
+        <operation name='com.justinmind.evc.operations.actions.GroupOperation' />
+        <operation name='com.justinmind.evc.operations.actions.UngroupOperation' enabled='ISINGROUP' />
+        <operation name='com.justinmind.evc.operations.actions.GroupItemsIntoBox' />
+        <operation name='com.justinmind.evc.operations.comments.NewCommentOperation' />
+    </facade>
+	<facade class='GridCell'>
+        <operation name='com.justinmind.evc.operations.events.NewQuickEventOperation' />
+    </facade>
+    
+	<facade class='Row'>
+        <operation name='com.justinmind.evc.operations.events.NewQuickEventOperation' />
+    </facade>
+	
+	<facade class='RowCell'>
+	    <operation name='com.justinmind.evc.operations.events.NewQuickEventOperation' />
+        <operation name='com.justinmind.evc.operations.actions.RemoveDataListColumnOperation' />
+    </facade>
+    
+	<facade class='PaginationSummary'>
+		<operation name='com.justinmind.evc.operations.events.NewQuickEventOperation' />
+        <operation name='com.justinmind.evc.operations.actions.LockIItemOperation'/>
+		<operation name='com.justinmind.evc.operations.actions.general.RemoveAbstractItemOperation'/>
+		<operation name='com.justinmind.evc.operations.actions.OrderBringToFrontOperation' enabled='ORDER' />
+		<operation name='com.justinmind.evc.operations.actions.OrderSendToBackOperation' enabled='ORDER' />
+		<operation name='com.justinmind.evc.operations.actions.OrderBringForwardOperation' enabled='ORDER' />
+		<operation name='com.justinmind.evc.operations.actions.OrderSendBackwardOperation' enabled='ORDER' />
+		<operation name='com.justinmind.evc.operations.actions.DistributeVerticallyOperation' enabled='DISTRIBUTE' />
+        <operation name='com.justinmind.evc.operations.actions.DistributeHorizontallyOperation' enabled='DISTRIBUTE' />
+		<operation name='com.justinmind.evc.operations.actions.GroupOperation' />
+        <operation name='com.justinmind.evc.operations.actions.UngroupOperation' enabled='ISINGROUP' />
+        <operation name='com.justinmind.evc.operations.actions.GroupItemsIntoBox' />
+        <operation name='com.justinmind.evc.operations.comments.NewCommentOperation'/>
+        
+	</facade>
+	
+	<facade class='PaginationIndex'>
+		<operation name='com.justinmind.evc.operations.events.NewQuickEventOperation' />
+		<operation name='com.justinmind.evc.operations.actions.LockIItemOperation'/>
+		<operation name='com.justinmind.evc.operations.actions.general.RemoveAbstractItemOperation' />
+		<operation name='com.justinmind.evc.operations.actions.OrderBringToFrontOperation' enabled='ORDER' />
+		<operation name='com.justinmind.evc.operations.actions.OrderSendToBackOperation' enabled='ORDER' />
+		<operation name='com.justinmind.evc.operations.actions.OrderBringForwardOperation' enabled='ORDER' />
+		<operation name='com.justinmind.evc.operations.actions.OrderSendBackwardOperation' enabled='ORDER' />
+		<operation name='com.justinmind.evc.operations.actions.DistributeVerticallyOperation' enabled='DISTRIBUTE' />
+        <operation name='com.justinmind.evc.operations.actions.DistributeHorizontallyOperation' enabled='DISTRIBUTE' />
+		<operation name='com.justinmind.evc.operations.actions.GroupOperation' />
+        <operation name='com.justinmind.evc.operations.actions.UngroupOperation' enabled='ISINGROUP' />
+        <operation name='com.justinmind.evc.operations.actions.GroupItemsIntoBox' />
+        <operation name='com.justinmind.evc.operations.comments.NewCommentOperation' />
+        
+	</facade>
+	
+	<facade class='RadioButtonDataView'>
+	    <operation name='com.justinmind.evc.operations.events.NewQuickEventOperation' />
+        <operation name='com.justinmind.evc.operations.actions.LockIItemOperation'/>
+	    <operation name='com.justinmind.evc.operations.actions.general.RemoveAbstractItemOperation' />
+        <operation name='com.justinmind.evc.operations.actions.OrderBringToFrontOperation' enabled='ORDER' />
+        <operation name='com.justinmind.evc.operations.actions.OrderSendToBackOperation' enabled='ORDER' />
+        <operation name='com.justinmind.evc.operations.actions.OrderBringForwardOperation' enabled='ORDER' />
+        <operation name='com.justinmind.evc.operations.actions.OrderSendBackwardOperation' enabled='ORDER' />
+        <operation name='com.justinmind.evc.operations.actions.DistributeVerticallyOperation' enabled='DISTRIBUTE' />
+        <operation name='com.justinmind.evc.operations.actions.DistributeHorizontallyOperation' enabled='DISTRIBUTE' />
+        <operation name='com.justinmind.evc.operations.actions.GroupOperation' />
+        <operation name='com.justinmind.evc.operations.actions.UngroupOperation' enabled='ISINGROUP' />
+        <operation name='com.justinmind.evc.operations.actions.GroupItemsIntoBox' />
+        <operation name='com.justinmind.evc.operations.comments.NewCommentOperation' />
+        
+	</facade>
+	
+	<facade class='Table'>
+	    <operation name='com.justinmind.evc.operations.SetContentEditableOperation' />
+	    <operation name='com.justinmind.evc.operations.actions.LockIItemOperation'/>
+	    <operation name='com.justinmind.evc.operations.actions.general.RemoveAbstractItemOperation' />
+	    <operation name='com.justinmind.evc.operations.actions.OrderBringToFrontOperation' enabled='ORDER' />
+        <operation name='com.justinmind.evc.operations.actions.OrderSendToBackOperation' enabled='ORDER' />
+        <operation name='com.justinmind.evc.operations.actions.OrderBringForwardOperation' enabled='ORDER' />
+        <operation name='com.justinmind.evc.operations.actions.OrderSendBackwardOperation' enabled='ORDER' />
+        <operation name='com.justinmind.evc.operations.actions.DistributeVerticallyOperation' enabled='DISTRIBUTE' />
+        <operation name='com.justinmind.evc.operations.actions.DistributeHorizontallyOperation' enabled='DISTRIBUTE' />
+        <operation name='com.justinmind.evc.operations.actions.tables.NewTableColumnOperation' />
+        <operation name='com.justinmind.evc.operations.actions.tables.NewTableRowOperation' />
+        <operation name='com.justinmind.evc.operations.actions.GroupOperation' />
+        <operation name='com.justinmind.evc.operations.actions.UngroupOperation' enabled='ISINGROUP' />
+        <operation name='com.justinmind.evc.operations.actions.GroupItemsIntoBox' />
+		<operation name='com.justinmind.evc.operations.comments.NewCommentOperation' />
+        
+	</facade>
+	
+	<facade class='TextTable'>
+	    <operation name='com.justinmind.evc.operations.actions.LockIItemOperation'/>
+        <operation name='com.justinmind.evc.operations.actions.general.RemoveAbstractItemOperation'  />
+        <operation name='com.justinmind.evc.operations.actions.OrderBringToFrontOperation' enabled='ORDER' />
+        <operation name='com.justinmind.evc.operations.actions.OrderSendToBackOperation' enabled='ORDER' />
+        <operation name='com.justinmind.evc.operations.actions.OrderBringForwardOperation' enabled='ORDER' />
+        <operation name='com.justinmind.evc.operations.actions.OrderSendBackwardOperation' enabled='ORDER' />
+        <operation name='com.justinmind.evc.operations.actions.DistributeVerticallyOperation' enabled='DISTRIBUTE' />
+        <operation name='com.justinmind.evc.operations.actions.DistributeHorizontallyOperation' enabled='DISTRIBUTE' />
+        <operation name='com.justinmind.evc.operations.actions.tables.NewTableColumnOperation' />
+        <operation name='com.justinmind.evc.operations.actions.tables.NewTableRowOperation'/>
+        <operation name='com.justinmind.evc.operations.actions.GroupOperation' />
+        <operation name='com.justinmind.evc.operations.actions.UngroupOperation' enabled='ISINGROUP' />
+        <operation name='com.justinmind.evc.operations.actions.GroupItemsIntoBox' />
+        <operation name='com.justinmind.evc.operations.comments.NewCommentOperation' />
+        
+    </facade>
+
+	<facade class='ItemGroup'>
+	    <operation name='com.justinmind.evc.operations.events.NewQuickEventOperation' />
+	    <operation name='com.justinmind.evc.operations.actions.tables.RemoveTableCellsOperation' />
+	    <operation name='com.justinmind.evc.operations.actions.tables.SelectColumnOperation'/>
+	    <operation name='com.justinmind.evc.operations.actions.tables.SelectRowOperation'/>
+        <operation name='com.justinmind.evc.operations.actions.tables.SplitHorizontallyOperation'/>
+        <operation name='com.justinmind.evc.operations.actions.tables.SplitVerticallyOperation'/>
+	    <operation name='com.justinmind.evc.operations.actions.tables.NewColumnBeforeOperation'/>
+	    <operation name='com.justinmind.evc.operations.actions.tables.NewColumnAfterOperation'/>
+	    <operation name='com.justinmind.evc.operations.actions.tables.NewRowBeforeOperation'/>
+	    <operation name='com.justinmind.evc.operations.actions.tables.NewRowAfterOperation'/>
+        <operation name='com.justinmind.evc.operations.actions.tables.MergeCellsOperation'/>
+	</facade>
+	
+	   <facade class='TextCell'>
+	    <operation name='com.justinmind.evc.operations.events.NewQuickEventOperation'/>
+	    <operation name='com.justinmind.evc.operations.actions.tables.RemoveTableCellsOperation'/>
+	    <operation name='com.justinmind.evc.operations.actions.tables.SelectColumnOperation'/>
+        <operation name='com.justinmind.evc.operations.actions.tables.SelectRowOperation'/>
+        <operation name='com.justinmind.evc.operations.actions.tables.SplitHorizontallyOperation'/>
+        <operation name='com.justinmind.evc.operations.actions.tables.SplitVerticallyOperation'/>
+        <operation name='com.justinmind.evc.operations.actions.tables.NewColumnBeforeOperation'/>
+        <operation name='com.justinmind.evc.operations.actions.tables.NewColumnAfterOperation'/>
+        <operation name='com.justinmind.evc.operations.actions.tables.NewRowBeforeOperation'/>
+        <operation name='com.justinmind.evc.operations.actions.tables.NewRowAfterOperation'/>
+        <operation name='com.justinmind.evc.operations.actions.tables.MergeCellsOperation'/>
+    </facade>
+	
+	<facade class='CellsGroup'>
+       <operation name='com.justinmind.evc.operations.actions.tables.CopyCellsOperation'/>
+    </facade>
+    
+    <facade class='TextCellsGroup'>
+       <operation name='com.justinmind.evc.operations.actions.tables.CopyTextCellsOperation'/>
+    </facade>
+	
+	<facade class='RichText'>
+	    <operation name='com.justinmind.evc.operations.events.NewQuickEventOperation'/>
+        <operation name='com.justinmind.evc.operations.actions.LockIItemOperation'/>
+        <operation name='com.justinmind.evc.operations.actions.general.RemoveAbstractItemOperation'/>
+        <operation name='com.justinmind.evc.operations.actions.OrderBringToFrontOperation' enabled='ORDER'/>
+        <operation name='com.justinmind.evc.operations.actions.OrderSendToBackOperation' enabled='ORDER'/>
+        <operation name='com.justinmind.evc.operations.actions.OrderBringForwardOperation' enabled='ORDER'/>
+        <operation name='com.justinmind.evc.operations.actions.OrderSendBackwardOperation' enabled='ORDER'/>
+        <operation name='com.justinmind.evc.operations.actions.DistributeVerticallyOperation' enabled='DISTRIBUTE' />
+        <operation name='com.justinmind.evc.operations.actions.DistributeHorizontallyOperation' enabled='DISTRIBUTE'/>
+        <operation name='com.justinmind.evc.operations.actions.GroupOperation'/>
+        <operation name='com.justinmind.evc.operations.actions.UngroupOperation' enabled='ISINGROUP'/>
+        <operation name='com.justinmind.evc.operations.actions.GroupItemsIntoBox'/>
+        <operation name='com.justinmind.evc.operations.comments.NewCommentOperation'/>
+	</facade>
+	
+	<facade class='Button'>
+	    <operation name='com.justinmind.evc.operations.events.NewQuickEventOperation'/>
+	    <operation name='com.justinmind.evc.operations.actions.LockIItemOperation'/>
+	    <operation name='com.justinmind.evc.operations.actions.general.RemoveAbstractItemOperation' />
+        <operation name='com.justinmind.evc.operations.actions.OrderBringToFrontOperation' enabled='ORDER'/>
+        <operation name='com.justinmind.evc.operations.actions.OrderSendToBackOperation' enabled='ORDER' />
+        <operation name='com.justinmind.evc.operations.actions.OrderBringForwardOperation' enabled='ORDER'/>
+        <operation name='com.justinmind.evc.operations.actions.OrderSendBackwardOperation' enabled='ORDER' />
+        <operation name='com.justinmind.evc.operations.actions.DistributeVerticallyOperation' enabled='DISTRIBUTE' />
+        <operation name='com.justinmind.evc.operations.actions.DistributeHorizontallyOperation' enabled='DISTRIBUTE' />
+        <operation name='com.justinmind.evc.operations.actions.GroupOperation'/>
+        <operation name='com.justinmind.evc.operations.actions.UngroupOperation' enabled='ISINGROUP'/>
+        <operation name='com.justinmind.evc.operations.actions.GroupItemsIntoBox'/>
+        <operation name='com.justinmind.evc.operations.comments.NewCommentOperation' />
+        
+    </facade>
+    
+    <facade class='Label'>
+        <operation name='com.justinmind.evc.operations.events.NewQuickEventOperation' />
+        <operation name='com.justinmind.evc.operations.actions.LockIItemOperation' />
+        <operation name='com.justinmind.evc.operations.actions.general.RemoveAbstractItemOperation' />
+        <operation name='com.justinmind.evc.operations.actions.OrderBringToFrontOperation' enabled='ORDER' />
+        <operation name='com.justinmind.evc.operations.actions.OrderSendToBackOperation' enabled='ORDER' />
+        <operation name='com.justinmind.evc.operations.actions.OrderBringForwardOperation' enabled='ORDER' />
+        <operation name='com.justinmind.evc.operations.actions.OrderSendBackwardOperation' enabled='ORDER'  />
+        <operation name='com.justinmind.evc.operations.actions.DistributeVerticallyOperation' enabled='DISTRIBUTE' />
+        <operation name='com.justinmind.evc.operations.actions.DistributeHorizontallyOperation' enabled='DISTRIBUTE' />
+        <operation name='com.justinmind.evc.operations.actions.GroupOperation'  />
+        <operation name='com.justinmind.evc.operations.actions.UngroupOperation' enabled='ISINGROUP' />
+        <operation name='com.justinmind.evc.operations.actions.GroupItemsIntoBox'  />
+        <operation name='com.justinmind.evc.operations.comments.NewCommentOperation'  />
+    </facade>
+    
+	<facade class='ImageContent'>
+	    <operation name='com.justinmind.evc.operations.events.NewQuickEventOperation' />
+	    <operation name='com.justinmind.evc.operations.actions.LockIItemOperation' />
+		<operation name='com.justinmind.evc.operations.actions.general.RemoveAbstractItemOperation' />
+		<operation name='com.justinmind.evc.operations.actions.OrderBringToFrontOperation' enabled='ORDER' />
+		<operation name='com.justinmind.evc.operations.actions.OrderSendToBackOperation' enabled='ORDER' />
+		<operation name='com.justinmind.evc.operations.actions.OrderBringForwardOperation' enabled='ORDER'  />
+		<operation name='com.justinmind.evc.operations.actions.OrderSendBackwardOperation' enabled='ORDER' />
+		<operation name='com.justinmind.evc.operations.actions.DistributeVerticallyOperation' enabled='DISTRIBUTE' />
+        <operation name='com.justinmind.evc.operations.actions.DistributeHorizontallyOperation' enabled='DISTRIBUTE' />
+        <operation name='com.justinmind.evc.operations.actions.GroupOperation' />
+        <operation name='com.justinmind.evc.operations.actions.UngroupOperation' enabled='ISINGROUP' />
+        <operation name='com.justinmind.evc.operations.actions.GroupItemsIntoBox' />
+		<operation name='com.justinmind.evc.operations.comments.NewCommentOperation' />
+	</facade>
+	
+	<facade class='ImageMap'>
+	    <operation name='com.justinmind.evc.operations.events.NewQuickEventOperation' />
+	    <operation name='com.justinmind.evc.operations.actions.LockIItemOperation'/>
+        <operation name='com.justinmind.evc.operations.actions.general.RemoveAbstractItemOperation' />
+        <operation name='com.justinmind.evc.operations.actions.OrderBringToFrontOperation' enabled='ORDER' />
+        <operation name='com.justinmind.evc.operations.actions.OrderSendToBackOperation' enabled='ORDER' />
+        <operation name='com.justinmind.evc.operations.actions.OrderBringForwardOperation' enabled='ORDER' />
+        <operation name='com.justinmind.evc.operations.actions.OrderSendBackwardOperation' enabled='ORDER' />
+        <operation name='com.justinmind.evc.operations.actions.DistributeVerticallyOperation' enabled='DISTRIBUTE' />
+        <operation name='com.justinmind.evc.operations.actions.DistributeHorizontallyOperation' enabled='DISTRIBUTE' />  
+        <operation name='com.justinmind.evc.operations.actions.GroupOperation' />
+        <operation name='com.justinmind.evc.operations.actions.UngroupOperation' enabled='ISINGROUP' />
+        <operation name='com.justinmind.evc.operations.actions.GroupItemsIntoBox' />
+        <operation name='com.justinmind.evc.operations.comments.NewCommentOperation' />      
+    </facade>
+    
+	<facade class='BrowserItem'>
+	    <operation name='com.justinmind.evc.operations.actions.general.RemoveAbstractItemOperation' />
+	    <operation name='com.justinmind.evc.operations.actions.DistributeVerticallyOperation' enabled='DISTRIBUTE' />
+        <operation name='com.justinmind.evc.operations.actions.DistributeHorizontallyOperation' enabled='DISTRIBUTE' />
+	    <operation name='com.justinmind.evc.operations.actions.GroupOperation' />
+		<operation name='com.justinmind.evc.operations.actions.UngroupOperation' enabled='ISINGROUP'/>
+		<operation name='com.justinmind.evc.operations.actions.GroupItemsIntoBox' />
+		<operation name='com.justinmind.evc.operations.comments.NewCommentOperation' />
+        
+	</facade>
+	
+	<facade class='FlashItem'>
+	   <operation name='com.justinmind.evc.operations.actions.general.RemoveAbstractItemOperation'/>
+	   <operation name='com.justinmind.evc.operations.actions.DistributeVerticallyOperation' enabled='DISTRIBUTE' />
+        <operation name='com.justinmind.evc.operations.actions.DistributeHorizontallyOperation' enabled='DISTRIBUTE' />  
+		<operation name='com.justinmind.evc.operations.actions.GroupOperation' />
+		<operation name='com.justinmind.evc.operations.actions.UngroupOperation' enabled='ISINGROUP' />
+		<operation name='com.justinmind.evc.operations.actions.GroupItemsIntoBox' />
+		<operation name='com.justinmind.evc.operations.comments.NewCommentOperation' />
+        
+	</facade>
+	
+	<facade class='WebsiteItem'>
+	    <operation name='com.justinmind.evc.operations.actions.general.RemoveAbstractItemOperation' />
+	    <operation name='com.justinmind.evc.operations.actions.DistributeVerticallyOperation' enabled='DISTRIBUTE' />
+        <operation name='com.justinmind.evc.operations.actions.DistributeHorizontallyOperation' enabled='DISTRIBUTE' />
+		<operation name='com.justinmind.evc.operations.actions.GroupOperation' />
+        <operation name='com.justinmind.evc.operations.actions.UngroupOperation' enabled='ISINGROUP' />
+        <operation name='com.justinmind.evc.operations.actions.GroupItemsIntoBox'  />
+        <operation name='com.justinmind.evc.operations.comments.NewCommentOperation' />
+        
+	</facade>
+	
+	
+	<facade class='TabbedBox'>
+	    <operation name='com.justinmind.evc.operations.SetContentEditableOperation' />
+	    <operation name='com.justinmind.evc.operations.events.NewQuickEventOperation' />
+	    <operation name='com.justinmind.evc.operations.actions.LockIItemOperation' />
+        <operation name='com.justinmind.evc.operations.actions.general.RemoveAbstractItemOperation' />
+        <operation name='com.justinmind.evc.operations.actions.OrderBringToFrontOperation' enabled='ORDER' />
+        <operation name='com.justinmind.evc.operations.actions.OrderSendToBackOperation' enabled='ORDER' />
+        <operation name='com.justinmind.evc.operations.actions.OrderBringForwardOperation' enabled='ORDER' />
+        <operation name='com.justinmind.evc.operations.actions.OrderSendBackwardOperation' enabled='ORDER' />
+        <operation name='com.justinmind.evc.operations.actions.DistributeVerticallyOperation' enabled='DISTRIBUTE' />
+        <operation name='com.justinmind.evc.operations.actions.DistributeHorizontallyOperation' enabled='DISTRIBUTE' />
+        <operation name='com.justinmind.evc.operations.actions.GroupOperation' />
+        <operation name='com.justinmind.evc.operations.actions.UngroupOperation' enabled='ISINGROUP' />
+        <operation name='com.justinmind.evc.operations.actions.GroupItemsIntoBox' />
+        <operation name='com.justinmind.evc.operations.comments.NewCommentOperation' />
+        
+    </facade>
+	
+	
+	<facade class='AttributeForm'>
+	    <operation name='com.justinmind.evc.operations.events.NewQuickEventOperation' />
+	    <operation name='com.justinmind.evc.operations.actions.LockIItemOperation' />
+	    <operation name='com.justinmind.evc.operations.actions.general.RemoveAbstractItemOperation'  />
+	    <operation name='com.justinmind.evc.operations.actions.OrderBringToFrontOperation' enabled='ORDER' />
+        <operation name='com.justinmind.evc.operations.actions.OrderSendToBackOperation' enabled='ORDER' />
+        <operation name='com.justinmind.evc.operations.actions.OrderBringForwardOperation' enabled='ORDER' />
+        <operation name='com.justinmind.evc.operations.actions.OrderSendBackwardOperation' enabled='ORDER' />
+        <operation name='com.justinmind.evc.operations.actions.DistributeVerticallyOperation' enabled='DISTRIBUTE' />
+        <operation name='com.justinmind.evc.operations.actions.DistributeHorizontallyOperation' enabled='DISTRIBUTE' />   
+		<operation name='com.justinmind.evc.operations.actions.GroupOperation'  />
+		<operation name='com.justinmind.evc.operations.actions.UngroupOperation' enabled='ISINGROUP' />
+		<operation name='com.justinmind.evc.operations.actions.GroupItemsIntoBox' />
+        <operation name='com.justinmind.evc.operations.comments.NewCommentOperation' />
+        
+	</facade>
+	
+	<facade class='Rectangle'>
+        <operation name='com.justinmind.evc.operations.events.NewQuickEventOperation' />
+        <operation name='com.justinmind.evc.operations.actions.LockIItemOperation' />
+        <operation name='com.justinmind.evc.operations.actions.general.RemoveAbstractItemOperation' />
+        <operation name='com.justinmind.evc.operations.actions.OrderBringToFrontOperation' enabled='ORDER' />
+        <operation name='com.justinmind.evc.operations.actions.OrderSendToBackOperation' enabled='ORDER' />
+        <operation name='com.justinmind.evc.operations.actions.OrderBringForwardOperation' enabled='ORDER' />
+        <operation name='com.justinmind.evc.operations.actions.OrderSendBackwardOperation' enabled='ORDER' />
+        <operation name='com.justinmind.evc.operations.actions.DistributeVerticallyOperation' enabled='DISTRIBUTE' />
+        <operation name='com.justinmind.evc.operations.actions.DistributeHorizontallyOperation' enabled='DISTRIBUTE' />
+        <operation name='com.justinmind.evc.operations.actions.GroupOperation'  />
+        <operation name='com.justinmind.evc.operations.actions.UngroupOperation' enabled='ISINGROUP' />
+        <operation name='com.justinmind.evc.operations.actions.GroupItemsIntoBox' />
+        <operation name='com.justinmind.evc.operations.comments.NewCommentOperation' />
+        
+    </facade>
+    
+    <facade class='Ellipse'>
+    
+        <operation name='com.justinmind.evc.operations.events.NewQuickEventOperation' />
+        <operation name='com.justinmind.evc.operations.actions.LockIItemOperation' />
+        <operation name='com.justinmind.evc.operations.actions.general.RemoveAbstractItemOperation' />
+        <operation name='com.justinmind.evc.operations.actions.OrderBringToFrontOperation' enabled='ORDER' />
+        <operation name='com.justinmind.evc.operations.actions.OrderSendToBackOperation' enabled='ORDER'/>
+        <operation name='com.justinmind.evc.operations.actions.OrderBringForwardOperation' enabled='ORDER' />
+        <operation name='com.justinmind.evc.operations.actions.OrderSendBackwardOperation' enabled='ORDER' />
+        <operation name='com.justinmind.evc.operations.actions.DistributeVerticallyOperation' enabled='DISTRIBUTE' />
+        <operation name='com.justinmind.evc.operations.actions.DistributeHorizontallyOperation' enabled='DISTRIBUTE' />
+        <operation name='com.justinmind.evc.operations.actions.GroupOperation' />
+        <operation name='com.justinmind.evc.operations.actions.UngroupOperation' enabled='ISINGROUP' />
+        <operation name='com.justinmind.evc.operations.actions.GroupItemsIntoBox' />
+        <operation name='com.justinmind.evc.operations.comments.NewCommentOperation' />
+        
+    </facade>
+    
+    <facade class='Triangle'>
+   
+        <operation name='com.justinmind.evc.operations.events.NewQuickEventOperation' />
+        <operation name='com.justinmind.evc.operations.actions.LockIItemOperation' />
+        <operation name='com.justinmind.evc.operations.actions.general.RemoveAbstractItemOperation' />
+        <operation name='com.justinmind.evc.operations.actions.OrderBringToFrontOperation' enabled='ORDER' />
+        <operation name='com.justinmind.evc.operations.actions.OrderSendToBackOperation' enabled='ORDER'/>
+        <operation name='com.justinmind.evc.operations.actions.OrderBringForwardOperation' enabled='ORDER' />
+        <operation name='com.justinmind.evc.operations.actions.OrderSendBackwardOperation' enabled='ORDER' />
+        <operation name='com.justinmind.evc.operations.actions.DistributeVerticallyOperation' enabled='DISTRIBUTE' />
+        <operation name='com.justinmind.evc.operations.actions.DistributeHorizontallyOperation' enabled='DISTRIBUTE' />
+        <operation name='com.justinmind.evc.operations.actions.GroupOperation' />
+        <operation name='com.justinmind.evc.operations.actions.UngroupOperation' enabled='ISINGROUP' />
+        <operation name='com.justinmind.evc.operations.actions.GroupItemsIntoBox' />
+        <operation name='com.justinmind.evc.operations.comments.NewCommentOperation' />
+        
+    </facade>
+    
+    <facade class='Callout'>
+   
+        <operation name='com.justinmind.evc.operations.events.NewQuickEventOperation' />
+        <operation name='com.justinmind.evc.operations.actions.LockIItemOperation' />
+        <operation name='com.justinmind.evc.operations.actions.general.RemoveAbstractItemOperation' />
+        <operation name='com.justinmind.evc.operations.actions.OrderBringToFrontOperation' enabled='ORDER' />
+        <operation name='com.justinmind.evc.operations.actions.OrderSendToBackOperation' enabled='ORDER'/>
+        <operation name='com.justinmind.evc.operations.actions.OrderBringForwardOperation' enabled='ORDER' />
+        <operation name='com.justinmind.evc.operations.actions.OrderSendBackwardOperation' enabled='ORDER' />
+        <operation name='com.justinmind.evc.operations.actions.DistributeVerticallyOperation' enabled='DISTRIBUTE' />
+        <operation name='com.justinmind.evc.operations.actions.DistributeHorizontallyOperation' enabled='DISTRIBUTE' />
+        <operation name='com.justinmind.evc.operations.actions.GroupOperation' />
+        <operation name='com.justinmind.evc.operations.actions.UngroupOperation' enabled='ISINGROUP' />
+        <operation name='com.justinmind.evc.operations.actions.GroupItemsIntoBox' />
+        <operation name='com.justinmind.evc.operations.comments.NewCommentOperation' />
+        
+    </facade>
+	
+	<facade class='SeparationLine'>
+	    <operation name='com.justinmind.evc.operations.events.NewQuickEventOperation' />
+	    <operation name='com.justinmind.evc.operations.actions.LockIItemOperation'  />
+	    <operation name='com.justinmind.evc.operations.actions.general.RemoveAbstractItemOperation'   />
+	    <operation name='com.justinmind.evc.operations.actions.OrderBringToFrontOperation' enabled='ORDER' />
+        <operation name='com.justinmind.evc.operations.actions.OrderSendToBackOperation' enabled='ORDER' />
+        <operation name='com.justinmind.evc.operations.actions.OrderBringForwardOperation' enabled='ORDER'  />
+        <operation name='com.justinmind.evc.operations.actions.OrderSendBackwardOperation' enabled='ORDER'  />
+	    <operation name='com.justinmind.evc.operations.actions.DistributeVerticallyOperation' enabled='DISTRIBUTE' />
+        <operation name='com.justinmind.evc.operations.actions.DistributeHorizontallyOperation' enabled='DISTRIBUTE' />
+        <operation name='com.justinmind.evc.operations.actions.GroupOperation' />
+		<operation name='com.justinmind.evc.operations.actions.UngroupOperation' enabled='ISINGROUP' />
+		<operation name='com.justinmind.evc.operations.actions.GroupItemsIntoBox' />
+		<operation name='com.justinmind.evc.operations.comments.NewCommentOperation' />
+	</facade>
+
+	<facade class='Menu'>
+	    <operation name='com.justinmind.evc.operations.events.NewQuickEventOperation' />
+        <operation name='com.justinmind.evc.operations.actions.LockIItemOperation' />
+	    <operation name='com.justinmind.evc.operations.actions.general.RemoveAbstractItemOperation'  />
+	    <operation name='com.justinmind.evc.operations.actions.OrderBringToFrontOperation' enabled='ORDER' />
+        <operation name='com.justinmind.evc.operations.actions.OrderSendToBackOperation' enabled='ORDER'  />
+        <operation name='com.justinmind.evc.operations.actions.OrderBringForwardOperation' enabled='ORDER' />
+        <operation name='com.justinmind.evc.operations.actions.OrderSendBackwardOperation' enabled='ORDER'  />
+        <operation name='com.justinmind.evc.operations.actions.DistributeVerticallyOperation' enabled='DISTRIBUTE' />
+        <operation name='com.justinmind.evc.operations.actions.DistributeHorizontallyOperation' enabled='DISTRIBUTE' />
+        <operation name='com.justinmind.evc.operations.actions.navigationComponents.NewMenuItemOperation' />
+		<operation name='com.justinmind.evc.operations.actions.GroupOperation' />
+		<operation name='com.justinmind.evc.operations.actions.UngroupOperation' enabled='ISINGROUP' />
+		<operation name='com.justinmind.evc.operations.actions.GroupItemsIntoBox'  />
+		<operation name='com.justinmind.evc.operations.comments.NewCommentOperation'  />
+	</facade>
+	
+	<facade class='NavigationTree'>
+	    <operation name='com.justinmind.evc.operations.events.NewQuickEventOperation' />
+        <operation name='com.justinmind.evc.operations.actions.LockIItemOperation'  />
+	    <operation name='com.justinmind.evc.operations.actions.general.RemoveAbstractItemOperation' />
+	    <operation name='com.justinmind.evc.operations.actions.OrderBringToFrontOperation' enabled='ORDER'  />
+        <operation name='com.justinmind.evc.operations.actions.OrderSendToBackOperation' enabled='ORDER'  />
+        <operation name='com.justinmind.evc.operations.actions.OrderBringForwardOperation' enabled='ORDER'  />
+        <operation name='com.justinmind.evc.operations.actions.OrderSendBackwardOperation' enabled='ORDER'  />
+	    <operation name='com.justinmind.evc.operations.actions.DistributeVerticallyOperation' enabled='DISTRIBUTE' />
+        <operation name='com.justinmind.evc.operations.actions.DistributeHorizontallyOperation' enabled='DISTRIBUTE'  />
+		<operation name='com.justinmind.evc.operations.actions.GroupOperation' />
+		<operation name='com.justinmind.evc.operations.actions.UngroupOperation' enabled='ISINGROUP' />
+		<operation name='com.justinmind.evc.operations.actions.GroupItemsIntoBox'  />
+		<operation name='com.justinmind.evc.operations.comments.NewCommentOperation' />
+		
+	</facade>
+	
+	<facade class='MenuItem'>
+		<operation name='com.justinmind.evc.operations.events.NewQuickEventOperation'  />
+        <operation name='com.justinmind.evc.operations.actions.general.RemoveAbstractItemOperation' />
+		<operation name='com.justinmind.evc.operations.actions.navigationComponents.NewMenuItemOperation'  />
+        <operation name='com.justinmind.evc.operations.actions.navigationComponents.AddMenuItemAfterOperation'  />
+        <operation name='com.justinmind.evc.operations.actions.navigationComponents.AddMenuItemBeforeOperation'  />
+		<operation name='com.justinmind.evc.operations.comments.NewCommentOperation'  />
+	</facade>
+	
+	<facade class='NodeTree'>
+		<operation name='com.justinmind.evc.operations.events.NewQuickEventOperation' />
+		<operation name='com.justinmind.evc.operations.actions.general.RemoveAbstractItemOperation' />		
+		<operation name='com.justinmind.evc.operations.comments.NewCommentOperation' />
+		
+	</facade>
+		
+	<facade class='SimpleCategoryItem'>
+	    <operation name='com.justinmind.evc.operations.events.NewQuickEventOperation' />
+        <operation name='com.justinmind.evc.operations.actions.LockIItemOperation' />
+	    <operation name='com.justinmind.evc.operations.actions.general.RemoveAbstractItemOperation' />
+		<operation name='com.justinmind.evc.operations.actions.OrderBringToFrontOperation' enabled='ORDER' />
+		<operation name='com.justinmind.evc.operations.actions.OrderSendToBackOperation' enabled='ORDER' />
+		<operation name='com.justinmind.evc.operations.actions.OrderBringForwardOperation' enabled='ORDER' />
+		<operation name='com.justinmind.evc.operations.actions.OrderSendBackwardOperation' enabled='ORDER'  />
+		<operation name='com.justinmind.evc.operations.actions.DistributeVerticallyOperation' enabled='DISTRIBUTE'  />
+        <operation name='com.justinmind.evc.operations.actions.DistributeHorizontallyOperation' enabled='DISTRIBUTE' />
+		<operation name='com.justinmind.evc.operations.actions.GroupOperation'  />
+		<operation name='com.justinmind.evc.operations.actions.UngroupOperation' enabled='ISINGROUP' />
+		<operation name='com.justinmind.evc.operations.actions.GroupItemsIntoBox'  />
+		<operation name='com.justinmind.evc.operations.comments.NewCommentOperation'/>
+        
+	</facade>
+	
+	<facade class='ObjectAttributeCategoryItem'>
+	    <operation name='com.justinmind.evc.operations.events.NewQuickEventOperation' />
+	    <operation name='com.justinmind.evc.operations.actions.LockIItemOperation' />
+	    <operation name='com.justinmind.evc.operations.actions.general.RemoveAbstractItemOperation' />
+	    <operation name='com.justinmind.evc.operations.actions.OrderBringToFrontOperation' enabled='ORDER' />
+        <operation name='com.justinmind.evc.operations.actions.OrderSendToBackOperation' enabled='ORDER' />
+        <operation name='com.justinmind.evc.operations.actions.OrderBringForwardOperation' enabled='ORDER' />
+        <operation name='com.justinmind.evc.operations.actions.OrderSendBackwardOperation' enabled='ORDER'  />
+        <operation name='com.justinmind.evc.operations.actions.DistributeVerticallyOperation' enabled='DISTRIBUTE' />
+        <operation name='com.justinmind.evc.operations.actions.DistributeHorizontallyOperation' enabled='DISTRIBUTE' />
+		<operation name='com.justinmind.evc.operations.actions.GroupOperation' />
+		<operation name='com.justinmind.evc.operations.actions.UngroupOperation' enabled='ISINGROUP' />
+		<operation name='com.justinmind.evc.operations.actions.GroupItemsIntoBox' />
+        <operation name='com.justinmind.evc.operations.comments.NewCommentOperation' />
+        
+	</facade>
+	
+	<facade class='SelectBOAttribute'>
+	    <operation name='com.justinmind.evc.operations.events.NewQuickEventOperation' />
+	    <operation name='com.justinmind.evc.operations.actions.LockIItemOperation' />
+	    <operation name='com.justinmind.evc.operations.actions.general.RemoveAbstractItemOperation' />
+        <operation name='com.justinmind.evc.operations.actions.OrderBringToFrontOperation' enabled='ORDER' />
+        <operation name='com.justinmind.evc.operations.actions.OrderSendToBackOperation' enabled='ORDER' />
+        <operation name='com.justinmind.evc.operations.actions.OrderBringForwardOperation' enabled='ORDER' />
+        <operation name='com.justinmind.evc.operations.actions.OrderSendBackwardOperation' enabled='ORDER' />
+        <operation name='com.justinmind.evc.operations.actions.DistributeVerticallyOperation' enabled='DISTRIBUTE'  />
+        <operation name='com.justinmind.evc.operations.actions.DistributeHorizontallyOperation' enabled='DISTRIBUTE' />
+		<operation name='com.justinmind.evc.operations.actions.GroupOperation' />
+		<operation name='com.justinmind.evc.operations.actions.UngroupOperation' enabled='ISINGROUP' />
+		<operation name='com.justinmind.evc.operations.actions.GroupItemsIntoBox' />
+		<operation name='com.justinmind.evc.operations.comments.NewCommentOperation' />
+		
+	</facade>
+
+	<facade class='BusinessObject'>
+		<operation name='com.justinmind.evc.operations.businessObjects.DeleteBoOperation'/>
+		<operation name='com.justinmind.evc.operations.businessObjects.DuplicateBoOperation' />
+	</facade>
+
+	<facade class='ObjectAttribute'>
+		<operation name='com.justinmind.evc.operations.businessObjects.DeleteBOAttribute' enabled='DELETE' />
+	</facade>
+	
+	<facade class='Template'>
+	   <operation name='com.justinmind.evc.igu.main.editor.TemplateDesigner.operations.ModifyTemplateOperation' />
+		<operation name='com.justinmind.evc.igu.main.editor.TemplateDesigner.operations.DeleteTemplateOperation' />
+		<operation name='com.justinmind.evc.operations.projects.SetAsDefaultTemplate' />
+		<operation name='com.justinmind.evc.igu.main.editor.TemplateDesigner.operations.ModifyTemplateDefaultsOperation' />
+		<operation name='com.justinmind.evc.operations.actions.ApplyStyleToAssociatedScreens' />
+		<operation name='com.justinmind.evc.igu.main.editor.TemplateDesigner.operations.DuplicateTemplateOperation' />
+		<operation name='com.justinmind.evc.operations.comments.NewCommentOperation' />
+	</facade>
+	
+	<facade class='CustomComponent'>
+		<operation name='com.justinmind.evc.operations.customComponents.ModifyCustomComponentOperation' />
+		<operation name='com.justinmind.evc.operations.customComponents.DeleteCustomComponentOperation'/>
+		<operation name='com.justinmind.evc.operations.customComponents.DuplicateCustomComponentOperation' />
+		<operation name='com.justinmind.evc.operations.comments.NewCommentOperation' />
+	</facade>
+
+	<facade class='CustomComponentItem'>
+	<operation name='com.justinmind.evc.operations.customComponents.BreakCustomComponentItemOperation'  />
+	    <operation name='com.justinmind.evc.operations.actions.LockIItemOperation' />
+		<operation name='com.justinmind.evc.operations.actions.general.RemoveAbstractItemOperation' />
+		<operation name='com.justinmind.evc.operations.actions.OrderBringToFrontOperation' enabled='ORDER' />
+        <operation name='com.justinmind.evc.operations.actions.OrderSendToBackOperation' enabled='ORDER'  />
+        <operation name='com.justinmind.evc.operations.actions.OrderBringForwardOperation' enabled='ORDER' />
+        <operation name='com.justinmind.evc.operations.actions.OrderSendBackwardOperation' enabled='ORDER' />
+        <operation name='com.justinmind.evc.operations.actions.DistributeVerticallyOperation' enabled='DISTRIBUTE'  />
+        <operation name='com.justinmind.evc.operations.actions.DistributeHorizontallyOperation' enabled='DISTRIBUTE'  />
+		<operation name='com.justinmind.evc.operations.actions.GroupOperation'/>
+		<operation name='com.justinmind.evc.operations.actions.UngroupOperation' enabled='ISINGROUP' />
+		<operation name='com.justinmind.evc.operations.actions.GroupItemsIntoBox' />
+		
+	</facade>
+	
+	<facade class='ActivityScenarioModel'>
+		<operation name='com.justinmind.evc.igu.activityscenarios.operations.RenameActivityScenarioOperation' />
+		<operation name='com.justinmind.evc.igu.activityscenarios.operations.DeleteActivityScenarioOperation'/>
+		<operation name='com.justinmind.evc.operations.comments.NewCommentOperation' />
+	</facade>
+	
+	<facade class='GroupContainer'>
+	    <operation name='com.justinmind.evc.operations.actions.LockIItemOperation' />
+	    <operation name='com.justinmind.evc.operations.actions.RemoveGroupContainerOperation' />
+		<operation name='com.justinmind.evc.operations.actions.OrderBringToFrontOperation' enabled='ORDER' />
+        <operation name='com.justinmind.evc.operations.actions.OrderSendToBackOperation' enabled='ORDER'/>
+        <operation name='com.justinmind.evc.operations.actions.OrderBringForwardOperation' enabled='ORDER' />
+        <operation name='com.justinmind.evc.operations.actions.OrderSendBackwardOperation' enabled='ORDER' />
+        <operation name='com.justinmind.evc.operations.actions.DistributeVerticallyOperation' enabled='DISTRIBUTE' />
+        <operation name='com.justinmind.evc.operations.actions.DistributeHorizontallyOperation' enabled='DISTRIBUTE' />
+		<operation name='com.justinmind.evc.operations.actions.UngroupOperation' />
+		<operation name='com.justinmind.evc.operations.actions.GroupOperation' />
+		<operation name='com.justinmind.evc.operations.actions.GroupItemsIntoBox'/>
+		
+	</facade>
+	
+    <facade class='Variable'>
+        <operation name='com.justinmind.evc.operations.variables.ModifyVariableOperation' />
+        <operation name='com.justinmind.evc.operations.variables.RemoveVariableOperation' />
+    </facade>
+    
+    <facade class='Folder'>
+        <operation name='com.justinmind.evc.operations.actions.folders.ModifyFolderOperation' />
+        <operation name='com.justinmind.evc.operations.actions.folders.RemoveFolderOperation' />
+    </facade>
+    
+</facades>

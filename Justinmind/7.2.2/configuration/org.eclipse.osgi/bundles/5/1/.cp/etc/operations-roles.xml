@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<facades>
+	<facade class='EVCMenuItemModel'>
+		<operation
+			name='com.justinmind.evc.model.roles.operations.EnableMenuItemOperation'
+			order='1'>
+		</operation>
+		<operation
+			name='com.justinmind.evc.model.roles.operations.DisableMenuItemOperation'
+			order='2'>
+		</operation>
+	</facade>
+	<facade class='virtualAction'>
+		<operation
+			name='com.justinmind.evc.model.roles.operations.EnableActionOperation'
+			order='1'>
+		</operation>
+		<operation
+			name='com.justinmind.evc.model.roles.operations.DisableActionOperation'
+			order='2'>
+		</operation>
+	</facade>
+	<facade class='PageAction'>
+		<operation
+			name='com.justinmind.evc.model.roles.operations.EnableActionOperation'
+			enabled='ENABLE' order='1'>
+		</operation>
+		<operation
+			name='com.justinmind.evc.model.roles.operations.DisableActionOperation'
+			enabled='DISABLE' order='2'>
+		</operation>
+	</facade>
+	<facade class='ExecAction'>
+		<operation
+			name='com.justinmind.evc.model.roles.operations.EnableActionOperation'
+			order='1'>
+		</operation>
+		<operation
+			name='com.justinmind.evc.model.roles.operations.DisableActionOperation'
+			order='2'>
+		</operation>
+	</facade>
+	<facade class='AltaAction'>
+		<operation
+			name='com.justinmind.evc.model.roles.operations.EnableActionOperation'
+			order='1'>
+		</operation>
+		<operation
+			name='com.justinmind.evc.model.roles.operations.DisableActionOperation'
+			order='2'>
+		</operation>
+	</facade>
+	<facade class='ModifyAction'>
+		<operation
+			name='com.justinmind.evc.model.roles.operations.EnableActionOperation'
+			order='1'>
+		</operation>
+		<operation
+			name='com.justinmind.evc.model.roles.operations.DisableActionOperation'
+			order='2'>
+		</operation>
+	</facade>
+	<facade class='BajaAction'>
+		<operation
+			name='com.justinmind.evc.model.roles.operations.EnableActionOperation'
+			order='1'>
+		</operation>
+		<operation
+			name='com.justinmind.evc.model.roles.operations.DisableActionOperation'
+			order='2'>
+		</operation>
+	</facade>
+	<facade class='CancelAction'>
+		<operation
+			name='com.justinmind.evc.model.roles.operations.EnableActionOperation'
+			order='1'>
+		</operation>
+		<operation
+			name='com.justinmind.evc.model.roles.operations.DisableActionOperation'
+			order='2'>
+		</operation>
+	</facade>
+	<facade class='EVCActionRefModel'>
+		<operation
+			name='com.justinmind.evc.model.roles.operations.EnableActionRefOperation'>
+		</operation>
+		<operation
+			name='com.justinmind.evc.model.roles.operations.DisableActionRefOperation'>
+		</operation>
+		<operation
+			name='com.justinmind.evc.model.operations.SelectActionOperation'>
+		</operation>
+	</facade>
+	<facade class='ActionRefModel'>
+		<operation
+			name='com.justinmind.evc.model.roles.operations.EnableActionRefOperation'
+			order='1'>
+		</operation>
+		<operation
+			name='com.justinmind.evc.model.roles.operations.DisableActionRefOperation'
+			order='2'>
+		</operation>
+	</facade>
+	<facade class='ImageContent'>
+		<operation
+			name='com.justinmind.evc.model.roles.operations.EnableActionRefOperation'
+			enabled='ENABLE' order='1'>
+		</operation>
+		<operation
+			name='com.justinmind.evc.model.roles.operations.DisableActionRefOperation'
+			enabled='ENABLE' order='2'>
+		</operation>
+	</facade>
+	<facade class='RoleModel'>
+		<operation
+			name='com.justinmind.evc.model.roles.operations.EVCDeleteRoleOperation'>
+		</operation>
+		<operation
+			name='com.justinmind.evc.model.roles.operations.EVCDuplicateRoleOperation'>
+		</operation>
+		<operation
+			name='com.justinmind.evc.model.roles.operations.EVCModifyRoleOperation'>
+		</operation>
+	</facade>
+
+	<facade class='Administrator'>
+		<operation
+			name='com.justinmind.evc.model.roles.operations.EVCModifyRoleOperation'>
+		</operation>
+	</facade>
+	<facade class='Guest'>
+		<operation
+			name='com.justinmind.evc.model.roles.operations.EVCModifyRoleOperation'>
+		</operation>
+	</facade>
+
+
+</facades>

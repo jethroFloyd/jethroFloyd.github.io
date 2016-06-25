@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<facades>
+	<facade class='UserWidgetTool'>
+	   <operation name='com.justinmind.evc.operations.widgets.MoveWidgetToWidgetGroupOperation' />
+	</facade>
+	
+	<facade class='BusinessObject'>
+		<operation name='com.justinmind.evc.operations.businessObjects.MoveBOToActionOperation' />
+		<operation name='com.justinmind.evc.operations.actions.MoveBusinessObjectToAttributeForm' />
+	</facade>
+	
+	<facade class='ObjectAttribute'>
+		<operation name='com.justinmind.evc.operations.businessObjects.MoveObjAttToItemsGroupOperation' />
+		<operation name='com.justinmind.evc.operations.actions.MoveObjectAttributeToFormItem' />
+	</facade>
+
+	<facade class='Screen'>
+		<operation name='com.justinmind.evc.operations.events.MoveScreenToIItemOperation' />
+	</facade>
+	
+	<facade class="Table">
+		<operation name='com.justinmind.evc.operations.actions.general.RemoveAbstractItemOperation'/>
+		<operation name='com.justinmind.evc.operations.actions.general.CopyAbstractItemOperation'/>
+		<operation name='com.justinmind.evc.operations.MoveIItemOperation' />
+		<operation name='com.justinmind.evc.operations.actions.MoveIItemToWidgetGroupOperation' />
+	</facade>
+	
+	<facade class="TextTable">
+        <operation name='com.justinmind.evc.operations.actions.general.RemoveAbstractItemOperation'/>
+        <operation name='com.justinmind.evc.operations.actions.general.CopyAbstractItemOperation'/>
+        <operation name='com.justinmind.evc.operations.MoveIItemOperation' />
+        <operation name='com.justinmind.evc.operations.actions.MoveIItemToWidgetGroupOperation' />
+    </facade>
+    
+    <facade class="TextCell">
+        <operation name='com.justinmind.evc.operations.events.MoveIItemToScreenOperation' />
+        <operation name='com.justinmind.evc.operations.variables.MoveIItemToVariableOperation'/>
+    </facade>
+
+	<facade class='ItemGroup'>
+	</facade>
+	
+	<facade class='RichText'>
+		<operation name='com.justinmind.evc.operations.actions.general.RemoveAbstractItemOperation' />
+		<operation name='com.justinmind.evc.operations.actions.general.CopyAbstractItemOperation' />
+		<operation name='com.justinmind.evc.operations.events.MoveIItemToScreenOperation' />
+		<operation name='com.justinmind.evc.operations.MoveIItemOperation' />
+		<operation name='com.justinmind.evc.operations.actions.MoveIItemToWidgetGroupOperation' />
+        <operation name='com.justinmind.evc.operations.variables.MoveIItemToVariableOperation'/>
+	</facade>
+	
+	<facade class='TextBox'>
+		<operation name='com.justinmind.evc.operations.actions.general.RemoveAbstractItemOperation' />
+		<operation name='com.justinmind.evc.operations.actions.general.CopyAbstractItemOperation' />
+		<operation name='com.justinmind.evc.operations.events.MoveIItemToScreenOperation' />
+		<operation name='com.justinmind.evc.operations.MoveIItemOperation' />
+		<operation name='com.justinmind.evc.operations.actions.MoveIItemToWidgetGroupOperation' />
+	</facade>
+	
+	<facade class='Label'>
+        <operation name='com.justinmind.evc.operations.actions.general.RemoveAbstractItemOperation' />
+        <operation name='com.justinmind.evc.operations.actions.general.CopyAbstractItemOperation' />
+        <operation name='com.justinmind.evc.operations.events.MoveIItemToScreenOperation' />
+        <operation name='com.justinmind.evc.operations.MoveIItemOperation' />
+        <operation name='com.justinmind.evc.operations.actions.MoveIItemToWidgetGroupOperation' />
+        <operation name='com.justinmind.evc.operations.variables.MoveIItemToVariableOperation' />
+    </facade>
+    
+    <facade class='Button'>
+        <operation name='com.justinmind.evc.operations.actions.general.RemoveAbstractItemOperation' />
+        <operation name='com.justinmind.evc.operations.actions.general.CopyAbstractItemOperation' />
+        <operation name='com.justinmind.evc.operations.events.MoveIItemToScreenOperation' />
+        <operation name='com.justinmind.evc.operations.MoveIItemOperation' />
+        <operation name='com.justinmind.evc.operations.actions.MoveIItemToWidgetGroupOperation' />
+        <operation name='com.justinmind.evc.operations.variables.MoveIItemToVariableOperation'/>
+    </facade>
+    
+	<facade class='ImageContent'>
+		<operation name='com.justinmind.evc.operations.actions.general.RemoveAbstractItemOperation' />
+		<operation name='com.justinmind.evc.operations.actions.general.CopyAbstractItemOperation' />
+		 <operation name='com.justinmind.evc.operations.actions.MoveFormItemToObjectAttribute' />
+		<operation name='com.justinmind.evc.operations.MoveIItemOperation' />
+		<operation name='com.justinmind.evc.operations.events.MoveIItemToScreenOperation' />
+	    <operation name='com.justinmind.evc.operations.actions.MoveIItemToWidgetGroupOperation' />
+	</facade>
+	
+	<facade class='ImageMap'>
+        <operation name='com.justinmind.evc.operations.actions.general.RemoveAbstractItemOperation' />
+        <operation name='com.justinmind.evc.operations.actions.general.CopyAbstractItemOperation' />
+        <operation name='com.justinmind.evc.operations.MoveIItemOperation' />
+        <operation name='com.justinmind.evc.operations.events.MoveIItemToScreenOperation' />
+        <operation name='com.justinmind.evc.operations.actions.MoveIItemToWidgetGroupOperation' />
+    </facade>
+    
+	<facade class='BrowserItem'>
+        <operation name='com.justinmind.evc.operations.MoveIItemOperation' />
+		<operation name='com.justinmind.evc.operations.actions.general.RemoveAbstractItemOperation' />
+		<operation name='com.justinmind.evc.operations.actions.general.CopyAbstractItemOperation' />
+		<operation name='com.justinmind.evc.operations.actions.MoveIItemToWidgetGroupOperation' />
+	</facade>
+	
+	<facade class='FlashItem'>
+		<operation name='com.justinmind.evc.operations.MoveIItemOperation' />
+		<operation name='com.justinmind.evc.operations.actions.general.RemoveAbstractItemOperation' />
+		<operation name='com.justinmind.evc.operations.actions.general.CopyAbstractItemOperation' />
+		<operation name='com.justinmind.evc.operations.actions.MoveIItemToWidgetGroupOperation' />
+	</facade>
+	
+	<facade class='WebsiteItem'>
+		<operation name='com.justinmind.evc.operations.MoveIItemOperation' />
+		<operation name='com.justinmind.evc.operations.actions.general.RemoveAbstractItemOperation' />
+		<operation name='com.justinmind.evc.operations.actions.general.CopyAbstractItemOperation' />
+		<operation name='com.justinmind.evc.operations.actions.MoveIItemToWidgetGroupOperation' />
+	</facade>
+	
+	<facade class='TabbedBox'>
+	   <operation name='com.justinmind.evc.operations.MoveIItemOperation' />
+	   <operation name='com.justinmind.evc.operations.actions.general.RemoveAbstractItemOperation' />
+	   <operation name='com.justinmind.evc.operations.actions.general.CopyAbstractItemOperation' />
+	   <operation name='com.justinmind.evc.operations.actions.MoveIItemToWidgetGroupOperation' />
+       <operation name='com.justinmind.evc.operations.events.MoveIItemToScreenOperation' />
+	</facade>
+
+	<facade class='AttributeForm'>
+	   <operation name='com.justinmind.evc.operations.actions.general.RemoveAbstractItemOperation'/>
+	   <operation name='com.justinmind.evc.operations.actions.MoveIItemToWidgetGroupOperation' />
+	   <operation name='com.justinmind.evc.operations.actions.general.CopyAbstractItemOperation' />
+	   <operation name='com.justinmind.evc.operations.actions.ChangeEditableAttributeFormOperation' enabled='IS_EDITABLE' />
+	   <operation name='com.justinmind.evc.operations.MoveIItemOperation' />
+	   <operation name='com.justinmind.evc.operations.actions.MoveFormItemToObjectAttribute' />
+	   <operation name='com.justinmind.evc.operations.events.MoveIItemToScreenOperation' />
+	   <operation name='com.justinmind.evc.operations.variables.MoveIItemToVariableOperation'/>
+	</facade>
+	
+	<facade class='Rectangle'>
+	   <operation name='com.justinmind.evc.operations.actions.MoveIItemToWidgetGroupOperation' />
+	   <operation name='com.justinmind.evc.operations.MoveIItemOperation' />
+	   <operation name='com.justinmind.evc.operations.actions.general.RemoveAbstractItemOperation' />
+       <operation name='com.justinmind.evc.operations.actions.general.CopyAbstractItemOperation' />
+	   <operation name='com.justinmind.evc.operations.events.MoveIItemToScreenOperation' />
+	</facade>
+	
+    <facade class='Ellipse'>
+	   <operation name='com.justinmind.evc.operations.actions.MoveIItemToWidgetGroupOperation' />
+	   <operation name='com.justinmind.evc.operations.MoveIItemOperation' />
+	   <operation name='com.justinmind.evc.operations.actions.general.RemoveAbstractItemOperation' />
+       <operation name='com.justinmind.evc.operations.actions.general.CopyAbstractItemOperation' />
+	   <operation name='com.justinmind.evc.operations.events.MoveIItemToScreenOperation' />
+	</facade>
+	
+	<facade class='Triangle'>
+        <operation name='com.justinmind.evc.operations.actions.general.RemoveAbstractItemOperation' />
+        <operation name='com.justinmind.evc.operations.actions.general.CopyAbstractItemOperation' />
+        <operation name='com.justinmind.evc.operations.events.MoveIItemToScreenOperation' />
+        <operation name='com.justinmind.evc.operations.MoveIItemOperation' />
+        <operation name='com.justinmind.evc.operations.actions.MoveIItemToWidgetGroupOperation' />
+        <operation name='com.justinmind.evc.operations.variables.MoveIItemToVariableOperation'/>
+    </facade>
+	
+	<facade class='Callout'>
+        <operation name='com.justinmind.evc.operations.actions.general.RemoveAbstractItemOperation' />
+        <operation name='com.justinmind.evc.operations.actions.general.CopyAbstractItemOperation' />
+        <operation name='com.justinmind.evc.operations.events.MoveIItemToScreenOperation' />
+        <operation name='com.justinmind.evc.operations.MoveIItemOperation' />
+        <operation name='com.justinmind.evc.operations.actions.MoveIItemToWidgetGroupOperation' />
+        <operation name='com.justinmind.evc.operations.variables.MoveIItemToVariableOperation'/>
+    </facade>
+	
+	<facade class='SeparationLine'>
+	   <operation name='com.justinmind.evc.operations.actions.MoveIItemToWidgetGroupOperation' />
+	   <operation name='com.justinmind.evc.operations.MoveIItemOperation' />
+       <operation name='com.justinmind.evc.operations.actions.general.RemoveAbstractItemOperation' />
+	   <operation name='com.justinmind.evc.operations.actions.general.CopyAbstractItemOperation' />
+	   <operation name='com.justinmind.evc.operations.events.MoveIItemToScreenOperation' />
+	</facade>
+	
+	<facade class='Menu'>
+	   <operation name='com.justinmind.evc.operations.actions.MoveIItemToWidgetGroupOperation' />
+	   <operation name='com.justinmind.evc.operations.actions.general.RemoveAbstractItemOperation' />
+	   <operation name='com.justinmind.evc.operations.actions.general.CopyAbstractItemOperation' />
+	   <operation name='com.justinmind.evc.operations.MoveIItemOperation' />
+	   <operation name='com.justinmind.evc.operations.actions.navigationComponents.NewMenuItemOperation' />
+	   <operation name='com.justinmind.evc.operations.events.MoveIItemToScreenOperation' />
+	</facade>
+	
+	<facade class='NavigationTree'>
+	   <operation name='com.justinmind.evc.operations.actions.MoveIItemToWidgetGroupOperation' />
+	   <operation name='com.justinmind.evc.operations.actions.general.RemoveAbstractItemOperation' />
+	   <operation name='com.justinmind.evc.operations.actions.general.CopyAbstractItemOperation' />
+	   <operation name='com.justinmind.evc.operations.MoveIItemOperation' />
+	   <operation name='com.justinmind.evc.operations.actions.navigationComponents.NewNodeTreeOperation' />	
+	   <operation name='com.justinmind.evc.operations.events.MoveIItemToScreenOperation' />
+	</facade>
+	
+	<facade class='MenuItem'>
+		<operation name='com.justinmind.evc.operations.actions.navigationComponents.NewMenuItemOperation' />
+		<operation name='com.justinmind.evc.operations.actions.navigationComponents.CopyNavigationItemOperation' />
+		<operation name='com.justinmind.evc.operations.actions.general.RemoveAbstractItemOperation' />
+		<operation name='com.justinmind.evc.operations.actions.navigationComponents.MoveNavigationItemOperation' />
+		<operation name='com.justinmind.evc.operations.events.MoveIItemToScreenOperation' />
+	</facade>
+	
+	<facade class='NodeTree'>
+		<operation name='com.justinmind.evc.operations.actions.navigationComponents.NewNodeTreeOperation' />
+		<operation name='com.justinmind.evc.operations.actions.navigationComponents.CopyNavigationItemOperation' />
+		<operation name='com.justinmind.evc.operations.actions.general.RemoveAbstractItemOperation' />
+		<operation name='com.justinmind.evc.operations.actions.navigationComponents.MoveNavigationItemOperation' />
+		<operation name='com.justinmind.evc.operations.events.MoveIItemToScreenOperation' />
+	</facade>
+	
+	<facade class='SimpleCategoryItem'>
+	   <operation name='com.justinmind.evc.operations.actions.MoveIItemToWidgetGroupOperation' />
+	   <operation name='com.justinmind.evc.operations.actions.general.RemoveAbstractItemOperation' enabled='REMOVE' />
+	   <operation name='com.justinmind.evc.operations.actions.general.CopyAbstractItemOperation' enabled='COPY' />
+	   <operation name='com.justinmind.evc.operations.actions.ChangeEditableAttributeFormOperation' />
+	   <operation name='com.justinmind.evc.operations.MoveIItemOperation' />
+	   <operation name='com.justinmind.evc.operations.actions.MoveFormItemToObjectAttribute' />
+	   <operation name='com.justinmind.evc.operations.actions.MoveAttributeFormToBusinessObject' />
+	   <operation name='com.justinmind.evc.operations.events.MoveIItemToScreenOperation' />
+	   <operation name='com.justinmind.evc.operations.variables.MoveIItemToVariableOperation' />
+	</facade>
+	
+	<facade class='ObjectAttributeCategoryItem'>
+	   <operation name='com.justinmind.evc.operations.actions.MoveIItemToWidgetGroupOperation' />
+	   <operation name='com.justinmind.evc.operations.actions.general.RemoveAbstractItemOperation' enabled='REMOVE' />
+	   <operation name='com.justinmind.evc.operations.actions.ChangeEditableAttributeFormOperation' />
+	   <operation name='com.justinmind.evc.operations.MoveIItemOperation' />
+	   <operation name='com.justinmind.evc.operations.actions.general.CopyAbstractItemOperation' enabled='COPY' />
+	   <operation name='com.justinmind.evc.operations.actions.MoveFormItemToObjectAttribute' />
+	   <operation name='com.justinmind.evc.operations.actions.MoveAttributeFormToBusinessObject' />
+	   <operation name='com.justinmind.evc.operations.events.MoveIItemToScreenOperation' />
+	   <operation name='com.justinmind.evc.operations.variables.MoveIItemToVariableOperation'/>
+	</facade>
+	
+	<facade class='SelectBOAttribute'>
+	   <operation name='com.justinmind.evc.operations.actions.MoveIItemToWidgetGroupOperation' />
+	   <operation name='com.justinmind.evc.operations.actions.general.RemoveAbstractItemOperation' enabled='REMOVE' />
+	   <operation name='com.justinmind.evc.operations.actions.ChangeEditableAttributeFormOperation' />
+	   <operation name='com.justinmind.evc.operations.MoveIItemOperation' />
+       <operation name='com.justinmind.evc.operations.actions.general.CopyAbstractItemOperation' enabled='COPY' />
+	   <operation name='com.justinmind.evc.operations.actions.MoveFormItemToObjectAttribute' />
+	   <operation name='com.justinmind.evc.operations.actions.MoveAttributeFormToBusinessObject' />
+	   <operation name='com.justinmind.evc.operations.events.MoveIItemToScreenOperation' />
+	   <operation name='com.justinmind.evc.operations.variables.MoveIItemToVariableOperation'/>
+	</facade>
+	
+	<facade class='DataList'>
+	   <operation name='com.justinmind.evc.operations.MoveIItemOperation' />
+	   <operation name='com.justinmind.evc.operations.actions.general.CopyAbstractItemOperation' />
+	   <operation name='com.justinmind.evc.operations.actions.general.RemoveAbstractItemOperation' />
+	</facade>
+	
+	<facade class='DataGrid'>
+       <operation name='com.justinmind.evc.operations.MoveIItemOperation' />
+       <operation name='com.justinmind.evc.operations.actions.general.CopyAbstractItemOperation' />
+       <operation name='com.justinmind.evc.operations.actions.general.RemoveAbstractItemOperation' />
+    </facade>
+	
+	<facade class="PaginationIndex">
+		<operation name='com.justinmind.evc.operations.MoveIItemOperation' />
+		<operation name='com.justinmind.evc.operations.actions.general.RemoveAbstractItemOperation' enabled='REMOVE' />
+		<operation name='com.justinmind.evc.operations.actions.general.CopyAbstractItemOperation'/>
+		<operation name='com.justinmind.evc.operations.events.MoveIItemToScreenOperation' />
+	</facade>
+	
+	<facade class="PaginationSummary">
+		<operation name='com.justinmind.evc.operations.MoveIItemOperation' />
+		<operation name='com.justinmind.evc.operations.actions.general.RemoveAbstractItemOperation' enabled='REMOVE' />
+		<operation name='com.justinmind.evc.operations.actions.general.CopyAbstractItemOperation'/>
+		<operation name='com.justinmind.evc.operations.events.MoveIItemToScreenOperation' />
+	</facade>
+		
+	<facade class='CustomComponent'>
+		<operation name='com.justinmind.evc.operations.customComponents.AddCustomComponentItemToItemGroupOperation' />
+	</facade>
+	
+	<facade class='CustomComponentItem'>
+		<operation name='com.justinmind.evc.operations.actions.general.RemoveAbstractItemOperation' />
+		<operation name='com.justinmind.evc.operations.MoveIItemOperation' />
+		<operation name='com.justinmind.evc.operations.actions.general.CopyAbstractItemOperation' />
+		<operation name='com.justinmind.evc.operations.actions.MoveIItemToWidgetGroupOperation' />
+	</facade>
+	
+	<facade class='GroupContainer'>
+	   <operation name='com.justinmind.evc.operations.actions.MoveIItemToWidgetGroupOperation' />
+	   <operation name='com.justinmind.evc.operations.actions.RemoveGroupContainerOperation' />
+	   <operation name='com.justinmind.evc.operations.MoveIItemOperation' />
+	   <operation name='com.justinmind.evc.operations.actions.general.CopyAbstractItemOperation'/>
+	</facade>
+	
+	<facade class='RadioButtonDataView'>
+	   <operation name='com.justinmind.evc.operations.actions.MoveIItemToWidgetGroupOperation' />
+	   <operation name='com.justinmind.evc.operations.events.MoveIItemToScreenOperation' />
+	   <operation name='com.justinmind.evc.operations.MoveIItemOperation' />
+	   <operation name='com.justinmind.evc.operations.actions.general.RemoveAbstractItemOperation' enabled='REMOVE' />
+       <operation name='com.justinmind.evc.operations.actions.general.CopyAbstractItemOperation'/>
+	</facade>
+	
+	<facade class='Variable'>
+        <operation name='com.justinmind.evc.operations.variables.MoveVariableToIItemOperation' />
+    </facade>
+    
+</facades>
