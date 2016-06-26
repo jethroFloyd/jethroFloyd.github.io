@@ -3,6 +3,33 @@
     $RESET
 \*------------------------------------*/
 /* A more considered reset; more of a restart... As per: csswizardry.com/2011/10/reset-restarted */
+
+@font-face {
+  font-family: SanFrancisco-Thin;
+  src: url("../font/thin.otf");
+}
+
+@font-face {
+  font-family: SanFrancisco-Medium;
+  src: url("../font/medium.otf");
+}
+
+@font-face {
+  font-family: SanFrancisco-Light;
+  src: url("../font/light.otf");
+}
+
+@font-face {
+  font-family: SanFrancisco-Regular;
+  src: url("../font/regular.otf");
+}
+
+@font-face {
+  font-family: SanFrancisco-Ultralight;
+  src: url("../font/ultralight.otf");
+}
+
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr,
 a, abbr, address, cite, code,
@@ -77,13 +104,15 @@ textarea {
 /*------------------------------------*\
     $MAIN
 \*------------------------------------*/
+
 html {
     background-color: #ffffff;
     color: #95a4a9;
-    font: 12px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
 }
 body {
     margin: 10%;
+    font: 14px/1.5 "SanFrancisco-Light", Helvetica, Arial, sans-serif;
 }
 
 .avatar {
@@ -104,6 +133,14 @@ body {
         font-size: 48px;
         font-weight: normal;
         line-height: 1;
+        font: 50px/1.5 "SanFrancisco-Ultralight", Helvetica, Arial, sans-serif;
+    }
+
+    .title2 {
+        font-size: 20px;
+        font-weight: normal;
+        line-height: 1;
+        font: 20px/1.5 "SanFrancisco-Ultralight", Helvetica, Arial, sans-serif;
     }
 
     .social-icons li {
