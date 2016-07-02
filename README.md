@@ -1,10 +1,12 @@
 Site Source for:
-http://www.ritobrotom.com
+rito.tech (primary)
+ritobrotom.com
+jethrofloyd.com
 
-Contact: [ritobroto [at] ritobrotom [dot] com](mailto:ritobroto@ritobrotm.com.nospam))
+Contact: [rito [at] rito [dot] tech](mailto:rito@rito.tech.nospam))
 
 Maintained by Ritobroto Maitra.
-Last Updated: 1st March, 2016
+Last Updated: 2nd July, 2016
 
 To-Do:
 [Tech]
