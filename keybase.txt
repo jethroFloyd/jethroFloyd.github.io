@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/rito
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://rito.tech
+  * I am rito (https://keybase.io/rito) on keybase.
+  * I have a public key ASBhZ1WKiKSaAobVLhQrkrgvNSk-IPUtgSnsaeVWyX0ONgo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01206167558a88a49a0286d52e142b92b82f35293e20f52d8129ec69e556c97d0e360a",
+            "host": "keybase.io",
+            "kid": "01206167558a88a49a0286d52e142b92b82f35293e20f52d8129ec69e556c97d0e360a",
+            "uid": "624531755135a1f44aad233e86fe3d19",
+            "username": "rito"
+        },
+        "service": {
+            "hostname": "rito.tech",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.16"
+    },
+    "ctime": 1469216698,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1469216680,
+        "hash": "3bc66d0caec95f007e688b4b1ccdc36f076908b9701213477e096cbcc4bd9e0643bc4036a51b633addebec23da657c425eb673531d897695e1b8629d31dac3b8",
+        "seqno": 538331
+    },
+    "prev": "c63e32a3c04ff7eeedaaf020fd697a04de402eb961c299808c613b26aa9f0398",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgYWdVioikmgKG1S4UK5K4LzUpPiD1LYEp7GnlVsl9DjYKp3BheWxvYWTFAu17ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwNjE2NzU1OGE4OGE0OWEwMjg2ZDUyZTE0MmI5MmI4MmYzNTI5M2UyMGY1MmQ4MTI5ZWM2OWU1NTZjOTdkMGUzNjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNjE2NzU1OGE4OGE0OWEwMjg2ZDUyZTE0MmI5MmI4MmYzNTI5M2UyMGY1MmQ4MTI5ZWM2OWU1NTZjOTdkMGUzNjBhIiwidWlkIjoiNjI0NTMxNzU1MTM1YTFmNDRhYWQyMzNlODZmZTNkMTkiLCJ1c2VybmFtZSI6InJpdG8ifSwic2VydmljZSI6eyJob3N0bmFtZSI6InJpdG8udGVjaCIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjE2In0sImN0aW1lIjoxNDY5MjE2Njk4LCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0NjkyMTY2ODAsImhhc2giOiIzYmM2NmQwY2FlYzk1ZjAwN2U2ODhiNGIxY2NkYzM2ZjA3NjkwOGI5NzAxMjEzNDc3ZTA5NmNiY2M0YmQ5ZTA2NDNiYzQwMzZhNTFiNjMzYWRkZWJlYzIzZGE2NTdjNDI1ZWI2NzM1MzFkODk3Njk1ZTFiODYyOWQzMWRhYzNiOCIsInNlcW5vIjo1MzgzMzF9LCJwcmV2IjoiYzYzZTMyYTNjMDRmZjdlZWVkYWFmMDIwZmQ2OTdhMDRkZTQwMmViOTYxYzI5OTgwOGM2MTNiMjZhYTlmMDM5OCIsInNlcW5vIjo4LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQIklMRRK7TnBHby0xZIxIcvjzFaM9gIdb+v25+kGGTuIphK3+n9WBFQF23FFh17YfknyGcscp+6Ug8K9RWXMawWoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCCqcHzri51vc0FHhK8q3HZ9PJ+p8DGRki+sfa1drpToyqN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/rito
+
+==================================================================
