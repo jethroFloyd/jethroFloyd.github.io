@@ -1,0 +1,301 @@
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+.row-centered {
+    text-align:center;
+}
+
+.row .product-details-rito {
+   margin-right: -15px;
+  margin-left: -15px;
+
+}
+
+.row .product-details-rito-cart {
+
+  border-bottom: 1px #F5A623;
+
+}
+.row .product-details-rito:hover {
+    box-shadow: 0px 10px 6px -6px #f5a623;
+    
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+p.prod-desc-heading-static {
+  font-family: "CircularStd-Bold";
+  font-size: 14px;
+  color: #9b9b9b;
+  line-height: 2.0;
+}
+
+p.prod-desc-heading-small {
+  font-family: "CircularStd-Bold";
+  font-size: 11px;
+  color: #9b9b9b;
+  line-height: 2.0;
+}
+p.prod-desc-heading-static-nospace {
+  font-family: "CircularStd-Bold";
+  font-size: 14px;
+  color: #9b9b9b;
+  line-height: 0.8;
+}
+p.prod-desc-text {
+  font-family: "CircularStd-Book";
+  font-size: 14px;
+  color: #6364d8;
+  line-height: 2.0;
+}
+
+p.prod-desc-text-small {
+  font-family: "CircularStd-Book";
+  font-size: 14px;
+  color: #6364d8;
+  line-height: 1.0;
+}
+p.prod-desc-text-large {
+  font-family: "CircularStd-Book";
+  font-size: 21px;
+  color: #6364d8;
+  line-height: 0.40;
+}
+p.prod-desc-text-large-small {
+  font-family: "CircularStd-Book";
+  font-size: 20px;
+  color: #6364d8;
+  line-height: 1.1;
+}
+
+p.prod-desc-text-larger {
+  font-family: "CircularStd-Book";
+  font-size: 30px;
+  color: #6364d8;
+  line-height: 1.0;
+}
+
+p.header-invisible {
+    color: #f8cb00;
+}
+
+.row .product-details-rito {
+   margin-right: -15px;
+  margin-left: -15px;
+
+}
+
+.row .product-details-rito:hover {
+    box-shadow: 0px 10px 6px -6px #f5a623;
+    
+}
+.container {
+    padding-top: 40px;  
+}
+
+@media ( max-width: 585px ) {
+    .input-group span.input-group-btn,.input-group input,.input-group button{
+        display: block;
+        width: 14px;
+        height: 14px;
+        border-radius: 0;
+        margin: 0;
+        color: #F5A623;
+    }
+    .input-group {
+        position: relative;   
+    }
+    .input-group span.data-up{
+        position: absolute;
+        top: 0;
+    }
+    .input-group span.data-dwn{
+        position: absolute;
+        bottom: 0;
+    }
+    .form-control.text-center {
+        margin: 14px 0;
+    }
+    .input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group{
+        margin-left:0;
+    }
+
+}
+
+.btn-details { 
+  color: #FFFFFF; 
+  background-color: #F8CB00; 
+  border-color: #FFFFFF; 
+} 
+ 
+.btn-details:hover, 
+.btn-details:focus, 
+.btn-details:active, 
+.btn-details.active, 
+.open .dropdown-toggle.btn-details { 
+  color: #FFFFFF; 
+  background-color: #F5A623; 
+  border-color: #FFFFFF; 
+} 
+ 
+.btn-details:active, 
+.btn-details.active, 
+.open .dropdown-toggle.btn-details { 
+  background-image: none; 
+} 
+ 
+.btn-details.disabled, 
+.btn-details[disabled], 
+fieldset[disabled] .btn-details, 
+.btn-details.disabled:hover, 
+.btn-details[disabled]:hover, 
+fieldset[disabled] .btn-details:hover, 
+.btn-details.disabled:focus, 
+.btn-details[disabled]:focus, 
+fieldset[disabled] .btn-details:focus, 
+.btn-details.disabled:active, 
+.btn-details[disabled]:active, 
+fieldset[disabled] .btn-details:active, 
+.btn-details.disabled.active, 
+.btn-details[disabled].active, 
+fieldset[disabled] .btn-details.active { 
+  background-color: #F8CB00; 
+  border-color: #FFFFFF; 
+} 
+ 
+.btn-details .badge { 
+  color: #F8CB00; 
+  background-color: #FFFFFF; 
+}   
+
+
+.btn-cart { 
+  color: #FFFFFF; 
+  background-color: #F5A623; 
+  border-color: #FFFFFF; 
+} 
+ 
+.btn-cart:hover, 
+.btn-cart:focus, 
+.btn-cart:active, 
+.btn-cart.active, 
+.open .dropdown-toggle.btn-cart { 
+  color: #FFFFFF; 
+  background-color: #F56723; 
+  border-color: #FFFFFF; 
+} 
+ 
+.btn-cart:active, 
+.btn-cart.active, 
+.open .dropdown-toggle.btn-cart { 
+  background-image: none; 
+} 
+ 
+.btn-cart.disabled, 
+.btn-cart[disabled], 
+fieldset[disabled] .btn-cart, 
+.btn-cart.disabled:hover, 
+.btn-cart[disabled]:hover, 
+fieldset[disabled] .btn-cart:hover, 
+.btn-cart.disabled:focus, 
+.btn-cart[disabled]:focus, 
+fieldset[disabled] .btn-cart:focus, 
+.btn-cart.disabled:active, 
+.btn-cart[disabled]:active, 
+fieldset[disabled] .btn-cart:active, 
+.btn-cart.disabled.active, 
+.btn-cart[disabled].active, 
+fieldset[disabled] .btn-cart.active { 
+  background-color: #F5A623; 
+  border-color: #FFFFFF; 
+} 
+ 
+.btn-cart .badge { 
+  color: #F5A623; 
+  background-color: #FFFFFF; 
+}
+
+/* For this slider, disable the 'origin' size. */
+#connect .noUi-origin {
+    right: auto;
+    width: 0;
+}
+
+#slider {
+  margin: 20px;
+  width: 70%;
+}
+/* Position the bar and color it. */
+#connect .connect {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background: #80C9F5;
+    box-shadow: inset 0 0 3px rgba(51,51,51,0.45);
+}
+
+/* When the slider is moved by tap,
+   transition the connect bar like the handle. */
+#connect.noUi-state-tap .connect {
+-webkit-transition: left 300ms, right 300ms;
+    transition: left 300ms, right 300ms;
+}
+
+.modal.left .modal-dialog,
+    .modal.right .modal-dialog {
+        position: fixed;
+        margin: auto;
+        width: 500px;
+        height: 100%;
+        -webkit-transform: translate3d(0%, 0, 0);
+            -ms-transform: translate3d(0%, 0, 0);
+             -o-transform: translate3d(0%, 0, 0);
+                transform: translate3d(0%, 0, 0);
+    }
+
+    .modal.left .modal-content,
+    .modal.right .modal-content {
+        height: 100%;
+        overflow-y: auto;
+    }
+    
+    .modal.left .modal-body,
+    .modal.right .modal-body {
+        padding: 15px 15px 80px;
+    }
+
+/*Left*/
+    .modal.left.fade .modal-dialog{
+        left: -320px;
+        -webkit-transition: opacity 0.3s linear, left 0.3s ease-out;
+           -moz-transition: opacity 0.3s linear, left 0.3s ease-out;
+             -o-transition: opacity 0.3s linear, left 0.3s ease-out;
+                transition: opacity 0.3s linear, left 0.3s ease-out;
+    }
+    
+    .modal.left.fade.in .modal-dialog{
+        left: 0;
+    }
+        
+/*Right*/
+    .modal.right.fade .modal-dialog {
+        right: -500px;
+        -webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+           -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+             -o-transition: opacity 0.3s linear, right 0.3s ease-out;
+                transition: opacity 0.3s linear, right 0.3s ease-out;
+    }
+    
+    .modal.right.fade.in .modal-dialog {
+        right: 0;
+    }
