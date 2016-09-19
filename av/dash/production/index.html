@@ -19,6 +19,10 @@
     <link href="../vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet">
     <!-- jVectorMap -->
     <link href="css/maps/jquery-jvectormap-2.0.3.css" rel="stylesheet"/>
+    <link href="../vendors/pnotify/dist/pnotify.css" rel="stylesheet">
+    <link href="../vendors/pnotify/dist/pnotify.buttons.css" rel="stylesheet">
+    <link href="../vendors/pnotify/dist/pnotify.nonblock.css" rel="stylesheet">
+
 
     <!-- Custom Theme Style -->
     <link href="../build/css/custom.css" rel="stylesheet">
@@ -228,7 +232,7 @@
               <div class="dashboard_graph">
 
                 <div class="row x_title">
-                  <div class="col-md-6">
+                  <div class="col-md-6 col-sm-6 col-xs-6">
                     <h3>Delhi and Gurgaon Outlet Sales<small> By Number of Orders</small></h3>
                   </div>
                   <div class="col-md-6">
@@ -239,61 +243,115 @@
                   </div>
                 </div>
 
-                <div class="col-md-9 col-sm-9 col-xs-12">
+                <div class="col-md-6 col-sm-6 col-xs-6">
                   <div id="placeholder33" style="height: 260px; display: none" class="demo-placeholder"></div>
                   <div style="width: 100%;">
                     <div id="canvas_dahs" class="demo-placeholder" style="width: 100%; height:270px;"></div>
                   </div>
                 </div>
-                <div class="col-md-3 col-sm-3 col-xs-12 bg-white">
+                <div class="col-md-6 col-sm-6 col-xs-6">
                   <div class="x_title">
-                    <h2>Revenue Targets</h2>
+                    <h2>BI Tools</h2>
                     <div class="clearfix"></div>
                   </div>
-
-                  <div class="col-md-12 col-sm-12 col-xs-6">
-                    <div>
-                      <p>Gurgaon Weekends</p>
-                      <div class="">
-                        <div class="progress progress_sm" style="width: 76%;">
-                          <div class="progress-bar bg-green" role="progressbar" data-transitiongoal="80"></div>
-                        </div>
-                      </div>
-                    </div>
-                    <div>
-                      <p>Gurgaon Weekdays</p>
-                      <div class="">
-                        <div class="progress progress_sm" style="width: 76%;">
-                          <div class="progress-bar bg-orange" role="progressbar" data-transitiongoal="60"></div>
-                        </div>
-                      </div>
-                    </div>
+                <div class="x_panel">
+                  <div class="x_title">
+                    <h2><i class="fa fa-bars"></i> Action Items <small></small></h2>
+                    <ul class="nav navbar-right panel_toolbox">
+                      <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                      </li>
+                      <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                        <ul class="dropdown-menu" role="menu">
+                          <li><a href="#">Settings 1</a>
+                          </li>
+                          <li><a href="#">Settings 2</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li><a class="close-link"><i class="fa fa-close"></i></a>
+                      </li>
+                    </ul>
+                    <div class="clearfix"></div>
                   </div>
-                  <div class="col-md-12 col-sm-12 col-xs-6">
-                    <div>
-                      <p>Delhi Weekends</p>
-                      <div class="">
-                        <div class="progress progress_sm" style="width: 76%;">
-                          <div class="progress-bar bg-green" role="progressbar" data-transitiongoal="90"></div>
-                        </div>
-                      </div>
-                    </div>
-                    <div>
-                      <p>Delhi Weekdays</p>
-                      <div class="">
-                        <div class="progress progress_sm" style="width: 76%;">
-                          <div class="progress-bar bg-red" role="progressbar" data-transitiongoal="50"></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                  <div class="x_content">
 
+                    <div class="col-xs-3">
+                      <!-- required for floating -->
+                      <!-- Nav tabs -->
+                      <ul class="nav nav-tabs tabs-left">
+                        <li class="active"><a href="#home" data-toggle="tab">New SKUs</a>
+                        </li>
+                        <li><a href="#profile" data-toggle="tab">Demand Forecast</a>
+                        </li>
+                        <li><a href="#messages" data-toggle="tab">Price Points</a>
+                        </li>
+                        <li><a href="#settings" data-toggle="tab">Settings</a>
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div class="col-xs-9">
+                      <!-- Tab panes -->
+                      <div class="tab-content">
+                        <div class="tab-pane active" id="home">
+                          <p class="lead">New SKUs</p>
+                          <p>Restaurants of categories 5 to 10 are shifting towards frozen chicken from fresh chicken. Currently 53% of the restaurants who buy from you are searching for frozen chicken. Replace fresh by frozen chicken to cut costs by 12%.
+                            <br>
+                            <button class="btn btn-default source" onclick="new PNotify({
+                                  title: 'Great!',
+                                  text: 'You will shortly be redirected to your catalog page',
+                                  type: 'success',
+                                  styling: 'bootstrap3'
+                              });">Add</button>
+                          </p>
+                        </div>
+                        <div class="tab-pane" id="profile">
+                          <p class="lead">Demand Forecast</p>
+                          <p>The highest demand in the next one week in your catalog is forecast for Mutton Pasinda. The total demand is estimated to be around 2000 units.
+                            <br>
+                            <button class="btn btn-default source" onclick="new PNotify({
+                                  title: 'Great!',
+                                  text: 'Your updated inventory will be reflected in our systems shortly.',
+                                  type: 'success',
+                                  styling: 'bootstrap3'
+                              });">Update Stock</button>
+                          </p>
+                        </div>
+                        <div class="tab-pane" id="messages">
+                          <p class="lead">Settings</p>
+                          <p>Lorel Ipsum Dolor Amet
+                            <br>
+                            <button class="btn btn-default source" onclick="new PNotify({
+                                  title: 'Lorel',
+                                  text: 'Ipsum',
+                                  type: 'success',
+                                  styling: 'bootstrap3'
+                              });">Epsiol</button>
+                          </p>
+                        </div>
+                        <div class="tab-pane" id="settings">
+                          <p class="lead">Settings</p>
+                          <p>Lorel Ipsum Dolor Amet
+                            <br>
+                            <button class="btn btn-default source" onclick="new PNotify({
+                                  title: 'Lorel',
+                                  text: 'Ipsum',
+                                  type: 'success',
+                                  styling: 'bootstrap3'
+                              });">Epsiol</button>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="clearfix"></div>
+
+                  </div>
                 </div>
-
-                <div class="clearfix"></div>
               </div>
-            </div>
 
+              
           </div>
           <br />
 
@@ -546,6 +604,8 @@
 
 
           <div class="row">
+
+            
             <div class="col-md-4 col-sm-4 col-xs-12">
               <div class="x_panel">
                 <div class="x_title">
@@ -1181,6 +1241,93 @@
       gauge.animationSpeed = 32;
       gauge.set(3200);
       gauge.setTextField(document.getElementById("gauge-text"));
+    </script>
+
+    <script src="../vendors/pnotify/dist/pnotify.js"></script>
+    <script src="../vendors/pnotify/dist/pnotify.buttons.js"></script>
+    <script src="../vendors/pnotify/dist/pnotify.nonblock.js"></script>
+
+    <!-- Custom Theme Scripts -->
+    <script src="../build/js/custom.min.js"></script>
+
+    <!-- PNotify -->
+    <script>
+      $(document).ready(function() {
+        new PNotify({
+          title: "Welcome",
+          type: "info",
+          text: "Lorel Ipsum Notification - Non-Blocking. You can click below me.",
+          nonblock: {
+              nonblock: true
+          },
+          addclass: 'dark',
+          styling: 'bootstrap3',
+          hide: false,
+          before_close: function(PNotify) {
+            PNotify.update({
+              title: PNotify.options.title + " Thank you!",
+              before_close: null
+            });
+
+            PNotify.queueRemove();
+
+            return false;
+          }
+        });
+
+      });
+    </script>
+    <!-- /PNotify -->
+
+    <!-- Custom Notification -->
+    <script>
+      $(document).ready(function() {
+        var cnt = 10;
+
+        TabbedNotification = function(options) {
+          var message = "<div id='ntf" + cnt + "' class='text alert-" + options.type + "' style='display:none'><h2><i class='fa fa-bell'></i> " + options.title +
+            "</h2><div class='close'><a href='javascript:;' class='notification_close'><i class='fa fa-close'></i></a></div><p>" + options.text + "</p></div>";
+
+          if (!document.getElementById('custom_notifications')) {
+            alert('doesnt exists');
+          } else {
+            $('#custom_notifications ul.notifications').append("<li><a id='ntlink" + cnt + "' class='alert-" + options.type + "' href='#ntf" + cnt + "'><i class='fa fa-bell animated shake'></i></a></li>");
+            $('#custom_notifications #notif-group').append(message);
+            cnt++;
+            CustomTabs(options);
+          }
+        };
+
+        CustomTabs = function(options) {
+          $('.tabbed_notifications > div').hide();
+          $('.tabbed_notifications > div:first-of-type').show();
+          $('#custom_notifications').removeClass('dsp_none');
+          $('.notifications a').click(function(e) {
+            e.preventDefault();
+            var $this = $(this),
+              tabbed_notifications = '#' + $this.parents('.notifications').data('tabbed_notifications'),
+              others = $this.closest('li').siblings().children('a'),
+              target = $this.attr('href');
+            others.removeClass('active');
+            $this.addClass('active');
+            $(tabbed_notifications).children('div').hide();
+            $(target).show();
+          });
+        };
+
+        CustomTabs();
+
+        var tabid = idname = '';
+
+        $(document).on('click', '.notification_close', function(e) {
+          idname = $(this).parent().parent().attr("id");
+          tabid = idname.substr(-2);
+          $('#ntf' + tabid).remove();
+          $('#ntlink' + tabid).parent().remove();
+          $('.notifications a').first().addClass('active');
+          $('#notif-group div').first().css('display', 'block');
+        });
+      });
     </script>
     <!-- /gauge.js -->
   </body>
