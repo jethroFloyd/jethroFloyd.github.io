@@ -458,7 +458,7 @@
             <div class="col-md-4 col-sm-4 col-xs-4">
               <div class="x_panel">
                   <div class="x_title">
-                    <h2>Current Rating</h2>
+                    <h2>Action</h2>
                     <ul class="nav navbar-right panel_toolbox">
                       <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                       </li>
@@ -487,6 +487,108 @@
             <!-- Row Ends -->
             <!-- Not Broken -->
           <br />
+
+          <div class="row">
+            <div class="col-md-6 col-sm-6 col-xs-6">
+                <div class="x_panel">
+                  <div class="x_title">
+                    <h2><i class="fa fa-bars"></i> Action Items <small></small></h2>
+                    <ul class="nav navbar-right panel_toolbox">
+                      <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                      </li>
+                      <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                        <ul class="dropdown-menu" role="menu">
+                          <li><a href="#">Settings 1</a>
+                          </li>
+                          <li><a href="#">Settings 2</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li><a class="close-link"><i class="fa fa-close"></i></a>
+                      </li>
+                    </ul>
+                    <div class="clearfix"></div>
+                  </div>
+                  <div class="x_content">
+
+                    <div class="col-xs-3">
+                      <!-- required for floating -->
+                      <!-- Nav tabs -->
+                      <ul class="nav nav-tabs tabs-left">
+                        <li class="active"><a href="#home" data-toggle="tab">New SKUs</a>
+                        </li>
+                        <li><a href="#profile" data-toggle="tab">Demand Forecast</a>
+                        </li>
+                        <li><a href="#messages" data-toggle="tab">Price Points</a>
+                        </li>
+                        <li><a href="#settings" data-toggle="tab">Settings</a>
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div class="col-xs-9">
+                      <!-- Tab panes -->
+                      <div class="tab-content">
+                        <div class="tab-pane active" id="home">
+                          <p class="lead">New SKUs</p>
+                          <p>Restaurants of categories 5 to 10 are shifting towards frozen chicken from fresh chicken. Currently 53% of the restaurants who buy from you are searching for frozen chicken. Add frozen chicken to your catalogue to increase your business.
+                            <br>
+                            <button class="btn btn-default source" onclick="new PNotify({
+                                  title: 'Great!',
+                                  text: 'You will shortly be redirected to your catalog page',
+                                  type: 'success',
+                                  styling: 'bootstrap3'
+                              });">Add</button>
+                          </p>
+                        </div>
+                        <div class="tab-pane" id="profile">
+                          <p class="lead">Demand Forecast</p>
+                          <p>The highest demand in the next one week in your catalog is forecast for Mutton Rann Fresh. The total demand is estimated to be around 2000 kgs.
+                            <br>
+                            <button class="btn btn-default source" onclick="new PNotify({
+                                  title: 'Great!',
+                                  text: 'Your updated inventory will be reflected in our systems shortly.',
+                                  type: 'success',
+                                  styling: 'bootstrap3'
+                              });">Update Stock</button>
+                          </p>
+                        </div>
+                        <div class="tab-pane" id="messages">
+                          <p class="lead">Price Points</p>
+                          <p>Your price for 56% of your catalog is below the median price in the marketplace. You can increase prices by 4% across your catalog without affecting your position relative to others. 
+                            <br>
+                            <button class="btn btn-default source" onclick="new PNotify({
+                                  title: 'Great!',
+                                  text: 'You will shortly be redirected to your catalog page',
+                                  type: 'success',
+                                  styling: 'bootstrap3'
+                              });">Change Prices</button>
+                          </p>
+                        </div>
+                        <div class="tab-pane" id="settings">
+                          <p class="lead">Settings</p>
+                          <p>Lorel Ipsum Dolor Amet
+                            <br>
+                            <button class="btn btn-default source" onclick="new PNotify({
+                                  title: 'Lorel',
+                                  text: 'Ipsum',
+                                  type: 'success',
+                                  styling: 'bootstrap3'
+                              });">Epsiol</button>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="clearfix"></div>
+
+                  </div>
+                </div>
+              </div>
+
+            <!-- COlumn Ends -->
+          </div>
               </div>
             </div>
           </div>
@@ -541,6 +643,9 @@
 
     <!-- Custom Theme Scripts -->
     <script src="../build/js/custom.min.js"></script>
+     <script src="../vendors/pnotify/dist/pnotify.js"></script>
+    <script src="../vendors/pnotify/dist/pnotify.buttons.js"></script>
+    <script src="../vendors/pnotify/dist/pnotify.nonblock.js"></script>
 
     <!-- Flot -->
     <script>
@@ -3649,6 +3754,58 @@
         }
       });
     </script>
+     <link href="../vendors/pnotify/dist/pnotify.css" rel="stylesheet">
+    <link href="../vendors/pnotify/dist/pnotify.buttons.css" rel="stylesheet">
+    <link href="../vendors/pnotify/dist/pnotify.nonblock.css" rel="stylesheet">
     <!-- /gauge.js -->
+    <script>
+      $(document).ready(function() {
+        var cnt = 10;
+
+        TabbedNotification = function(options) {
+          var message = "<div id='ntf" + cnt + "' class='text alert-" + options.type + "' style='display:none'><h2><i class='fa fa-bell'></i> " + options.title +
+            "</h2><div class='close'><a href='javascript:;' class='notification_close'><i class='fa fa-close'></i></a></div><p>" + options.text + "</p></div>";
+
+          if (!document.getElementById('custom_notifications')) {
+            alert('doesnt exists');
+          } else {
+            $('#custom_notifications ul.notifications').append("<li><a id='ntlink" + cnt + "' class='alert-" + options.type + "' href='#ntf" + cnt + "'><i class='fa fa-bell animated shake'></i></a></li>");
+            $('#custom_notifications #notif-group').append(message);
+            cnt++;
+            CustomTabs(options);
+          }
+        };
+
+        CustomTabs = function(options) {
+          $('.tabbed_notifications > div').hide();
+          $('.tabbed_notifications > div:first-of-type').show();
+          $('#custom_notifications').removeClass('dsp_none');
+          $('.notifications a').click(function(e) {
+            e.preventDefault();
+            var $this = $(this),
+              tabbed_notifications = '#' + $this.parents('.notifications').data('tabbed_notifications'),
+              others = $this.closest('li').siblings().children('a'),
+              target = $this.attr('href');
+            others.removeClass('active');
+            $this.addClass('active');
+            $(tabbed_notifications).children('div').hide();
+            $(target).show();
+          });
+        };
+
+        CustomTabs();
+
+        var tabid = idname = '';
+
+        $(document).on('click', '.notification_close', function(e) {
+          idname = $(this).parent().parent().attr("id");
+          tabid = idname.substr(-2);
+          $('#ntf' + tabid).remove();
+          $('#ntlink' + tabid).parent().remove();
+          $('.notifications a').first().addClass('active');
+          $('#notif-group div').first().css('display', 'block');
+        });
+      });
+    </script>
   </body>
 </html>
