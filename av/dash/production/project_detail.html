@@ -57,7 +57,7 @@
                   <li><a><i class="fa fa-home"></i>Dashboards<span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                       <li><a href="index.html">Sales</a></li>
-                      <li><a href="index2.html">Purchasing</a></li>
+                      <li><a href="index2.html">COGS</a></li>
                       <li><a href="index3.html">Payments Centre</a></li>
                     </ul>
                      <li><a href="inbox.html"><i class="fa fa-envelope"></i> Inbox</a>
@@ -212,7 +212,7 @@
               <div class="col-md-12">
                 <div class="x_panel">
                   <div class="x_title">
-                    <h2>Outlet: Gurgaon</h2>
+                    <h2>Last Year</h2>
                     <ul class="nav navbar-right panel_toolbox">
                       <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                       </li>
@@ -237,16 +237,16 @@
 
                       <ul class="stats-overview">
                         <li>
-                          <span class="name"> Estimated Revenue </span>
-                          <span class="value text-success"> 2300 </span>
+                          <span class="name"> Total Revenue </span>
+                          <span class="value text-success"><i class="fa fa-inr"></i>1,91,49,000</span>
                         </li>
                         <li>
                           <span class="name"> Total COGS </span>
-                          <span class="value text-success"> 400 </span>
+                          <span class="value text-success"><i class="fa fa-inr"></i>71,55,670 </span>
                         </li>
                         <li class="hidden-phone">
-                          <span class="name"> COGS Control Target</span>
-                          <span class="value text-success"> 32% </span>
+                          <span class="name"> Overall COGS</span>
+                          <span class="value text-success"> 37.36% </span>
                         </li>
                       </ul>
                       <br />
@@ -647,30 +647,30 @@
         }],
         yAxis: [{
           type: 'value',
-          name: 'Revenue',
+          name: 'Revenue/COGS',
           axisLabel: {
-            formatter: '{value} 000 INR'
+            formatter: '{value} INR'
           }
         }, {
           type: 'value',
-          name: 'COGS',
+          name: 'Customer Satisfaction Index',
           axisLabel: {
-            formatter: '{value} 000 INR'
+            formatter: '{value}'
           }
         }],
         series: [{
           name: 'Revenue',
           type: 'bar',
-          data: [2.0, 4.9, 7.0, 23.2, 25.6, 76.7, 135.6, 162.2, 32.6, 20.0, 6.4, 3.3]
+          data: [1441000,1451000, 1671000, 1891000, 1993000, 1450000, 1441000, 1451000, 1471000, 1578000, 1637000, 1674000]
         }, {
           name: 'COGS',
           type: 'bar',
-          data: [2.6, 5.9, 9.0, 26.4, 28.7, 70.7, 175.6, 182.2, 48.7, 18.8, 6.0, 2.3]
+          data: [561990, 565890, 651690, 737490, 777270, 565500, 561990, 507850, 514850, 552300, 572950, 585900]
         }, {
           name: 'Customer Satisfaction Index',
           type: 'line',
           yAxisIndex: 1,
-          data: [2.0, 2.2, 3.3, 4.5, 6.3, 10.2, 20.3, 23.4, 23.0, 16.5, 12.0, 6.2]
+          data: [3.1, 3.2, 3.3, 4.5, 4.3, 4.2, 4.3, 3.4, 3.0, 4.5, 4.0, 4.2]
         }]
       });
     </script>
