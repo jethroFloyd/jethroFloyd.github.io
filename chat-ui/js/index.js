@@ -56,7 +56,7 @@ var Fake = [
   'Not too bad, thanks',
   'What do you do?',
   'That\'s awesome',
-  'It was a pleasure chat with you',
+  'It was a pleasure chatting with you',
   'Time to get back to more work!',
   'Bye',
   ':)'
