@@ -25,6 +25,7 @@ html section.col-1 {
   background: url(image.jpg);
   background-position: center center;
   background-size: cover;
+  
 }
 html section.col-2 {
   right: 0;
@@ -71,6 +72,198 @@ html section.col-2 article p {
   font-weight: 800;
 }
 
+img {
+  width:30px;
+  position:absolute;
+  bottom:20px;
+  right:20px;
+}
+
+p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 10px;
+  font-family: "helvetica" sans;
+  text-align: center;
+  margin-top: 45px;
+  margin-left: -85px;
+}
+
+button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 30px;
+  height: 30px;
+  transition: all 300ms cubic-bezier(.61, .01, .42, 1);
+  cursor: pointer;
+  background: transparent;
+  border: 0px;
+}
+
+div {
+  height: 0px;
+  border: 1.5px solid #fff;
+  width: 22px;
+  display: block;
+  position: absolute;
+  transition: all 300ms cubic-bezier(.61, .01, .42, 1);
+  background:#fff;
+}
+
+button:hover {
+  transition-delay: 100ms;
+  transform: scale(1.1);
+}
+
+button:hover div:nth-child(3):before {
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  background: #F26451;
+}
+
+button:hover div {
+  border: 2px solid #fff;
+  height: 9px;
+  border-radius: 50%;
+  margin-left: -1px;
+  margin-top: 2px;
+  animation: atom 300ms linear 1;
+  width: 25px;
+  top: 0px;
+  background:transparent;
+}
+
+button:focus {
+  outline: 0px;
+}
+
+div:nth-child(1) {
+  top: 0px;
+}
+
+div:nth-child(2) {
+  top: 8px;
+}
+
+div:nth-child(3) {
+  top: 16px;
+}
+
+div:nth-child(3):before {
+  opacity: 0;
+  animation: ball 1.5s linear infinite;
+  content: '';
+  border: 2px solid #fff;
+  display: block;
+  position: relative;
+  top: 0.25px;
+}
+
+button:hover div:nth-child(1) {
+  transform: rotate(-33deg);
+}
+
+button:hover div:nth-child(2) {
+  transform: rotate(90deg);
+}
+
+button:hover div:nth-child(3) {
+  transform: rotate(33deg);
+}
+
+button:hover div:nth-child(3):before {
+  opacity: 1;
+  transition: opacity 600ms cubic-bezier(.61, .01, .42, 1);
+  ;
+}
+
+button:active:hover div:nth-child(3):before,
+button:active div:nth-child(3):before,
+button:active div:nth-child(2) {
+  opacity: 0;
+  transition: all 200ms;
+}
+
+button:active div {
+  border: 1.5px solid #fff;
+  height: 0px;
+  border-radius: 0%;
+  margin-left: -1px;
+  margin-top: 6px;
+  animation: division 300ms linear 1;
+  width: 25px;
+  top: 0px;
+}
+
+button:active div:nth-child(2) {
+  width: 0px;
+}
+
+button:active div:nth-child(3) {
+  transform: rotate(45deg);
+}
+
+button:active div:nth-child(1) {
+  transform: rotate(-45deg);
+}
+
+@keyframes atom {
+  0% {
+    transform: rotate(180deg);
+  }
+}
+
+@keyframes division {
+  0% {
+    transform: rotate(180deg);
+  }
+}
+
+@keyframes ball {
+  0% {
+    left: -20%;
+    top: 10%;
+  }
+  10% {
+    left: 10%;
+    top: -35%;
+  }
+  25% {
+    left: 45%;
+    top: -50%;
+  }
+  40% {
+    left: 80%;
+    top: -20%;
+  }
+  50% {
+    left: 98%;
+    top: 18%;
+  }
+  60% {
+    left: 80%;
+    top: 50%;
+  }
+  75% {
+    left: 45%;
+    top: 80%;
+  }
+  90% {
+    left: 0%;
+    top: 60%;
+  }
+  100% {
+    left: -20%;
+    top: 10%;
+  }
+}
+
     </style>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
@@ -79,11 +272,16 @@ html section.col-2 article p {
 
 <body>
   
-<section class="col-1"></section>
+<section class="col-1">   <button>
+  <div></div>
+  <div></div>
+  <div></div>
+  </button></section>
 <section class="col-2">
   <article>
     <h2 class="top">Coming Soon</h2>
     <h1 class="top">Details take time.<br> </h1>
+ 
     <h1>jethroFloyd</h1>
     <h2 class="bottom">rito@rito.tech</h2>
   </article>
