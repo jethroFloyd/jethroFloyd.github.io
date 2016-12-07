@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="robots" content="all,follow">
+    <meta name="googlebot" content="index,follow,snippet,archive">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Search and Cart - Aficionado</title>
+
+    <meta name="keywords" content="">
+
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- Bootstrap and Font Awesome css -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <!-- **** KEEP THIS FILE LOCAL *** -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Css animations  -->
+    <link href="css/animate.css" rel="stylesheet">
+    <!-- Theme stylesheet, if possible do not edit this stylesheet -->
+    <link href="css/style.marsala.css" rel="stylesheet" id="theme-stylesheet">
+   <!-- Notes by Rito: Port All Css Changes to Custom.css -->
+    <link href="css/custom.css" rel="stylesheet">
+
+    <!-- Responsivity for older IE -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+    <!-- Favicon and apple touch icons-->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+
+    <!-- TOP HEADER ELEMENT -->
+        <div id="heading-breadcrumbs">
+            <div class="container">
+                <!-- First Row -->
+                <div class="row"> 
+                    <div class="col-md-3">
+                        <p class="prod-desc-text-larger">Aficionado</p>
+                    </div>
+                    <div class="col-md-3">
+                        <span class="fa fa-map-marker"></span>
+                        <p class="prod-desc-text" style="display:inline"> Current City: Gurgaon</p>
+                    </div>
+                    <div class="col-md-2">
+                        <span class="fa fa-phone"></span>
+                        <p class="prod-desc-text" style="display:inline"> Contact Us!</p>
+                    </div> <!-- Needs Link -->
+                    <div class="col-md-1">
+                        <p class="prod-desc-text" style="display:inline">  FAQs  </p>
+                    </div><!-- Needs Link -->
+                    <div class="col-md-1">
+                        <p class="prod-desc-text" style="display:inline">  Blog</p>
+                    </div><!-- Needs Link -->
+                    <div class="col-md-1">
+                        <p class="prod-desc-text" style="display:inline">  Dashboard</p>
+                    </div><!-- Needs Link -->
+                    <div class="col-md-1">
+                        <p class="prod-desc-text" style="display:inline">  Sign Out</p>
+                    </div><!-- Needs Link -->
+                </div>
+
+                <!-- First Row Ends -->
+
+                <!-- Search Bar and Cart -->
+                <div class="row">
+                    <!-- Search Bar -->
+                    <div class="col-md-3">
+                        <p class="header-invisible">Easter Egg from Rito and Hatim!</p>
+                    </div>
+                    <div class="col-md-6">
+                                <div class="col-md-10">
+                                    <input id="searchInput" name="searchInput" type="search" placeholder="Search for Product" class="form-control input-md">
+                                </div>
+                                <div class="col-md-2">
+                                    <a href="#" class="btn btn-lg btn-primary">
+                                    <span class="fa fa-search"></span> Search</a>
+                                </div><!-- Needs Link -->
+                    </div>
+                    <!-- Cart -->
+                    <div class="col-md-1">
+                        <p class="header-invisible"></p>
+                    </div>
+                    <div class="col-md-2" id="cd-cart-trigger">
+                        <a href="#" class="btn btn-lg btn-warning" data-toggle="modal" data-target="#modalCart">
+                            <span class="fa fa-shopping-cart"></span> My Cart</a> 
+                    </div><!-- Static Cart -->
+                </div>
+
+                <div class="row">
+                     <p class="header-invisible">Hatim and Rito say Hi.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- HEADER ELEMENT END -->
+
+        <div id="content">
+            <div class="container">
+
+                <div class="row">
+
+
+                    <!-- *** LEFT PANEL *** -->
+
+                    <div class="col-sm-3">
+                        <div class="panel panel-default sidebar-menu">
+
+                            <div class="panel-heading"> <!--Needs Data Population -->
+                                <h3 class="panel-title">Filter 1</h3>
+                                <a class="btn btn-xs btn-danger pull-right" href="#"><i class="fa fa-times-circle"></i> <span class="hidden-sm">Clear</span></a>
+                            </div>
+
+                            <div class="panel-body">
+
+                                <form>
+                                    <div class="form-group">
+                                        <div class="checkbox">
+                                            <label><!--Needs Data Population -->
+                                                <input type="checkbox">Option 1
+                                            </label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <label><!--Needs Data Population -->
+                                                <input type="checkbox">Option 2
+                                            </label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <label><!--Needs Data Population -->
+                                                <input type="checkbox">Option 3
+                                            </label>
+                                        </div>
+                                    </div>
+
+                                    <button class="btn btn-default btn-sm btn-template-main"><i class="fa fa-pencil"></i> Apply</button>
+
+                                </form>
+
+                            </div>
+                        </div>
+
+
+                        <!-- *** MENUS AND FILTERS END *** -->
+
+                        <div class="banner"><!--Needs Data Population -->
+                            <a href="#">
+                                  
+                            </a>
+                        </div>
+                        <!-- /.banner -->
+
+                    </div>
+                    <!-- /.col-md-3 -->
+
+                    <!-- *** LEFT PANEL END *** -->
+
+
+                    <!-- *** SEARCH RESULTS PANEL *** -->
+
+                    <div class="col-sm-9">
+
+                        <p class="text-muted lead">4 Results Found</p><br><!-- Needs Dynamic -->
+                        <!-- ************ PRODUCTS ************ -->
+
+                        <!-- Product 1 Row Begins-->
+                        <div class="row product-details-rito">
+                            <!-- One product begins -->
+                             <div class="col-md-3">
+                                <!-- First 2 out of 12 - image -->
+                                <div class = "image"> <!-- Needs Dynamic -->
+                                    <img src = "img/food.png" class="img-responsive image1">
+                                </div>
+                                <!-- Image ends -->
+                             </div>
+                             <!-- Image div ends -->
+
+                             <!-- Product Detail Div Begins -->
+                              <div class="col-md-3">
+
+                                <p class="prod-desc-heading-static" style="display:inline">Origin: </p>
+                                <p class="prod-desc-text" style="display:inline">Nasik</p><!-- Needs Dynamic -->
+                                <br>
+
+                                <p class="prod-desc-heading-static" style="display:inline">Starch: </p>
+                                <p class="prod-desc-text" style="display:inline">63%</p><!-- Needs Dynamic -->
+                                <br>
+
+                                <p class="prod-desc-heading-static" style="display:inline">Age: </p>
+                                <p class="prod-desc-text" style="display:inline">5 Days</p><!-- Needs Dynamic -->
+                                <br>
+
+                                <p class="prod-desc-heading-static" style="display:inline">Diameter: </p>
+                                <p class="prod-desc-text" style="display:inline">10 cm</p>
+                                <br><!-- Needs Dynamic -->
+
+                                <p class="prod-desc-heading-static" style="display:inline">Delivery By: </p>
+                                <p class="prod-desc-text" style="display:inline">14th September</p>
+                                <br><!-- Needs Dynamic -->
+
+                              </div>
+                              <!-- Product Detail Div Ends -->
+
+                              <!-- Product Price Div Begins -->
+                              <div class="col-md-3">
+                                <p class="prod-desc-heading-static" style="display:inline">Vendor: </p>
+                                <p class="prod-desc-text" style="display:inline">Nasik Potatoes Ltd.</p>
+                                <br><!-- Needs Dynamic -->
+
+                                <p class="prod-desc-heading-static">Best Prices Starting From: </p>
+                                <p class="prod-desc-text-large">Rs. 6.50/kg</p><!-- Needs Dynamic -->
+
+                                <p class="prod-desc-heading-static" style="display:inline">Minimum Order:  </p><!-- Needs Dynamic -->
+                                <p class="prod-desc-text" style="display:inline">25 Kgs</p>
+                                <br>
+
+                                <p class="prod-desc-heading-static" style="display:inline">SKU ID: </p>
+                                <p class="prod-desc-text" style="display:inline">1187298</p><!-- Needs Dynamic -->
+                                <br>
+                              </div>
+                              <!-- Product Price Div Ends -->
+
+
+
+                            <!-- Call To Action Div Begins -->
+                                <div class="col-md-3 col-centered">
+                                <p class="prod-desc-text-larger">Fresh Potato</p><br><!-- Needs Dynamic -->
+                                <a href="#" class="btn btn-lg btn-warning" data-toggle="modal" data-target="#modalDetails" col-centered><span class="fa fa-info-circle"></span>   Details</a> <!--Static Details-->
+                                <br>
+                                <br>
+                                </div>
+                               <!-- Call To Action Div Ends -->
+
+                            </div>   
+                            <br><br><br>
+                            <!--Row Div Ends -->
+
+                             <!-- Product 1 Row Begins-->
+                        <div class="row product-details-rito">
+                            <!-- One product begins -->
+                             <div class="col-md-3">
+                                <!-- First 2 out of 12 - image -->
+                                <div class = "image"> <!-- Needs Dynamic -->
+                                    <img src = "img/food.png" class="img-responsive image1">
+                                </div>
+                                <!-- Image ends -->
+                             </div>
+                             <!-- Image div ends -->
+
+                             <!-- Product Detail Div Begins -->
+                              <div class="col-md-3">
+
+                                <p class="prod-desc-heading-static" style="display:inline">Origin: </p>
+                                <p class="prod-desc-text" style="display:inline">Nasik</p><!-- Needs Dynamic -->
+                                <br>
+
+                                <p class="prod-desc-heading-static" style="display:inline">Starch: </p>
+                                <p class="prod-desc-text" style="display:inline">63%</p><!-- Needs Dynamic -->
+                                <br>
+
+                                <p class="prod-desc-heading-static" style="display:inline">Age: </p>
+                                <p class="prod-desc-text" style="display:inline">5 Days</p><!-- Needs Dynamic -->
+                                <br>
+
+                                <p class="prod-desc-heading-static" style="display:inline">Diameter: </p>
+                                <p class="prod-desc-text" style="display:inline">10 cm</p>
+                                <br><!-- Needs Dynamic -->
+
+                                <p class="prod-desc-heading-static" style="display:inline">Delivery By: </p>
+                                <p class="prod-desc-text" style="display:inline">14th September</p>
+                                <br><!-- Needs Dynamic -->
+
+                              </div>
+                              <!-- Product Detail Div Ends -->
+
+                              <!-- Product Price Div Begins -->
+                              <div class="col-md-3">
+                                <p class="prod-desc-heading-static" style="display:inline">Vendor: </p>
+                                <p class="prod-desc-text" style="display:inline">Nasik Potatoes Ltd.</p>
+                                <br><!-- Needs Dynamic -->
+
+                                <p class="prod-desc-heading-static">Best Prices Starting From: </p>
+                                <p class="prod-desc-text-large">Rs. 6.50/kg</p><!-- Needs Dynamic -->
+
+                                <p class="prod-desc-heading-static" style="display:inline">Minimum Order:  </p><!-- Needs Dynamic -->
+                                <p class="prod-desc-text" style="display:inline">25 Kgs</p>
+                                <br>
+
+                                <p class="prod-desc-heading-static" style="display:inline">SKU ID: </p>
+                                <p class="prod-desc-text" style="display:inline">1187298</p><!-- Needs Dynamic -->
+                                <br>
+                              </div>
+                              <!-- Product Price Div Ends -->
+
+
+
+                            <!-- Call To Action Div Begins -->
+                                <div class="col-md-3 col-centered">
+                                <p class="prod-desc-text-larger">Fresh Potato</p><br><!-- Needs Dynamic -->
+                                <a href="#" class="btn btn-lg btn-warning" data-toggle="modal" data-target="#modalDetails" col-centered><span class="fa fa-info-circle"></span>   Details</a> <!--Static Details-->
+                                <br>
+                                <br>
+                                </div>
+                               <!-- Call To Action Div Ends -->
+
+                            </div>   
+                            <br><br><br>
+                            <!--Row Div Ends -->
+
+
+ <!-- Product 1 Row Begins-->
+                        <div class="row product-details-rito">
+                            <!-- One product begins -->
+                             <div class="col-md-3">
+                                <!-- First 2 out of 12 - image -->
+                                <div class = "image"> <!-- Needs Dynamic -->
+                                    <img src = "img/food.png" class="img-responsive image1">
+                                </div>
+                                <!-- Image ends -->
+                             </div>
+                             <!-- Image div ends -->
+
+                             <!-- Product Detail Div Begins -->
+                              <div class="col-md-3">
+
+                                <p class="prod-desc-heading-static" style="display:inline">Origin: </p>
+                                <p class="prod-desc-text" style="display:inline">Nasik</p><!-- Needs Dynamic -->
+                                <br>
+
+                                <p class="prod-desc-heading-static" style="display:inline">Starch: </p>
+                                <p class="prod-desc-text" style="display:inline">63%</p><!-- Needs Dynamic -->
+                                <br>
+
+                                <p class="prod-desc-heading-static" style="display:inline">Age: </p>
+                                <p class="prod-desc-text" style="display:inline">5 Days</p><!-- Needs Dynamic -->
+                                <br>
+
+                                <p class="prod-desc-heading-static" style="display:inline">Diameter: </p>
+                                <p class="prod-desc-text" style="display:inline">10 cm</p>
+                                <br><!-- Needs Dynamic -->
+
+                                <p class="prod-desc-heading-static" style="display:inline">Delivery By: </p>
+                                <p class="prod-desc-text" style="display:inline">14th September</p>
+                                <br><!-- Needs Dynamic -->
+
+                              </div>
+                              <!-- Product Detail Div Ends -->
+
+                              <!-- Product Price Div Begins -->
+                              <div class="col-md-3">
+                                <p class="prod-desc-heading-static" style="display:inline">Vendor: </p>
+                                <p class="prod-desc-text" style="display:inline">Nasik Potatoes Ltd.</p>
+                                <br><!-- Needs Dynamic -->
+
+                                <p class="prod-desc-heading-static">Best Prices Starting From: </p>
+                                <p class="prod-desc-text-large">Rs. 6.50/kg</p><!-- Needs Dynamic -->
+
+                                <p class="prod-desc-heading-static" style="display:inline">Minimum Order:  </p><!-- Needs Dynamic -->
+                                <p class="prod-desc-text" style="display:inline">25 Kgs</p>
+                                <br>
+
+                                <p class="prod-desc-heading-static" style="display:inline">SKU ID: </p>
+                                <p class="prod-desc-text" style="display:inline">1187298</p><!-- Needs Dynamic -->
+                                <br>
+                              </div>
+                              <!-- Product Price Div Ends -->
+
+
+
+                            <!-- Call To Action Div Begins -->
+                                <div class="col-md-3 col-centered">
+                                <p class="prod-desc-text-larger">Fresh Potato</p><br><!-- Needs Dynamic -->
+                                <a href="#" class="btn btn-lg btn-warning" data-toggle="modal" data-target="#modalDetails" col-centered><span class="fa fa-info-circle"></span>   Details</a> <!--Static Details-->
+                                <br>
+                                <br>
+                                </div>
+                               <!-- Call To Action Div Ends -->
+
+                            </div>   
+                            <br><br><br>
+                            <!--Row Div Ends -->
+
+ <!-- Product 1 Row Begins-->
+                        <div class="row product-details-rito">
+                            <!-- One product begins -->
+                             <div class="col-md-3">
+                                <!-- First 2 out of 12 - image -->
+                                <div class = "image"> <!-- Needs Dynamic -->
+                                    <img src = "img/food.png" class="img-responsive image1">
+                                </div>
+                                <!-- Image ends -->
+                             </div>
+                             <!-- Image div ends -->
+
+                             <!-- Product Detail Div Begins -->
+                              <div class="col-md-3">
+
+                                <p class="prod-desc-heading-static" style="display:inline">Origin: </p>
+                                <p class="prod-desc-text" style="display:inline">Nasik</p><!-- Needs Dynamic -->
+                                <br>
+
+                                <p class="prod-desc-heading-static" style="display:inline">Starch: </p>
+                                <p class="prod-desc-text" style="display:inline">63%</p><!-- Needs Dynamic -->
+                                <br>
+
+                                <p class="prod-desc-heading-static" style="display:inline">Age: </p>
+                                <p class="prod-desc-text" style="display:inline">5 Days</p><!-- Needs Dynamic -->
+                                <br>
+
+                                <p class="prod-desc-heading-static" style="display:inline">Diameter: </p>
+                                <p class="prod-desc-text" style="display:inline">10 cm</p>
+                                <br><!-- Needs Dynamic -->
+
+                                <p class="prod-desc-heading-static" style="display:inline">Delivery By: </p>
+                                <p class="prod-desc-text" style="display:inline">14th September</p>
+                                <br><!-- Needs Dynamic -->
+
+                              </div>
+                              <!-- Product Detail Div Ends -->
+
+                              <!-- Product Price Div Begins -->
+                              <div class="col-md-3">
+                                <p class="prod-desc-heading-static" style="display:inline">Vendor: </p>
+                                <p class="prod-desc-text" style="display:inline">Nasik Potatoes Ltd.</p>
+                                <br><!-- Needs Dynamic -->
+
+                                <p class="prod-desc-heading-static">Best Prices Starting From: </p>
+                                <p class="prod-desc-text-large">Rs. 6.50/kg</p><!-- Needs Dynamic -->
+
+                                <p class="prod-desc-heading-static" style="display:inline">Minimum Order:  </p><!-- Needs Dynamic -->
+                                <p class="prod-desc-text" style="display:inline">25 Kgs</p>
+                                <br>
+
+                                <p class="prod-desc-heading-static" style="display:inline">SKU ID: </p>
+                                <p class="prod-desc-text" style="display:inline">1187298</p><!-- Needs Dynamic -->
+                                <br>
+                              </div>
+                              <!-- Product Price Div Ends -->
+
+
+
+                            <!-- Call To Action Div Begins -->
+                                <div class="col-md-3 col-centered">
+                                <p class="prod-desc-text-larger">Fresh Potato</p><br><!-- Needs Dynamic -->
+                                <a href="#" class="btn btn-lg btn-warning" data-toggle="modal" data-target="#modalDetails" col-centered><span class="fa fa-info-circle"></span>   Details</a> <!--Static Details-->
+                                <br>
+                                <br>
+                                </div>
+                               <!-- Call To Action Div Ends -->
+
+                            </div>   
+                            <br><br><br>
+                            <!--Row Div Ends -->
+
+                        <div class="pages">
+
+                            <p class="loadMore">
+                                <a href="#" class="btn btn-template-main"><i class="fa fa-chevron-down"></i> Load more</a>
+                            </p>
+
+                            <ul class="pagination"><!-- Needs Dynamic -->
+                                <li><a href="#">&laquo;</a>
+                                </li>
+                                <li class="active"><a href="#">1</a>
+                                </li>
+                                <li><a href="#">2</a>
+                                </li>
+                                <li><a href="#">3</a>
+                                </li>
+                                <li><a href="#">4</a>
+                                </li>
+                                <li><a href="#">5</a>
+                                </li>
+                                <li><a href="#">&raquo;</a>
+                                </li>
+                            </ul>
+                        </div>
+
+
+                    </div>
+                    <!-- /.col-md-9 -->
+
+                    <!-- *** RIGHT COLUMN END *** -->
+
+                </div>
+                <!-- Row end -->
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /#content -->
+    <!-- all -->
+
+
+
+<!-- Scripts -->
+    <!-- ***** DO NOT CHANGE BOOTSTRAP VERSION UNLESS YOU WANT THIS TO BREAK. - Rito -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="js/jquery.cookie.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/jquery.parallax-1.1.3.js"></script>
+    <script src="js/front.js"></script>
+    <script src="js/numberInputStyle.js"></script> <!-- Rito: Number spinner breaks at times. -->
+    <script>
+        window.jQuery || document.write('<script src="js/jquery-1.11.0.min.js"><\/script>')
+    </script>
+
+<!-- Modals for Cart and Detail Begin Here -->
+
+<!-- Details Modal -->
+<div id="modalDetails" class="modal" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title row-centered">Detailed View</h4>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="row row-centered">
+                <div class = "image"> <!-- Needs Dynamic -->
+                    <img src = "img/food.png" class="img-responsive image1">
+                </div>
+                </div>
+                    
+                <div class="row row-centered">
+                    <div class="col-md-12 col-centered">
+                    <p class="prod-desc-heading-static" style="display:inline">Sold by: </p>
+                    <p class="prod-desc-text" style="display:inline">Nasik Potatoes Ltd.</p>
+                    <br><!-- Needs Dynamic -->
+                    <p class="prod-desc-heading-static" style="display:inline">Spec: </p>
+                    <p class="prod-desc-text" style="display:inline">Value</p>
+                    <br><!-- Needs Dynamic -->
+                    <p class="prod-desc-heading-static" style="display:inline">Spec: </p>
+                    <p class="prod-desc-text" style="display:inline">Value</p>
+                    <br><!-- Needs Dynamic -->
+                    <p class="prod-desc-heading-static" style="display:inline">Spec: </p>
+                    <p class="prod-desc-text" style="display:inline">Value</p>
+                    <br><!-- Needs Dynamic -->
+                    <p class="prod-desc-heading-static" style="display:inline">Spec: </p>
+                    <p class="prod-desc-text" style="display:inline">Value</p>
+                    <br><!-- Needs Dynamic -->
+                    <p class="prod-desc-heading-static" style="display:inline">Spec: </p>
+                    <p class="prod-desc-text" style="display:inline">Value</p>
+                    <br><!-- Needs Dynamic -->
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-7">
+                <div class="row row-centered">
+                    <div class="col-md-5">
+                        <!-- Star Ratings -->
+                        <br><!-- Needs Dynamic -->
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star-half-o"></span>
+                        <p class="prod-desc-heading-static">21 Reviews</p><br><!-- Needs Dynamic -->
+                        <p class="prod-desc-text-large-small">Fresh Potato</p><!-- Needs Dynamic -->
+                        <p class="prod-desc-heading-static">
+                            Pricing Rule 1<br><!-- Needs Dynamic -->
+                            Pricing Rule 2<br><!-- Needs Dynamic -->
+                            Pricing Rule 3<br><!-- Needs Dynamic -->
+                    </div>
+
+                    <div class="col-md-7 col-centered">
+                        <div class="row row-centered">
+                            <div class="col-md-12 col-centered">
+                                <p class="prod-desc-heading-static">Quantity </p>
+                            </div><!-- Needs Dynamic -->
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 col-centered">
+                                <div class="input-group number-spinner">
+                                    <span class="input-group-btn data-dwn">
+                                     <button class="btn btn-default btn-info" data-dir="dwn"><span class="glyphicon glyphicon-minus">
+                                     </span>
+                                    </button>
+                                    </span>
+                                     <input type="text" class="form-control text-center" value="50" min="25" max="200">
+                                    <span class="input-group-btn data-up">
+                                    <button class="btn btn-default btn-info" data-dir="up"><span class="glyphicon glyphicon-plus">
+                                    </span>
+                                    </button>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row row-centered">
+                            <div class="col-md-12 col-centered">
+                                <p class="prod-desc-heading-static">Total Price: </p>
+                                <p class="prod-desc-text-large-small"><span class="fa fa-inr"></span>314159</p><!-- Needs Dynamic -->
+                                <p class="prod-desc-heading-static">Prices include all taxes.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-centered">
+                    <div class="col-md-12">
+                        <p class="prod-desc-heading-static">This is a brief description of the SKU and how great it is, how great the vendor is and so on..</p><br><!-- Needs Dynamic -->
+                    </div>
+                    <div class="col-md-12">
+                        <a href="#" class="btn btn-lg btn-warning">
+                            <span class="fa fa-shopping-cart"></span> Add to Cart!</a> <!-- Needs Link -->
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Modal Ends -->
+
+<!-- Cart Code Begins -->
+
+<div class="modal right fade" id="modalCart" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+
+                <div class="modal-header row-centered">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel2">My Cart</h4>
+                </div>
+
+                <div class="modal-body row-centered">
+                    <div class="row prouct-details-rito-cart">
+                        <p class="prod-desc-heading-static">All Prices Include Shipping and Taxes</p>
+                    </div>
+
+                    <!-- Each product in the cart has two rows.-->
+                    <div class="row product-details-rito">
+                        <div class="row prouct-details-rito"> <!-- First row -->
+                           
+                            <div class="col-md-3">
+                                <div class = "image"> <!-- Needs Dynamic -->
+                                    <img src = "img/food.png" class="img-responsive image1">
+                                </div>
+                            </div>
+
+                            <div class="col-md-2">
+                                <p class="prod-desc-heading-small">Price</p><!-- Needs Dynamic -->
+                                <p class="prod-desc-text-small"><span class="fa fa-inr"></span>6.50/kg</p>
+                            </div>
+
+                            <div class="col-md-2"><!-- Needs Dynamic -->
+                                <p class="prod-desc-heading-small">Quantity</p>
+                                <p class="prod-desc-text-small">50 kg</p>
+                            </div>
+
+                            <div class="col-md-2">
+                                <p class="prod-desc-heading-small">Total</p><!-- Needs Dynamic -->
+                                <p class="prod-desc-text-small"><span class="fa fa-inr"></span>325</p>
+                            </div>
+
+                            <div class="col-md-3"><!-- Needs Link-->
+                                <button class="btn btn-default btn-sm btn-template-main"><i class="fa fa-pencil"></i> Edit</button>
+                            </div>
+                        </div>
+
+                        <div class="row product-details-rito-cart row-centered">
+                            <div class="col-md-1 col-centered">
+                                <p class="prod-desc-text-small">SKU:</p>
+                            </div>
+                            <div class="col-md-3 col-centered"><!-- Needs Dynamic -->
+                                <p class="prod-desc-text-small"> Fresh Potato</p>
+                            </div>
+                            <div class="col-md-2 col-centered">
+                                <p class="prod-desc-text-small">Sold By:</p>
+                            </div>
+                            <div class="col-md-6 col-centered"><!-- Needs Dynamic -->
+                                <p class="prod-desc-text-small">Nasik Potatoes Ltd.</p>
+                            </div>
+                        </div> <!-- Second Row Ends-->
+                    </div><!-- Cart Item Ends -->
+                    <br>
+                        <!-- Each product in the cart has two rows.-->
+                    <div class="row product-details-rito">
+                        <div class="row prouct-details-rito"> <!-- First row -->
+                           
+                            <div class="col-md-3">
+                                <div class = "image"> <!-- Needs Dynamic -->
+                                    <img src = "img/food.png" class="img-responsive image1">
+                                </div>
+                            </div>
+
+                            <div class="col-md-2">
+                                <p class="prod-desc-heading-small">Price</p><!-- Needs Dynamic -->
+                                <p class="prod-desc-text-small"><span class="fa fa-inr"></span>6.50/kg</p>
+                            </div>
+
+                            <div class="col-md-2"><!-- Needs Dynamic -->
+                                <p class="prod-desc-heading-small">Quantity</p>
+                                <p class="prod-desc-text-small">50 kg</p>
+                            </div>
+
+                            <div class="col-md-2">
+                                <p class="prod-desc-heading-small">Total</p><!-- Needs Dynamic -->
+                                <p class="prod-desc-text-small"><span class="fa fa-inr"></span>325</p>
+                            </div>
+
+                            <div class="col-md-3"><!-- Needs Link-->
+                                <button class="btn btn-default btn-sm btn-template-main"><i class="fa fa-pencil"></i> Edit</button>
+                            </div>
+                        </div>
+
+                        <div class="row product-details-rito-cart row-centered">
+                            <div class="col-md-1 col-centered">
+                                <p class="prod-desc-text-small">SKU:</p>
+                            </div>
+                            <div class="col-md-3 col-centered"><!-- Needs Dynamic -->
+                                <p class="prod-desc-text-small"> Fresh Potato</p>
+                            </div>
+                            <div class="col-md-2 col-centered">
+                                <p class="prod-desc-text-small">Sold By:</p>
+                            </div>
+                            <div class="col-md-6 col-centered"><!-- Needs Dynamic -->
+                                <p class="prod-desc-text-small">Nasik Potatoes Ltd.</p>
+                            </div>
+                        </div> <!-- Second Row Ends-->
+                    </div><!-- Cart Item Ends -->
+                    <br>
+                        <!-- Each product in the cart has two rows.-->
+                    <div class="row product-details-rito">
+                        <div class="row prouct-details-rito"> <!-- First row -->
+                           
+                            <div class="col-md-3">
+                                <div class = "image"> <!-- Needs Dynamic -->
+                                    <img src = "img/food.png" class="img-responsive image1">
+                                </div>
+                            </div>
+
+                            <div class="col-md-2">
+                                <p class="prod-desc-heading-small">Price</p><!-- Needs Dynamic -->
+                                <p class="prod-desc-text-small"><span class="fa fa-inr"></span>6.50/kg</p>
+                            </div>
+
+                            <div class="col-md-2"><!-- Needs Dynamic -->
+                                <p class="prod-desc-heading-small">Quantity</p>
+                                <p class="prod-desc-text-small">50 kg</p>
+                            </div>
+
+                            <div class="col-md-2">
+                                <p class="prod-desc-heading-small">Total</p><!-- Needs Dynamic -->
+                                <p class="prod-desc-text-small"><span class="fa fa-inr"></span>325</p>
+                            </div>
+
+                            <div class="col-md-3"><!-- Needs Link-->
+                                <button class="btn btn-default btn-sm btn-template-main"><i class="fa fa-pencil"></i> Edit</button>
+                            </div>
+                        </div>
+
+                        <div class="row product-details-rito-cart row-centered">
+                            <div class="col-md-1 col-centered">
+                                <p class="prod-desc-text-small">SKU:</p>
+                            </div>
+                            <div class="col-md-3 col-centered"><!-- Needs Dynamic -->
+                                <p class="prod-desc-text-small"> Fresh Potato</p>
+                            </div>
+                            <div class="col-md-2 col-centered">
+                                <p class="prod-desc-text-small">Sold By:</p>
+                            </div>
+                            <div class="col-md-6 col-centered"><!-- Needs Dynamic -->
+                                <p class="prod-desc-text-small">Nasik Potatoes Ltd.</p>
+                            </div>
+                        </div> <!-- Second Row Ends-->
+                    </div><!-- Cart Item Ends -->
+                    <br><br>
+                    <div class="row row-centered">
+                        <div class="col-md-12">
+                            <a href="#" class="btn btn-lg btn-details">
+                            <span class="fa fa-send-o"></span> Check Out</a> <!-- Needs Link -->
+                        </div>
+                    </div>
+
+                </div>
+
+            </div><!-- modal-content -->
+        </div><!-- modal-dialog -->
+    </div><!-- modal -->
+    
+    
+
+<!-- Cart Ends -->
+
+
+</body>
+
+</html>

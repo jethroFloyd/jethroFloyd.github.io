@@ -1,0 +1,1131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Restaurant Dashboard</title>
+
+    <!-- Bootstrap -->
+    <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="../vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- iCheck -->
+    <link href="../vendors/iCheck/skins/futurico/futurico.css" rel="stylesheet">
+    <!-- bootstrap-progressbar -->
+    <link href="../vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet">
+    <!-- jVectorMap -->
+    <link href="css/maps/jquery-jvectormap-2.0.3.css" rel="stylesheet"/>
+
+    <!-- Custom Theme Style -->
+    <link href="../build/css/custom.css" rel="stylesheet">
+
+        <link href="../vendors/pnotify/dist/pnotify.css" rel="stylesheet">
+    <link href="../vendors/pnotify/dist/pnotify.buttons.css" rel="stylesheet">
+    <link href="../vendors/pnotify/dist/pnotify.nonblock.css" rel="stylesheet">
+  </head>
+
+  <body class="nav-md">
+    <div class="container body">
+      <div class="main_container">
+        <div class="col-md-3 left_col">
+          <div class="left_col scroll-view">
+            <div class="navbar nav_title" style="border: 0;">
+              <a href="index.html" class="site_title"><i class="fa fa-paw"></i> <span>Royal Mughlai</span></a>
+            </div>
+
+            <div class="clearfix"></div>
+
+            <!-- menu profile quick info -->
+            <div class="profile">
+              <div class="profile_pic">
+                <img src="images/img.jpg" alt="..." class="img-circle profile_img">
+              </div>
+              <div class="profile_info">
+                <span>Welcome,</span>
+                <h2>Sombodhi</h2>
+              </div>
+            </div>
+            <!-- /menu profile quick info -->
+
+            <br />
+
+            <!-- sidebar menu -->
+            <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+              <div class="menu_section">
+                <h3></h3>
+                <ul class="nav side-menu">
+                  <li><a><i class="fa fa-home"></i>Dashboards<span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="index.html">Sales</a></li>
+                      <li><a href="index2.html">COGS</a></li>
+                      <li><a href="index3.html">Payments Centre</a></li>
+                    </ul>
+                     <li><a href="inbox.html"><i class="fa fa-envelope"></i> Inbox</a>
+                       <li><a href="project_detail.html"><i class="fa fa-bar-chart"></i> Overall Report</span></a>
+                  </li>
+                </ul>
+              </div>
+
+            </div>
+            <!-- /sidebar menu -->
+
+            <!-- /menu footer buttons -->
+            <div class="sidebar-footer hidden-small">
+              <a data-toggle="tooltip" data-placement="top" title="Settings">
+                <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+              </a>
+              <a data-toggle="tooltip" data-placement="top" title="FullScreen">
+                <span class="glyphicon glyphicon-fullscreen" aria-hidden="true"></span>
+              </a>
+              <a data-toggle="tooltip" data-placement="top" title="Lock">
+                <span class="glyphicon glyphicon-eye-close" aria-hidden="true"></span>
+              </a>
+              <a data-toggle="tooltip" data-placement="top" title="Logout">
+                <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
+              </a>
+            </div>
+            <!-- /menu footer buttons -->
+          </div>
+        </div>
+
+                <!-- top navigation -->
+        <div class="top_nav">
+          <div class="nav_menu">
+            <nav class="" role="navigation">
+              <div class="nav toggle">
+                <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+              </div>
+
+              <ul class="nav navbar-nav navbar-right">
+                <li class="">
+                  <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                    <img src="images/img.jpg" alt="">Sombodhi
+                    <span class=" fa fa-angle-down"></span>
+                  </a>
+                  <ul class="dropdown-menu dropdown-usermenu pull-right">
+                    <li><a href="javascript:;"> Profile</a></li>
+                    <li>
+                      <a href="javascript:;">
+                        <span class="badge bg-green pull-right">90%</span>
+                        <span>Settings</span>
+                      </a>
+                    </li>
+                    <li><a href="javascript:;">Help</a></li>
+                    <li><a href="#"><i class="fa fa-sign-out pull-right"></i> Log Out</a></li>
+                  </ul>
+                </li>
+
+                <li role="presentation" class="dropdown">
+                  <a href="javascript:;" class="dropdown-toggle info-number" data-toggle="dropdown" aria-expanded="false">
+                    <i class="fa fa-envelope-o"></i>
+                    <span class="badge bg-green">4</span>
+                  </a>
+                  <ul id="menu1" class="dropdown-menu list-unstyled msg_list" role="menu">
+                    <li>
+                      <a>
+                        <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                        <span>
+                          <span>Mainak</span>
+                          <span class="time">3 mins ago</span>
+                        </span>
+                        <span class="message">
+                          Hi, This is Mainak from Aficionado
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a>
+                        <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                        <span>
+                          <span>Rito</span>
+                          <span class="time">4 hrs ago</span>
+                        </span>
+                        <span class="message">
+                          We are opening a new brand store tomorrow...
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a>
+                        <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                        <span>
+                          <span>Hatim</span>
+                          <span class="time">3 days ago</span>
+                        </span>
+                        <span class="message">
+                          We are reinventing the software suite for supply chain, please
+                          join our webcast here..
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a>
+                        <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                        <span>
+                          <span>Sombodhi</span>
+                          <span class="time">2 weeks ago</span>
+                        </span>
+                        <span class="message">
+                          New offers for you
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      <div class="text-center">
+                        <a>
+                          <strong>View Inbox</strong>
+                          <i class="fa fa-angle-right"></i>
+                        </a>
+                      </div>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <!-- /top navigation -->
+
+         <div class="right_col" role="main">
+                    <div class="">
+            <div class="row top_tiles">
+              <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <div class="tile-stats">
+                  <div class="icon"><i class="fa fa-caret-square-o-right"></i></div>
+                  <div class="count">179</div>
+                  <h3>New SKUs Added</h3>
+                  <p>In categories that you are following</p>
+                </div>
+              </div>
+              <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <div class="tile-stats">
+                  <div class="icon"><i class="fa fa-comments-o"></i></div>
+                  <div class="count">Chicken</div>
+                  <h3>Best Deal</h3>
+                  <p>Procuring at 34% Below Market Rate</p>
+                </div>
+              </div>
+              <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <div class="tile-stats">
+                  <div class="icon"><i class="fa fa-sort-amount-desc"></i></div>
+                  <div class="count"><i class="fa fa-inr"></i>35,567</div>
+                  <h3>Estimated Savings</h3>
+                  <p>On Procurement From Market Rates</p>
+                </div>
+              </div>
+              <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <div class="tile-stats">
+                  <div class="icon"><i class="fa fa-check-square-o"></i></div>
+                  <div class="count">32%</div>
+                  <h3>COGS</h3>
+                  <p>Target</p>
+                </div>
+              </div>
+            </div>
+            <!-- Top Row Ends -->
+            <div class="row">
+              <div class="col-md-12">
+                 <div class="x_panel">
+                  <div class="x_title">
+                    <h2>COGS (as Percentage) Summary <small>Last 21 Days</small></h2>
+                    <div class="clearfix"></div>
+                  </div>
+                  <div class="x_content">
+                    <div class="demo-container">
+                        <div id="placeholder33x" class="demo-placeholder"></div>
+                      </div>
+                      <div class="tiles">
+                        <center>
+                        <div class="col-md-3 tile">
+                          <span>Procurement Cost</span>
+                          <h2><i class="fa fa-inr"></i>4,00,345</h2>
+                        </div>
+                        <div class="col-md-3 tile">
+                          <span>Total Sales</span>
+                          <h2><i class="fa fa-inr"></i>11,43,509</h2>
+                        </div>
+                        <div class="col-md-3 tile">
+                          <span>Average COGS</span>
+                          <h2>35.01%</h2>
+                        </div>
+                        <div class="col-md-3 tile">
+                          <span>Loss due to Inventory Wastage</span>
+                          <h2><i class="fa fa-inr"></i>56,012</h2>
+                        </div>
+                      </center>
+                  </div>
+            </div>
+          </div>
+        </div>
+            <!-- First Row Ends -->
+
+
+            <div class="row">
+              <div class="col-md-4">
+                <center>
+                        <div class="x_panel">
+                        <div class="x_title">
+                          <h2><center>Top Items for COGS</center></h2>
+                          
+                          <div class="clearfix"></div>
+                        </div>
+                        <ul class="list-unstyled top_profiles scroll-view">
+                          <li class="media event">
+                            
+                            <div class="media-body">
+                              <a class="title" href="#">Haleem</a>
+                              <p><strong></strong> COGS: 57%</p>
+                              <p> <small>Menu Price <i class="fa fa-inr"></i>450</small>
+                              </p>
+                            </div>
+                          </li>
+                          <li class="media event">
+                            
+                            <div class="media-body">
+                              <a class="title" href="#">Special Firni</a>
+                              <p><strong></strong> COGS: 55%</p>
+                              <p> <small>Menu Price <i class="fa fa-inr"></i>220</small>
+                              </p>
+                            </div>
+                          </li>
+                         <li class="media event">
+                            
+                            <div class="media-body">
+                              <a class="title" href="#">Murgh Musallam</a>
+                              <p><strong></strong> COGS: 50%</p>
+                              <p> <small>Menu Price <i class="fa fa-inr"></i>1450</small>
+                              </p>
+                            </div>
+                          </li>
+                          <li class="media event">
+                            
+                            <div class="media-body">
+                              <a class="title" href="#">Rann-e-Arab</a>
+                              <p><strong></strong> COGS: 49%</p>
+                              <p> <small>Menu Price <i class="fa fa-inr"></i>850</small>
+                              </p>
+                            </div>
+                          </li>
+
+                          <li class="media event">
+                            
+                            <div class="media-body">
+                              <a class="title" href="#">Rann-e-Afghan</a>
+                              <p><strong></strong> COGS: 48%</p>
+                              <p> <small>Menu Price <i class="fa fa-inr"></i>875</small>
+                              </p>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+              </div>
+
+                 <div class="col-md-8">
+                      <div class="x_panel">
+                        <div class="x_title">
+                          <h2>Recommended Action <small>Set Purchasing and Delivery Parameters</small></h2>
+                          <div class="clearfix"></div>
+                       </div>
+
+                      <div class="x_content">
+                        <div class="bs-example" data-example-id="simple-jumbotron">
+                        <div class="jumbotron"><center>
+                          <p><small>Main cost driving ingredient is Grade I Type II Mutton. There are 12 vendors providing Grade I Type II Mutton at prices 34% below your cost. Add them to your preferred vendors' list to automatically procure from them. <br>The second cost driving ingredient is Double Toned milk. Change your menu ingredient to Toned Milk to reduce costs by 17% on Milk. </small></p>
+                          
+                           <button class="btn btn-default source" onclick="new PNotify({
+                                  title: 'Done!',
+                                  text: 'Your next deliveries will reduce cost by approximately 33% for Mutton',
+                                  type: 'success',
+                                  styling: 'bootstrap3'
+                              });">Add New Vendors to Preferred List</button>
+                              <button class="btn btn-default source" onclick="new PNotify({
+                                  title: 'Done!',
+                                  text: 'Your next deliveries will reduce cost by approximately 17% for Milk',
+                                  type: 'success',
+                                  styling: 'bootstrap3'
+                              });">Change Preference to Toned Milk</button>
+                            </center>
+                    </div>
+            </div>
+          </div>
+        </div>
+      </div>
+            <!-- Second row ends -->
+              <div class="row">
+              <div class="col-md-6 col-sm-6 col-xs-12">
+                <div class="x_panel">
+                  <div class="x_title">
+                    <h2>Inventory Status <small>High Priority Items</small></h2>
+                    <ul class="nav navbar-right panel_toolbox">
+                      <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                      </li>
+                      <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                        <ul class="dropdown-menu" role="menu">
+                          <li><a href="#">Settings 1</a>
+                          </li>
+                          <li><a href="#">Settings 2</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li><a class="close-link"><i class="fa fa-close"></i></a>
+                      </li>
+                    </ul>
+                    <div class="clearfix"></div>
+                  </div>
+                 <div class="x_content">
+
+                    <table class="table table-striped">
+                      <thead>
+                        <tr>
+                          <th>Ingredient</th>
+                          <th>Current Stock</th>
+                          <th>Forecast (Weekly)</th>
+                          <th>Due for Delivery</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">Chicken Boneless</th>
+                          <td>120 Kg</td>
+                          <td>678 Kg</td>
+                          <td>590 Kg</td>
+                        </tr>
+                        <tr>
+                             <th scope="row">Chicken Thigh Frozen</th>
+                          <td>80 Kg</td>
+                          <td>378 Kg</td>
+                          <td>320 Kg</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Mutton Rann Grade II</th>
+                          <td>25 Kg</td>
+                          <td>275 Kg</td>
+                          <td>275 Kg</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Paneer Grade I</th>
+                          <td>121 Kg</td>
+                          <td>678 Kg</td>
+                          <td>590 Kg</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Basmati Rice</th>
+                          <td>120 Kg</td>
+                          <td>678 Kg</td>
+                          <td>590 Kg</td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="x_panel">
+                  <div class="x_title">
+                    <h2>Upcoming Deliveries<small>Orders Placed</small></h2>
+                    <ul class="nav navbar-right panel_toolbox">
+                      <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                      </li>
+                      <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                        <ul class="dropdown-menu" role="menu">
+                          <li><a href="#">Settings 1</a>
+                          </li>
+                          <li><a href="#">Settings 2</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li><a class="close-link"><i class="fa fa-close"></i></a>
+                      </li>
+                    </ul>
+                    <div class="clearfix"></div>
+                  </div>
+                  <div class="x_content">
+                    <article class="media event">
+                      <a class="pull-left date">
+                        <p class="month">Oct</p>
+                        <p class="day">5</p>
+                      </a>
+                      <div class="media-body">
+                        <a class="title" href="#">Chicken Thigh Frozen</a>
+                        <p>320 Kg from Afkash Vendor Ltd.</p>
+                      </div>
+                    </article>
+                    <article class="media event">
+                      <a class="pull-left date">
+                        <p class="month">Oct</p>
+                        <p class="day">7</p>
+                      </a>
+                      <div class="media-body">
+                        <a class="title" href="#">Chicken Boneless</a>
+                        <p>590 Kg from Supreme Chicken Ltd.</p>
+                      </div>
+                    </article>
+                   <article class="media event">
+                      <a class="pull-left date">
+                        <p class="month">Oct</p>
+                        <p class="day">9</p>
+                      </a>
+                      <div class="media-body">
+                        <a class="title" href="#">Basmati Rice</a>
+                        <p>590 Kg from Dildaar Rice Ltd.</p>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+<!-- RIght Col End -->
+
+
+        
+        <footer>
+          <div class="pull-right">
+           Aficionado Ventures Pvt. Ltd.
+          </div>
+          <div class="clearfix"></div>
+        </footer>
+        <!-- /footer content -->
+      </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="../vendors/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="../vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- FastClick -->
+    <script src="../vendors/fastclick/lib/fastclick.js"></script>
+    <!-- NProgress -->
+    <script src="../vendors/nprogress/nprogress.js"></script>
+    <!-- morris.js -->
+    <script src="../vendors/raphael/raphael.min.js"></script>
+    <script src="../vendors/morris.js/morris.min.js"></script>
+
+    <!-- Custom Theme Scripts -->
+    <script src="../build/js/custom.min.js"></script>
+
+    <!-- morris.js -->
+    <script>
+      $(document).ready(function() {
+        Morris.Bar({
+          element: 'graph_bar',
+          data: [
+            {device: 'June', geekbench: 380},
+            {device: 'July', geekbench: 655},
+            {device: 'August', geekbench: 275},
+            {device: 'September', geekbench: 1571}
+          ],
+          xkey: 'device',
+          ykeys: ['geekbench'],
+          labels: ['Kgs '],
+          barRatio: 0.4,
+          barColors: ['#26B99A', '#34495E', '#ACADAC', '#3498DB'],
+          xLabelAngle: 35,
+          hideHover: 'auto',
+          resize: true
+        });
+
+        Morris.Bar({
+          element: 'graph_bar_group',
+          data: [
+            {"period": "2016-10-01", "licensed": 807, "sorned": 660},
+            {"period": "2016-09-30", "licensed": 1251, "sorned": 729},
+            {"period": "2016-09-29", "licensed": 1769, "sorned": 1018},
+            {"period": "2016-09-20", "licensed": 2246, "sorned": 1461},
+            {"period": "2016-09-19", "licensed": 2657, "sorned": 1967},
+            {"period": "2016-09-18", "licensed": 3148, "sorned": 2627},
+            {"period": "2016-09-17", "licensed": 3471, "sorned": 3740},
+            {"period": "2016-09-16", "licensed": 2871, "sorned": 2216},
+            {"period": "2016-09-15", "licensed": 2401, "sorned": 1656},
+            {"period": "2016-09-10", "licensed": 2115, "sorned": 1022}
+          ],
+          xkey: 'period',
+          barColors: ['#26B99A', '#34495E', '#ACADAC', '#3498DB'],
+          ykeys: ['licensed', 'sorned'],
+          labels: ['Available Inventory', 'Predicted Demand'],
+          hideHover: 'auto',
+          xLabelAngle: 60,
+          resize: true
+        });
+
+        Morris.Bar({
+          element: 'graphx',
+          data: [
+            {x: 'Chicken', y: 200, z:1700 , a: 1800},
+            {x: 'Mutton', y: 150, z: 1500, a: 1600},
+            {x: 'Paneer', y: 450, z: 850, a: 900},
+            {x: 'Rice', y: 120, z: 1200, a: 1500}
+          ],
+          xkey: 'x',
+          ykeys: ['y', 'z', 'a'],
+          barColors: ['#ab2100', '#69ae69', '#b3c5e6', '#3498DB'],
+          hideHover: 'auto',
+          labels: ['Available Inventory', 'Orders Placed', 'Forecast'],
+          resize: true
+        }).on('click', function (i, row) {
+            console.log(i, row);
+        });
+
+        Morris.Area({
+          element: 'graph_area',
+          data: [
+            {period: '2014 Q1', predictive: 2666, inventorylevel: null, reorder: 2647},
+            {period: '2014 Q2', predictive: 2778, inventorylevel: 2294, reorder: 2441},
+            {period: '2014 Q3', predictive: 4912, inventorylevel: 1969, reorder: 2501},
+            {period: '2014 Q4', predictive: 3767, inventorylevel: 3597, reorder: 5689},
+            {period: '2015 Q1', predictive: 6810, inventorylevel: 1914, reorder: 2293},
+            {period: '2015 Q2', predictive: 5670, inventorylevel: 4293, reorder: 1881},
+            {period: '2015 Q3', predictive: 4820, inventorylevel: 3795, reorder: 1588},
+            {period: '2015 Q4', predictive: 15073, inventorylevel: 5967, reorder: 5175},
+            {period: '2016 Q1', predictive: 10687, inventorylevel: 4460, reorder: 2028},
+            {period: '2016 Q2', predictive: 8432, inventorylevel: 5713, reorder: 1791}
+          ],
+          xkey: 'period',
+          ykeys: ['predictive', 'inventorylevel', 'reorder'],
+          lineColors: ['#26B99A', '#34495E', '#ACADAC', '#3498DB'],
+          labels: ['Control Level', 'Inventory', 'Re-Order'],
+          pointSize: 2,
+          hideHover: 'auto',
+          resize: true
+        });
+
+        Morris.Donut({
+          element: 'graph_donut',
+          data: [
+            {label: 'Jam', value: 25},
+            {label: 'Frosted', value: 40},
+            {label: 'Custard', value: 25},
+            {label: 'Sugar', value: 10}
+          ],
+          colors: ['#26B99A', '#34495E', '#ACADAC', '#3498DB'],
+          formatter: function (y) {
+            return y + "%";
+          },
+          resize: true
+        });
+
+        Morris.Line({
+          element: 'graph_line',
+          xkey: 'year',
+          ykeys: ['value'],
+          labels: ['Value'],
+          hideHover: 'auto',
+          lineColors: ['#26B99A', '#34495E', '#ACADAC', '#3498DB'],
+          data: [
+            {year: '2012', value: 20},
+            {year: '2013', value: 10},
+            {year: '2014', value: 5},
+            {year: '2015', value: 5},
+            {year: '2016', value: 20}
+          ],
+          resize: true
+        });
+
+        $MENU_TOGGLE.on('click', function() {
+          $(window).resize();
+        });
+      });
+    </script>
+    <!-- /morris.js -->
+    <!-- jQuery -->
+    <script src="../vendors/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="../vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- FastClick -->
+    <script src="../vendors/fastclick/lib/fastclick.js"></script>
+    <!-- NProgress -->
+    <script src="../vendors/nprogress/nprogress.js"></script>
+    <!-- Chart.js -->
+    <script src="../vendors/Chart.js/dist/Chart.min.js"></script>
+    <!-- jQuery Sparklines -->
+    <script src="../vendors/jquery-sparkline/dist/jquery.sparkline.min.js"></script>
+    <!-- Flot -->
+    <script src="../vendors/Flot/jquery.flot.js"></script>
+    <script src="../vendors/Flot/jquery.flot.pie.js"></script>
+    <script src="../vendors/Flot/jquery.flot.time.js"></script>
+    <script src="../vendors/Flot/jquery.flot.stack.js"></script>
+    <script src="../vendors/Flot/jquery.flot.resize.js"></script>
+    <!-- Flot plugins -->
+    <script src="js/flot/jquery.flot.orderBars.js"></script>
+    <script src="js/flot/date.js"></script>
+    <script src="js/flot/jquery.flot.spline.js"></script>
+    <script src="js/flot/curvedLines.js"></script>
+    <!-- bootstrap-daterangepicker -->
+    <script src="js/moment/moment.min.js"></script>
+    <script src="js/datepicker/daterangepicker.js"></script>
+    
+    <!-- Custom Theme Scripts -->
+    <script src="../build/js/custom.min.js"></script>
+     <script src="../vendors/raphael/raphael.min.js"></script>
+    <script src="../vendors/morris.js/morris.min.js"></script>
+
+
+    <!-- Flot -->
+    <script>
+      $(document).ready(function() {
+        //define chart clolors ( you maybe add more colors if you want or flot will add it automatic )
+        var chartColours = ['#96CA59', '#3F97EB', '#72c380', '#6f7a8a', '#f7cb38', '#5a8022', '#2c7282'];
+
+        //generate random number for charts
+        randNum = function() {
+          return (Math.floor(Math.random() * (1 + 20 - 5))) + 15;
+        };
+
+        var d1 = [];
+        //var d2 = [];
+
+        //here we generate data for chart
+        for (var i = 0; i < 30; i++) {
+          d1.push([new Date(Date.today().add(i).days()).getTime(), randNum() - 0.08*i]);
+          //    d2.push([new Date(Date.today().add(i).days()).getTime(), randNum()]);
+        }
+
+        var chartMinDate = d1[0][0]; //first day
+        var chartMaxDate = d1[20][0]; //last day
+
+        var tickSize = [1, "day"];
+        var tformat = "%d/%m/%y";
+
+        //graph options
+        var options = {
+          grid: {
+            show: true,
+            aboveData: true,
+            color: "#3f3f3f",
+            labelMargin: 10,
+            axisMargin: 0,
+            borderWidth: 0,
+            borderColor: null,
+            minBorderMargin: 5,
+            clickable: true,
+            hoverable: true,
+            autoHighlight: true,
+            mouseActiveRadius: 100
+          },
+          series: {
+            lines: {
+              show: true,
+              fill: true,
+              lineWidth: 2,
+              steps: false
+            },
+            points: {
+              show: true,
+              radius: 4.5,
+              symbol: "circle",
+              lineWidth: 3.0
+            }
+          },
+          legend: {
+            position: "ne",
+            margin: [0,0],
+            noColumns: 0,
+            labelBoxBorderColor: null,
+            labelFormatter: function(label, series) {
+              // just add some space to labes
+              return label + '&nbsp;&nbsp;';
+            },
+            width: 40,
+            height: 1
+          },
+          colors: chartColours,
+          shadowSize: 0,
+          tooltip: true, //activate tooltip
+          tooltipOpts: {
+            content: "%s: %y.0",
+            xDateFormat: "%d/%m",
+            shifts: {
+              x: -30,
+              y: -50
+            },
+            defaultTheme: false
+          },
+          yaxis: {
+            min: 0
+          },
+          xaxis: {
+            mode: "time",
+            minTickSize: tickSize,
+            timeformat: tformat,
+            min: chartMinDate,
+            max: chartMaxDate
+          }
+        };
+        var plot = $.plot($("#placeholder33x"), [{
+          label: "COGS",
+          data: d1,
+          lines: {
+            fillColor: "rgba(150, 202, 89, 0.12)"
+          }, //#96CA59 rgba(150, 202, 89, 0.42)
+          points: {
+            fillColor: "#fff"
+          }
+        }], options);
+      });
+    </script>
+    <!-- /Flot -->
+
+    <!-- jQuery Sparklines -->
+    <script>
+      $(document).ready(function() {
+        $(".sparkline_one").sparkline([2, 4, 3, 4, 5, 4, 5, 4, 3, 4, 5, 6, 4, 5, 6, 3, 5, 4, 5, 4, 5, 4, 3, 4, 5, 6, 7, 5, 4, 3, 5, 6], {
+          type: 'bar',
+          height: '125',
+          barWidth: 13,
+          colorMap: {
+            '7': '#a1a1a1'
+          },
+          barSpacing: 2,
+          barColor: '#26B99A'
+        });
+
+        $(".sparkline11").sparkline([2, 4, 3, 4, 5, 4, 5, 4, 3, 4, 6, 2, 4, 3, 4, 5, 4, 5, 4, 3], {
+          type: 'bar',
+          height: '40',
+          barWidth: 8,
+          colorMap: {
+            '7': '#a1a1a1'
+          },
+          barSpacing: 2,
+          barColor: '#26B99A'
+        });
+
+        $(".sparkline22").sparkline([2, 4, 3, 4, 7, 5, 4, 3, 5, 6, 2, 4, 3, 4, 5, 4, 5, 4, 3, 4, 6], {
+          type: 'line',
+          height: '40',
+          width: '200',
+          lineColor: '#26B99A',
+          fillColor: '#ffffff',
+          lineWidth: 3,
+          spotColor: '#34495E',
+          minSpotColor: '#34495E'
+        });
+      });
+    </script>
+    <!-- /jQuery Sparklines -->
+
+    <!-- Doughnut Chart -->
+    <script>
+      $(document).ready(function() {
+        var canvasDoughnut,
+            options = {
+              legend: false,
+              responsive: false
+            };
+
+        new Chart(document.getElementById("canvas1i"), {
+          type: 'doughnut',
+          tooltipFillColor: "rgba(51, 51, 51, 0.55)",
+          data: {
+            labels: [
+              "Symbian",
+              "Blackberry",
+              "Other",
+              "Android",
+              "IOS"
+            ],
+            datasets: [{
+              data: [15, 20, 30, 10, 30],
+              backgroundColor: [
+                "#BDC3C7",
+                "#9B59B6",
+                "#E74C3C",
+                "#26B99A",
+                "#3498DB"
+              ],
+              hoverBackgroundColor: [
+                "#CFD4D8",
+                "#B370CF",
+                "#E95E4F",
+                "#36CAAB",
+                "#49A9EA"
+              ]
+
+            }]
+          },
+          options: options
+        });
+
+        new Chart(document.getElementById("canvas1i2"), {
+          type: 'doughnut',
+          tooltipFillColor: "rgba(51, 51, 51, 0.55)",
+          data: {
+            labels: [
+              "Symbian",
+              "Blackberry",
+              "Other",
+              "Android",
+              "IOS"
+            ],
+            datasets: [{
+              data: [15, 20, 30, 10, 30],
+              backgroundColor: [
+                "#BDC3C7",
+                "#9B59B6",
+                "#E74C3C",
+                "#26B99A",
+                "#3498DB"
+              ],
+              hoverBackgroundColor: [
+                "#CFD4D8",
+                "#B370CF",
+                "#E95E4F",
+                "#36CAAB",
+                "#49A9EA"
+              ]
+
+            }]
+          },
+          options: options
+        });
+
+        new Chart(document.getElementById("canvas1i3"), {
+          type: 'doughnut',
+          tooltipFillColor: "rgba(51, 51, 51, 0.55)",
+          data: {
+            labels: [
+              "Symbian",
+              "Blackberry",
+              "Other",
+              "Android",
+              "IOS"
+            ],
+            datasets: [{
+              data: [15, 20, 30, 10, 30],
+              backgroundColor: [
+                "#BDC3C7",
+                "#9B59B6",
+                "#E74C3C",
+                "#26B99A",
+                "#3498DB"
+              ],
+              hoverBackgroundColor: [
+                "#CFD4D8",
+                "#B370CF",
+                "#E95E4F",
+                "#36CAAB",
+                "#49A9EA"
+              ]
+
+            }]
+          },
+          options: options
+        });
+      });
+    </script>
+    <!-- /Doughnut Chart -->
+
+    <!-- bootstrap-daterangepicker -->
+    <script type="text/javascript">
+      $(document).ready(function() {
+
+        var cb = function(start, end, label) {
+          console.log(start.toISOString(), end.toISOString(), label);
+          $('#reportrange span').html(start.format('MMMM D, YYYY') + ' - ' + end.format('MMMM D, YYYY'));
+        };
+
+        var optionSet1 = {
+          startDate: moment().subtract(29, 'days'),
+          endDate: moment(),
+          minDate: '01/01/2012',
+          maxDate: '12/31/2015',
+          dateLimit: {
+            days: 60
+          },
+          showDropdowns: true,
+          showWeekNumbers: true,
+          timePicker: false,
+          timePickerIncrement: 1,
+          timePicker12Hour: true,
+          ranges: {
+            'Today': [moment(), moment()],
+            'Yesterday': [moment().subtract(1, 'days'), moment().subtract(1, 'days')],
+            'Last 7 Days': [moment().subtract(6, 'days'), moment()],
+            'Last 30 Days': [moment().subtract(29, 'days'), moment()],
+            'This Month': [moment().startOf('month'), moment().endOf('month')],
+            'Last Month': [moment().subtract(1, 'month').startOf('month'), moment().subtract(1, 'month').endOf('month')]
+          },
+          opens: 'left',
+          buttonClasses: ['btn btn-default'],
+          applyClass: 'btn-small btn-primary',
+          cancelClass: 'btn-small',
+          format: 'MM/DD/YYYY',
+          separator: ' to ',
+          locale: {
+            applyLabel: 'Submit',
+            cancelLabel: 'Clear',
+            fromLabel: 'From',
+            toLabel: 'To',
+            customRangeLabel: 'Custom',
+            daysOfWeek: ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa'],
+            monthNames: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
+            firstDay: 1
+          }
+        };
+        $('#reportrange span').html(moment().subtract(29, 'days').format('MMMM D, YYYY') + ' - ' + moment().format('MMMM D, YYYY'));
+        $('#reportrange').daterangepicker(optionSet1, cb);
+        $('#reportrange').on('show.daterangepicker', function() {
+          console.log("show event fired");
+        });
+        $('#reportrange').on('hide.daterangepicker', function() {
+          console.log("hide event fired");
+        });
+        $('#reportrange').on('apply.daterangepicker', function(ev, picker) {
+          console.log("apply event fired, start/end dates are " + picker.startDate.format('MMMM D, YYYY') + " to " + picker.endDate.format('MMMM D, YYYY'));
+        });
+        $('#reportrange').on('cancel.daterangepicker', function(ev, picker) {
+          console.log("cancel event fired");
+        });
+        $('#options1').click(function() {
+          $('#reportrange').data('daterangepicker').setOptions(optionSet1, cb);
+        });
+        $('#options2').click(function() {
+          $('#reportrange').data('daterangepicker').setOptions(optionSet2, cb);
+        });
+        $('#destroy').click(function() {
+          $('#reportrange').data('daterangepicker').remove();
+        });
+      });
+    </script>
+    <!-- morris.js -->
+    <script>
+      $(document).ready(function() {
+        Morris.Bar({
+          element: 'graph_bar',
+          data: [
+            {device: 'predictive 4', geekbench: 380},
+            {device: 'predictive 4S', geekbench: 655},
+            {device: 'predictive 3GS', geekbench: 275},
+            {device: 'predictive 5', geekbench: 1571},
+            {device: 'predictive 5S', geekbench: 655},
+            {device: 'predictive 6', geekbench: 2154},
+            {device: 'predictive 6 Plus', geekbench: 1144},
+            {device: 'predictive 6S', geekbench: 2371},
+            {device: 'predictive 6S Plus', geekbench: 1471},
+            {device: 'Other', geekbench: 1371}
+          ],
+          xkey: 'device',
+          ykeys: ['geekbench'],
+          labels: ['Geekbench'],
+          barRatio: 0.4,
+          barColors: ['#26B99A', '#34495E', '#ACADAC', '#3498DB'],
+          xLabelAngle: 35,
+          hideHover: 'auto',
+          resize: true
+        });
+
+        Morris.Bar({
+          element: 'graph_bar_group',
+          data: [
+            {"period": "2016-10-01", "licensed": 807, "sorned": 660},
+            {"period": "2016-09-30", "licensed": 1251, "sorned": 729},
+            {"period": "2016-09-29", "licensed": 1769, "sorned": 1018},
+            {"period": "2016-09-20", "licensed": 2246, "sorned": 1461},
+            {"period": "2016-09-19", "licensed": 2657, "sorned": 1967},
+            {"period": "2016-09-18", "licensed": 3148, "sorned": 2627},
+            {"period": "2016-09-17", "licensed": 3471, "sorned": 3740},
+            {"period": "2016-09-16", "licensed": 2871, "sorned": 2216},
+            {"period": "2016-09-15", "licensed": 2401, "sorned": 1656},
+            {"period": "2016-09-10", "licensed": 2115, "sorned": 1022}
+          ],
+          xkey: 'period',
+          barColors: ['#26B99A', '#34495E', '#ACADAC', '#3498DB'],
+          ykeys: ['licensed', 'sorned'],
+          labels: ['Licensed', 'SORN'],
+          hideHover: 'auto',
+          xLabelAngle: 60,
+          resize: true
+        });
+
+        Morris.Bar({
+          element: 'graphx',
+          data: [
+            {x: '2015 Q1', y: 2, z: 3, a: 4},
+            {x: '2015 Q2', y: 3, z: 5, a: 6},
+            {x: '2015 Q3', y: 4, z: 3, a: 2},
+            {x: '2015 Q4', y: 2, z: 4, a: 5}
+          ],
+          xkey: 'x',
+          ykeys: ['y', 'z', 'a'],
+          barColors: ['#26B99A', '#34495E', '#ACADAC', '#3498DB'],
+          hideHover: 'auto',
+          labels: ['Y', 'Z', 'A'],
+          resize: true
+        }).on('click', function (i, row) {
+            console.log(i, row);
+        });
+
+        Morris.Area({
+          element: 'graph_area',
+          data: [
+            {period: '2014 Q1', predictive: 2666, inventorylevel: null, reorder: 2647},
+            {period: '2014 Q2', predictive: 2778, inventorylevel: 2294, reorder: 2441},
+            {period: '2014 Q3', predictive: 4912, inventorylevel: 1969, reorder: 2501},
+            {period: '2014 Q4', predictive: 3767, inventorylevel: 3597, reorder: 5689},
+            {period: '2015 Q1', predictive: 6810, inventorylevel: 1914, reorder: 2293},
+            {period: '2015 Q2', predictive: 5670, inventorylevel: 4293, reorder: 1881},
+            {period: '2015 Q3', predictive: 4820, inventorylevel: 3795, reorder: 1588},
+            {period: '2015 Q4', predictive: 15073, inventorylevel: 5967, reorder: 5175},
+            {period: '2016 Q1', predictive: 10687, inventorylevel: 4460, reorder: 2028},
+            {period: '2016 Q2', predictive: 8432, inventorylevel: 5713, reorder: 1791}
+          ],
+          xkey: 'period',
+          ykeys: ['predictive', 'inventorylevel', 'reorder'],
+          lineColors: ['#26B99A', '#34495E', '#ACADAC', '#3498DB'],
+          labels: ['Control Level', 'Inventory Status', 'Re-Order Level'],
+          pointSize: 2,
+          hideHover: 'auto',
+          resize: true
+        });
+
+        Morris.Donut({
+          element: 'graph_donut',
+          data: [
+            {label: 'Jam', value: 25},
+            {label: 'Frosted', value: 40},
+            {label: 'Custard', value: 25},
+            {label: 'Sugar', value: 10}
+          ],
+          colors: ['#26B99A', '#34495E', '#ACADAC', '#3498DB'],
+          formatter: function (y) {
+            return y + "%";
+          },
+          resize: true
+        });
+
+        Morris.Line({
+          element: 'graph_line',
+          xkey: 'year',
+          ykeys: ['value'],
+          labels: ['Value'],
+          hideHover: 'auto',
+          lineColors: ['#26B99A', '#34495E', '#ACADAC', '#3498DB'],
+          data: [
+            {year: '2012', value: 20},
+            {year: '2013', value: 10},
+            {year: '2014', value: 5},
+            {year: '2015', value: 5},
+            {year: '2016', value: 20}
+          ],
+          resize: true
+        });
+
+        $MENU_TOGGLE.on('click', function() {
+          $(window).resize();
+        });
+      });
+    </script>
+        <script src="../vendors/pnotify/dist/pnotify.js"></script>
+    <script src="../vendors/pnotify/dist/pnotify.buttons.js"></script>
+    <script src="../vendors/pnotify/dist/pnotify.nonblock.js"></script>
+    <!-- /morris.js -->
+    <!-- /bootstrap-daterangepicker -->
+  </body>
+</html>
