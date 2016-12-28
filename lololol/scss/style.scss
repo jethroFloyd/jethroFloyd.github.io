@@ -1,0 +1,178 @@
+@import "compass/css3";
+
+html {
+	min-height: 100%;
+}
+body {
+	height: 100%;
+	font-family: sans-serif;
+	font-size: 16px;
+	line-height: 1.3em;
+	background: #333;
+	font-weight: 300;
+	overflow: auto;
+	overflow-y: hidden;
+	background: #333 url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/22043/bg.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+
+$ball-diam: 100px;
+$ball-msg-count-diam: 25px;
+$border-width: 3px;
+
+.ball {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: (-$ball-diam/2);
+	margin-left: (-$ball-diam/2);
+	height: $ball-diam;
+	width: $ball-diam;
+	
+	border: $border-width solid #FFF;
+	background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/22043/avatar_copy.jpg);
+	background-size: contain;
+	border-radius: 1000px;
+	transform: scale(0);
+	opacity: 0;
+	transition-duration: 0;
+	transition-timing-function: cubic-bezier(0.005, 0.950, 0.135, 1.205);
+
+	.msg-count {
+		position: absolute;
+		top: 0;
+		left: 0;
+	
+		color: #FFF;
+		border: $border-width solid #FFF;
+		background: #E80202;
+		height: $ball-msg-count-diam;
+		width: $ball-msg-count-diam;
+		border-radius: 1000px;
+		text-align: center;
+		line-height: 18px;
+		font-size: 12px;
+		opacity: 0;
+		transform: scale(0);
+		transition-timing-function: cubic-bezier(0.005, 0.950, 0.135, 1.205);
+	}
+
+	.halo {
+		position: absolute;
+		top: 18px;
+		left: 18px;
+		right: 18px;
+		bottom: 18px;
+		border-radius: 1000px;
+		background: rgba(255,255,255,.6);
+		transform: scale(0);
+
+	}
+
+	.notif {
+		position: absolute;
+		top: -50px;
+     left: -45px;
+     width: 183px;
+		opacity: 0;
+
+		.bar {
+			position: relative;
+			border-radius: 1000px;
+			background: #FFF;
+			height: 30px;
+			line-height: 30px;
+			width: 0;
+			margin: 0 auto;
+			padding: 0 10px;
+			overflow: hidden;
+
+			.text {
+				position: absolute;
+				margin: 0;
+				font-size: 12px;
+				color: #555;
+				width: 175px;
+				z-index: 1;
+			}
+
+			.action {
+				position: relative;
+				z-index: 2;
+				height: 20px;
+				width: 20px;
+				background: #BABABA;
+				float: right;
+				margin-top: 5px;
+				border-radius: 100px;
+				box-shadow: 10px 0 0 0 #FFF, -10px 0 10px 0 #FFF, inset 0 0 0 1px #FFF;
+				border: 1px solid #BABABA;
+
+				&::after {
+					content: '';
+					border-left: 5px solid #FFF;
+					border-top: 4px solid transparent;
+					border-bottom: 4px solid transparent;
+					display: block;
+					margin-left: 7px;
+					margin-top: 4px;
+				}
+			}
+		}
+		.arrow {
+			top: 30px;
+			border-top: 7px solid #FFF;
+			border-left: 7px solid transparent;
+			border-right: 7px solid transparent;
+			width: 0;
+			margin: 0 auto;
+			transform-origin: top;
+			transform: scale(0);
+		}
+	}
+}
+
+
+.anim-start {
+	.ball {
+		opacity: 1;
+		transform: none;
+		transition-duration: .3s;
+
+		.notif {
+			opacity: 1;
+			transition-duration: .2s;
+			transition-delay: 1.6s;
+
+			.bar {
+				width: 100%;
+				transition-duration: .6s;
+				transition-delay: 1.6s;
+			}
+			.arrow {
+				transform: none;
+				transition-delay: 1.6s;
+				transition-duration: .3s;
+			}
+		}
+
+		.halo {
+			opacity: 0;
+			transform: none;
+			transition-duration: .6s;
+			transition-delay: 1.2s;
+		}
+
+		.msg-count {
+			opacity: 1;
+			transform: none;
+			transition-duration: .3s;
+			transition-delay: .6s;
+		}
+	}
+}
