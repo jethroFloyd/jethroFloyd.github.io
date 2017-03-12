@@ -13,19 +13,19 @@ input.keypress(function(e) {
 		var inputVal = $.trim(input.val());
 		//console.log(inputVal);
 
-		if (inputVal == "help") {
+		if (inputVal == "help" || inputVal == "Help") {
 			help();
 			input.val('');
-		} else if (inputVal == "ping") {
+		} else if (inputVal == "ping" ) {
 			pong();
 			input.val('');
-		} else if (inputVal == "joke") {
+		} else if (inputVal == "joke" || inputVal == "Joke") {
 			aboutMe();
 			input.val('');
-		} else if (inputVal == "snow") {
+		} else if (inputVal == "snow" || inputVal == "Snow") {
 			aboutMe2();
 			input.val('');
-		} else if (inputVal == "want") {
+		} else if (inputVal == "want" || inputVal == "Want") {
 			aboutMe3();
 			input.val('');
 		} else if (inputVal.indexOf("hi") >=0 || inputVal.indexOf("Hi") >=0 || inputVal.indexOf("ello") >=0 || inputVal.indexOf("iss") >=0) {
@@ -37,10 +37,10 @@ input.keypress(function(e) {
 		} else if (inputVal.indexOf("fuck") >=0 || inputVal.indexOf("sex") >= 0 || inputVal.indexOf("horny") >= 0 || inputVal.indexOf("Fuck") >= 0 || inputVal.indexOf("Sex") >= 0) {
 			aboutMe5();
 			input.val('');
-		} else if (inputVal == "cute") {
+		} else if (inputVal == "cute" || inputVal == "Cute") {
 			contactMe();
 			input.val('');
-		} else if (inputVal == "clear") {
+		} else if (inputVal == "clear" || inputVal == "Clear") {
 			clearConsole();
 			input.val('');
 		} else {
