@@ -113,7 +113,7 @@ function aboutMe() {
 }
 
 function aboutMe2() {
-	var aboutMeArray = ['>Snow White:', 'The mirror says:', 'You\'re a thousand times more beautiful than you think you are.'];
+	var aboutMeArray = ['>Snow White:', 'The mirror says:', 'You\'re a thousand <\br>times more beautiful than you think you are.'];
 	seperator();
 	for (var i = 0; i < aboutMeArray.length; i++) {
 		var out = '<span>' + aboutMeArray[i] + '</span><br/>'

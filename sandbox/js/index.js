@@ -38,7 +38,7 @@ input.keypress(function(e) {
 		} else if (inputVal == "want" || inputVal == "Want") {
 			aboutMe3();
 			input.val('');
-		} else if (inputVal.indexOf("hi") >=0 || inputVal.indexOf("Hi") >=0 || inputVal.indexOf("ello") >=0 || inputVal.indexOf("iss") >=0) {
+		} else if (inputVal.indexOf("hi") >=0 ) {
 			aboutMe6();
 			input.val('');
 		} else if (inputVal.indexOf("love") >=0 || inputVal.indexOf("Love") >= 0) {
@@ -113,7 +113,7 @@ function getTime() {
 }
 
 function aboutMe() {
-	var aboutMeArray = ['>Joke:', 'Here\'s an offensive and hilarious joke for you:', 'Feminism'];
+	var aboutMeArray = ['>Joke:', 'Here\'s an offensive andhilarious joke for you:', 'Feminism'];
 	seperator();
 	for (var i = 0; i < aboutMeArray.length; i++) {
 		var out = '<span>' + aboutMeArray[i] + '</span><br/>'
