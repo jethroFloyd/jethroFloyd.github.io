@@ -1,189 +1,234 @@
-// =====================
-// Create required vars
-// =====================
+// Generated from generator.c 
+
+
 var output = $('.output');
 var input = $('textarea.input');
 var toOutput;
-
-// Commands:
-// pwd, ls, man, sudo, apt, cd, mkdir, rm
-//
-
 input.keypress(function(e) {
 	if (e.which == 13) {
 		var inputVal = $.trim(input.val());
-		//console.log(inputVal);
-
-		if (inputVal.indexOf("pwd")) {
-			pwd();
-			input.val('');
-		} else if (inputVal.toLowerCase().indexOf("ls")) {
-			ls();
-			input.val('');
-		} else if (inputVal.toLowerCase().indexOf("ls")) {
-			ls();
-			input.val('');
-		} else if (inputVal == "help" || inputVal == "Help") {
+		if (inputVal.indexOf("help")>=0) {
 			help();
-			input.val('');
-		} else if (inputVal == "ping" ) {
-			pong();
-			input.val('');
-		} else if (inputVal == "joke" || inputVal == "Joke") {
-			aboutMe();
-			input.val('');
-		} else if (inputVal == "snow" || inputVal == "Snow") {
-			aboutMe2();
-			input.val('');
-		} else if (inputVal == "want" || inputVal == "Want") {
-			aboutMe3();
-			input.val('');
-		} else if (inputVal.indexOf("hi") >=0 ) {
-			aboutMe6();
-			input.val('');
-		} else if (inputVal.indexOf("love") >=0 || inputVal.indexOf("Love") >= 0) {
-			aboutMe4();
-			input.val('');
-		} else if (inputVal.indexOf("fuck") >=0 || inputVal.indexOf("sex") >= 0 || inputVal.indexOf("horny") >= 0 || inputVal.indexOf("Fuck") >= 0 || inputVal.indexOf("Sex") >= 0) {
-			aboutMe5();
-			input.val('');
-		} else if (inputVal == "cute" || inputVal == "Cute") {
-			contactMe();
-			input.val('');
-		} else if (inputVal == "clear" || inputVal == "Clear") {
-			clearConsole();
-			input.val('');
+			input.Val('');
+		} else if (inputVal.indexOf("who")>=0) {
+			who();
+			input.Val('');
+		} else if (inputVal.indexOf("why_retro")>=0) {
+			why-retro();
+			input.Val('');
+		} else if (inputVal.indexOf("contact")>=0) {
+			contact();
+			input.Val('');
+		} else if (inputVal.indexOf("what")>=0) {
+			what();
+			input.Val('');
+		} else if (inputVal.indexOf("infosec")>=0) {
+			infosec();
+			input.Val('');
+		} else if (inputVal.indexOf("money")>=0) {
+			money();
+			input.Val('');
+		} else if (inputVal.indexOf("thoughts")>=0) {
+			thoughts();
+			input.Val('');
+		} else if (inputVal.indexOf("ls")>=0) {
+			ls();
+			input.Val('');
+		} else if (inputVal.indexOf("pwd")>=0) {
+			pwd();
+			input.Val('');
+		} else if (inputVal.indexOf("man")>=0) {
+			man();
+			input.Val('');
+		} else if (inputVal.indexOf("sudo")>=0) {
+			sudo();
+			input.Val('');
+		} else if (inputVal.indexOf("apt")>=0) {
+			apt();
+			input.Val('');
+		} else if (inputVal.indexOf("cd")>=0) {
+			cd();
+			input.Val('');
+		} else if (inputVal.indexOf("mkdir")>=0) {
+			mkdir();
+			input.Val('');
+		} else if (inputVal.indexOf("rm")>=0) {
+			rm();
+			input.Val('');
 		} else {
-			Output('<span>Oops. <br>Looks like this site is not smart enough yet.<br> Try another command.</span></br>');
+			Output('<span>Oops. <br>You outsmarted me. Try something else.</span></br>');
 			input.val('');
 		}
 	}
 });
 
-// functions related to the commands typed
-// =======================================
 
-// prints out a seperator
-function seperator() {
-	Output('<span class="seperator">== == == == == == == == == == == == == == == == == ==</span></br>');
+
+function separator() {
+	Output('<span class="separator">== == == == == == == == == == == == == == == == == ==</span></br>');
 }
 
-//clears the screen
-function clearConsole() {
-	output.html("");
-	Output('<span>clear</span></br>');
-}
-
-// prints out a list of "all" comands available
-function help() {
-	var commandsArray = ['Help: List of available commands', '>help: this menu', '>joke: I\'ll tell you a hilarious offensive joke', '>cute: cute stuff', '>snow: long term plan', '>want: self-explanatory', '>clear', '...and a couple of hidden commands.'];
-	for (var i = 0; i < commandsArray.length; i++) {
-		var out = '<span>' + commandsArray[i] + '</span><br/>'
-		Output(out);
-	}
-}
-
-// prints the result for the pong command
-function pong() {
-	Output('<span>pong</span></br><span class="pong"><b class="left">|</b><b class="right">|</b></span></br>');
-}
-
-// function to the say command
-function sayThis(data) {
-	data = data.substr(data.indexOf(' ') + 1);
-	Output('<span class="green">[say]:</span><span>' + data + '</span></br>');
-}
-
-// sudo?!? not really
-function sudo(data) {
-	data = data.substr(data.indexOf(' ') + 1);
-	if (data.startsWith("say") === true) {
-		data = "Not gonna " + data + " to you, you don\'t own me!"
-	} else if (data.startsWith("apt-get") === true) {
-		data = "<span class='green'>Updating...</span> The cake is a lie! There is nothing to update..."
-	} else {
-		data = "The force is weak within you, my master you not be!"
-	}
-	Output('<span>' + data + '</span></br>');
-}
-
-// function to get current time...not
-function getTime() {
-	Output('<span>It\'s the 21st century man! Get a SmartWatch</span></br>');
-}
-
-function aboutMe() {
-	var aboutMeArray = ['>Joke:', 'Here\'s an offensive andhilarious joke for you:', 'Feminism'];
-	seperator();
-	for (var i = 0; i < aboutMeArray.length; i++) {
-		var out = '<span>' + aboutMeArray[i] + '</span><br/>'
-		Output(out);
-	}
-	seperator();
-}
-
-function aboutMe2() {
-	var aboutMeArray = ['>Snow White:', 'The mirror says:', 'You\'re a thousand times more beautiful than you think you are.'];
-	seperator();
-	for (var i = 0; i < aboutMeArray.length; i++) {
-		var out = '<span>' + aboutMeArray[i] + '</span><br/>'
-		Output(out);
-	}
-	seperator();
-}
-
-function aboutMe3() {
-	var aboutMeArray = ['>Want:', 'Come back soon?'];
-	seperator();
-	for (var i = 0; i < aboutMeArray.length; i++) {
-		var out = '<span>' + aboutMeArray[i] + '</span><br/>'
-		Output(out);
-	}
-	seperator();
-}
-
-function aboutMe4() {
-	var aboutMeArray = ['>You found the hidden gem:', 'I love you too.'];
-	seperator();
-	for (var i = 0; i < aboutMeArray.length; i++) {
-		var out = '<span>' + aboutMeArray[i] + '</span><br/>'
-		Output(out);
-	}
-	seperator();
-}
-
-function aboutMe5() {
-	var aboutMeArray = ['>You found the hidden gem:', 'What a dirty mind lol'];
-	seperator();
-	for (var i = 0; i < aboutMeArray.length; i++) {
-		var out = '<span>' + aboutMeArray[i] + '</span><br/>'
-		Output(out);
-	}
-	seperator();
-}
-
-
-function aboutMe6() {
-	var aboutMeArray = ['>Hi:', ':*'];
-	seperator();
-	for (var i = 0; i < aboutMeArray.length; i++) {
-		var out = '<span>' + aboutMeArray[i] + '</span><br/>'
-		Output(out);
-	}
-	seperator();
-}
-
-function contactMe() {
-	var contactArray = ['>Cute:', 'Rubs nosies. Kisses lightly. Cuddles and laughs.'];
-	seperator();
-	for (var i = 0; i < contactArray.length; i++) {
-		var out = '<span>' + contactArray[i] + '</span><br/>'
-		Output(out);
-	}
-	seperator();
-}
-
-// Prints out the result of the command into the output div
 function Output(data) {
 	$(data).appendTo(output);
 }
+
+function help() {
+	separator();
+	var outputArray = ['>help','who','why-retro','contact','what','infosec','money','thoughts','...and some hidden stuff.'];
+	for (var  i = 0;  i < outputArray.length; i++) {
+		var out = '<span>' + outputArray[i] + '</span></br>';
+		Output(out);
+	}
+	separator();
+}
+
+function who() {
+	separator();
+	var outputArray = ['>who','Rito, aka jethroFloyd.','I like creating new things (especially if they create value in return - for me and others).','Also, pineapples should be mandatory on pizzas.'];
+	for (var  i = 0;  i < outputArray.length; i++) {
+		var out = '<span>' + outputArray[i] + '</span></br>';
+		Output(out);
+	}
+	separator();
+}
+
+function why_retro() {
+	separator();
+	var outputArray = ['>why-retro','Just like that! I change the look of my site often.'];
+	for (var  i = 0;  i < outputArray.length; i++) {
+		var out = '<span>' + outputArray[i] + '</span></br>';
+		Output(out);
+	}
+	separator();
+}
+
+function contact() {
+	separator();
+	var outputArray = ['>contact','For personal: rito@rito.tech','For Aficionado Ventures: ritobroto@aficionadoventures.com','For Consultancy: rito@panfried.co','Chitchat: CryptoCat; my handle is jethroFloyd.'];
+	for (var  i = 0;  i < outputArray.length; i++) {
+		var out = '<span>' + outputArray[i] + '</span></br>';
+		Output(out);
+	}
+	separator();
+}
+
+function what() {
+	separator();
+	var outputArray = ['>what','What what? I didn\'t get you.'];
+	for (var  i = 0;  i < outputArray.length; i++) {
+		var out = '<span>' + outputArray[i] + '</span></br>';
+		Output(out);
+	}
+	separator();
+}
+
+function infosec() {
+	separator();
+	var outputArray = ['>infosec','I used to be active in infosec. Now not so much.','But I still build stuff occasionally. Now I am working on a project called TFTT (check my github).'];
+	for (var  i = 0;  i < outputArray.length; i++) {
+		var out = '<span>' + outputArray[i] + '</span></br>';
+		Output(out);
+	}
+	separator();
+}
+
+function money() {
+	separator();
+	var outputArray = ['>money','I don\'t have it. But I want it.','So I am starting up in that hope.','I am also available for consultancy. Drop me a message.'];
+	for (var  i = 0;  i < outputArray.length; i++) {
+		var out = '<span>' + outputArray[i] + '</span></br>';
+		Output(out);
+	}
+	separator();
+}
+
+function thoughts() {
+	separator();
+	var outputArray = ['>thoughts','blog.rito.tech'];
+	for (var  i = 0;  i < outputArray.length; i++) {
+		var out = '<span>' + outputArray[i] + '</span></br>';
+		Output(out);
+	}
+	separator();
+}
+
+function ls() {
+	separator();
+	var outputArray = ['>ls','You want to look inside me? Too soon, mate; too soon.'];
+	for (var  i = 0;  i < outputArray.length; i++) {
+		var out = '<span>' + outputArray[i] + '</span></br>';
+		Output(out);
+	}
+	separator();
+}
+
+function pwd() {
+	separator();
+	var outputArray = ['>pwd','All of us are here. Where else would we go?'];
+	for (var  i = 0;  i < outputArray.length; i++) {
+		var out = '<span>' + outputArray[i] + '</span></br>';
+		Output(out);
+	}
+	separator();
+}
+
+function man() {
+	separator();
+	var outputArray = ['>man','Dude!'];
+	for (var  i = 0;  i < outputArray.length; i++) {
+		var out = '<span>' + outputArray[i] + '</span></br>';
+		Output(out);
+	}
+	separator();
+}
+
+function sudo() {
+	separator();
+	var outputArray = ['>sudo','Haha. You really thought you could do that?'];
+	for (var  i = 0;  i < outputArray.length; i++) {
+		var out = '<span>' + outputArray[i] + '</span></br>';
+		Output(out);
+	}
+	separator();
+}
+
+function apt() {
+	separator();
+	var outputArray = ['>apt','Thanks for your concern, I am updated'];
+	for (var  i = 0;  i < outputArray.length; i++) {
+		var out = '<span>' + outputArray[i] + '</span></br>';
+		Output(out);
+	}
+	separator();
+}
+
+function cd() {
+	separator();
+	var outputArray = ['>cd','You\'re leaving?'];
+	for (var  i = 0;  i < outputArray.length; i++) {
+		var out = '<span>' + outputArray[i] + '</span></br>';
+		Output(out);
+	}
+	separator();
+}
+
+function mkdir() {
+	separator();
+	var outputArray = ['>mkdir','Only I can do that.'];
+	for (var  i = 0;  i < outputArray.length; i++) {
+		var out = '<span>' + outputArray[i] + '</span></br>';
+		Output(out);
+	}
+	separator();
+}
+
+function rm() {
+	separator();
+	var outputArray = ['>rm','RM: Rito Maitra. That\'s me. Good to meet you, too.'];
+	for (var  i = 0;  i < outputArray.length; i++) {
+		var out = '<span>' + outputArray[i] + '</span></br>';
+		Output(out);
+	}
+	separator();
+}
+

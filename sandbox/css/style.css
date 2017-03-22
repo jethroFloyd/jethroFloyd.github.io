@@ -322,7 +322,7 @@ textarea {
   outline: none;
 }
 
-span.seperator {
+span.separator {
   font-size: 12px;
   -webkit-animation: changeColor 10s ease-in-out infinite;
           animation: changeColor 10s ease-in-out infinite;
